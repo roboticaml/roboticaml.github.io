@@ -1,8 +1,3 @@
----
-layout: page
-title: What is Machine Learning?
----
-
 # What Is Machine Learning?
 
 Artificial intelligence, machine learning, deep learning, neural networks. These are all hot topics and they carry with them a lot of hype. Here is a a very brief explanation of each term.
