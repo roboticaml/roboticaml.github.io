@@ -1,4 +1,19 @@
-remote_theme: willianjusten/will-jekyll-template
-email: info@robotica.ml
-twitter_username: roboticaml
-github_username:  roboticaml
+# Site settings
+title: Robotica Machine Learning
+tagline: "Solving real-world business problems with fully automated machine learning, integrated into your systems and processes"
+url: "https://robotica.ml" # The base hostname & protocol for your site. Use it if you need absolute URL's
+
+# Social
+socialimg: /img/social.jpg # be sure to change this image
+twitter: roboticaml
+github: roboticaml
+
+# Contact
+phone: "01603 xxx xxx" 
+email: "info@robotica.ml"
+
+# Use this for production
+#sass:
+#    style: compressed
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
