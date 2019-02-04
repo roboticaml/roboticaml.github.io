@@ -1,7 +1,7 @@
 # Site settings
 title: Robotica Machine Learning
-tagline: "Solving real-world business problems with fully automated machine learning, integrated into your systems and processes"
-url: "https://robotica.ml" # The base hostname & protocol for your site. Use it if you need absolute URL's
+tagline: "Automated machine learning, integrated"
+url: "https://robotica.ml" 
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
