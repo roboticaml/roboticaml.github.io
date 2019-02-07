@@ -9,7 +9,9 @@ Automating some or all of your machine learning pipeline will help you to concen
 
 Forbes declared Data Scientist as the top job of 2018, attracting top salaries and high job satisfaction.  The competition for skilled data scientists is fierce.  According to KDNuggets, two thirds of data scientists will stick it out with an employer for no more than four years, and four in every ten are gone within 24 months. Keeping in mind that industry experts suggest a successful predictive modelling project may take 12 months to reach production, the resource pool of data scientists is a real impediment to growing your big data programme.
 And what happens to all of that working knowledge they have leave? It exits your organisation and is carried with them to their next job.  Automated machine learning protects your intellectual property and enables growth by redirecting the role of data scientists away from the repetitive and towards high-value activities around understanding the problem domain and the data itself and, ultimately, deliver more of your projects into production and more value to your business.
+
 Robotica will work with you to deliver automation across your data science pipeline so that you can work through your backlog rapidly, efficiently and transparently. Robotising your processes frees up the precious data science resource to concentrate on "squeezing the pips", overseeing and stretching the value from each stage.
+
 Robotica with DataRobot and Microsoft Azure ML can automate across the entire ML life cycle:
 + Gathering data from multiple sources
 + Cleansing data to tidy missing values and correct dirty data

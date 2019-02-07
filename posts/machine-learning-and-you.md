@@ -16,14 +16,18 @@ layout: posts
     </div>
   </section>
 
-[If You Already Have a Data Science Programme](machine-learning-and-you\if-you-already-have-a-data-science-programme.html)
+[If You Already Have a Data Science Programme](/posts/if-you-already-have-a-data-science-programme.html)
 
-[If You Do Not Have a Data Science Programme](machine-learning-and-you\if-you-do-not-have-a-machine-learning-programme.html)
+[If You Do Not Have a Data Science Programme](/posts/if-you-do-not-have-a-machine-learning-programme.html)
 
-[Empower the People You Trust Most](machine-learning-and-you\empower-the-people-you-trust.html)
+[Empower the People You Trust Most](/posts/empower-the-people-you-trust.html)
 
-[Beyond Statistics - Human Insights for Machine Learning](machine-learning-and-you\beyond-statistics-human-insights-for-machine-learning.html)
+[Key Challenges of Machine Learning](/posts/key-challenges-of-machine-learning.html)
 
-[Unlock the Value Within Your Data](machine-learning-and-you\unlock-the-power-within-your-data.html)
+[Beyond Statistics - Human Insights for Machine Learning](/posts/beyond-statistics-human-insights-for-machine-learning.html)
 
-[Business Objectives and Machine Learning Opportunities](machine-learning-and-you\business-objectives-and-machine-learning-opportunities.html)
+[Unlock the Value Within Your Data](/posts/unlock-the-power-within-your-data.html)
+
+[Business Objectives and Machine Learning Opportunities](/posts/opportunities.html)
+
+[Reasons Why Many Data Science Programmes End in the Lab](reasons-why-many-data-science-programmes-end-in-the-lab)

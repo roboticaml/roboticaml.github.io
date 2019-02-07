@@ -1,7 +1,7 @@
 # Site settings
 title: Robotica Machine Learning
 tagline: "Automated machine learning, integrated"
-url: "https://robotica.ml" 
+url: "https://robotica.ml/" 
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
@@ -9,7 +9,7 @@ twitter: roboticaml
 github: roboticaml
 
 # Contact
-phone: "01603 xxx xxx" 
+phone: "07958 376942" 
 email: "info@robotica.ml"
 
 # Use this for production

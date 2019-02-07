@@ -1,4 +1,4 @@
-﻿---
+---
 title: Completeness of Vision
 layout: posts
 ---
@@ -15,11 +15,10 @@ You may or may not have enough data scientist to work through your ML backlog an
 ## DataRobot University
 Training is available for all stakeholders including executives, business analysts, product owners, engineers and data scientists.  C-level leaders can be empowered with enough knowledge to take advantage of DataRobot in as little as half a day.  Multi-day courses for in-depth, advanced usage is available for specialists.
 
-
 ## Ongoing Support
 Robotica's support does not end when the first model has been proven.  We are here to look after you for the duration of your machine learning programme.  Technical support, further integrations, advice and remodelling are all available.
 
-**At Robotica, we don't believe that supplying you with a model and a Jupyter Notebook arms you for long-term success.  **A comprehensive suits of bespoke, extensible process automation, together with training, support and expertise, equips you continue the success of your predictive modelling projects and to scale your data science programme across the enterprise.
+At Robotica, we don't believe that supplying you with a model and a Jupyter Notebook arms you for long-term success.  A comprehensive suits of bespoke, extensible process automation, together with training, support and expertise, equips you continue the success of your predictive modelling projects and to scale your data science programme across the enterprise.
 
 ## Business Objectives
 Whether you want to grow your top line or reduce your costs, unlocking the value in your data may help you to realise your business ambitions.  By empowering the leaders in your organisation, projects can be identified to deliver against the strategic vision through an army of Citizen Data Scientists.

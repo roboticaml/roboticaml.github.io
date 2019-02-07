@@ -14,7 +14,7 @@ A pragmatic business, with an eye firmly on results, can reap a rich harvest fro
 
 According to Forbes, Citizen Data Scientists are filling the shortage of data scientists.  Platforms like DataRobot are empowering stakeholders throughout the enterprise to unlock the value of data through automated machine learning and predictive modelling, leaning on the expertise in their business domains but without knowledge of programming or a PhD is statistics.  A key ingredients to a positive outcome ethic in business is trust - granting autonomy to stakeholders and giving them the platform to go out and lead.
 
-Robotica with DataRobot and Microsoft Azure ML can automate across the entire ML life cycle:
+## Robotica with DataRobot and Microsoft Azure Cognitive Services can automate across the entire ML life cycle:
 + Gathering data from multiple sources
 + Cleansing data to tidy missing values and correct dirty data
 + Enrichment of fields to draw out supplementary information, such as credit score from a person's identity

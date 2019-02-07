@@ -5,7 +5,8 @@ layout: posts
 
 # Key Challenges of Machine Learning
 
-## **Provisioning the Necessary Tools is Expensive**
+
+## Provisioning the Necessary Tools is Expensive
 Analytics professionals need highly speciﬁc software and hardware to produce accurate, actionable insights from machine learning. Provisioning these tools is a challenge for organisations and departments operating on a limited budget, and implementing them is often a hassle. Although they can acquire conventional machine learning tools from external vendors, they have to contend with the cost of software installation and maintenance, including the time and effort it takes the internal IT team to provide support for the extensive changes that traditional machine learning initiatives require. While there are hundreds of free machine learning libraries, the expense and expertise needed to install, manage, and maintain them constitute more effort than most marketing departments are willing to spend.
 **How much time and money do you want to spend acquiring and maintaining the tools for predictive modelling rather than delivering the results?**
 
@@ -26,10 +27,15 @@ Finding the data to build the machine learning models, which learn by example fr
 
 ## Automation is the Solution
 Implementation is all about timing and agility. With traditional model development methods, which take months to produce actionable predictions and insights, marketers’ ability to proactively respond to rapidly changing consumer behaviour is hampered to the point where those insights may no longer be valuable.
+
 The solution? Automated machine learning. This new technology directly addresses the key challenges of limited data science talent availability, long project timelines, and complicated provisioning by automating complicated modelling tasks, eliminating the need for extensive programming skills, and allowing for easy implementation.
+
 Automated machine learning enables stakeholders to gain real value from machine learning without sacriﬁcing their agility. With automation, departments develop models in days that would otherwise have taken months, increasing speed-to-insight and allowing them to be as ﬂexible as possible in response to shifting consumer behaviour.
+
 Not only that, automation delivers the power of machine learning to the people who have deep understanding of the business, expanding the pool of people who can contribute to data science projects beyond the data scientist to analysts and business users alike. Built-in expertise makes automated machine learning tools simple to use, while inherent guardrails and best practices make it safe to engage more people in projects with the assurance that users can’t miss critical steps.
+
 Customer-centric, contextualised experiences based on customer journey analytics will become the competitive differentiator for marketers across industries. It is estimated that by 2022, the market for customer journey analytics will reach over $12 billion in size. To take full advantage of the data at their disposal, organisations of all types are turning to machine learning and AI.
+
 Not only does automated machine learning deliver a signiﬁcant competitive edge for organisations, it transforms virtually everything they do. Businesses that fail to effectively leverage these emerging technologies for will be left in the dust by competitors who succeed. Automated machine learning is the most efﬁcient, cost-effective way make the most of available data, technology, and resources. 
 
 The challenges on the road to machine learning success may seem daunting, but Robotica and the DataRobot automated machine learning platform enables every industry to overcome those challenges with its cutting-edge, easy-to-use automation capabilities. 
