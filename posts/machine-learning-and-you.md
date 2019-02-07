@@ -1,9 +1,20 @@
 ---
-title: Machine Learning and You
+title: Bespoke Solutions
 layout: posts
 ---
 
-# Machine Learning and You
+<section class="feature-area pb-100">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+          <div class="menu-content pt-100 pb-60 col-lg-10">
+              <div class="title text-center">
+                  <h1 class="mb-10">Bespoke Solutions</h1>
+                  <p>DataRobot and Microsoft machine learning solutions, integrated into your software, platforms, processes and business</p>  
+              </div>
+          </div>
+      </div>			    
+    </div>
+  </section>
 
 [If You Already Have a Data Science Programme](machine-learning-and-you\if-you-already-have-a-data-science-programme.html)
 

@@ -1,9 +1,20 @@
 ---
-title: Our Platform
+title: Bespoke Solutions
 layout: posts
 ---
 
-# Our Platform
+<section class="feature-area pb-100">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+          <div class="menu-content pt-100 pb-60 col-lg-10">
+              <div class="title text-center">
+                  <h1 class="mb-10">Our Platform</h1>
+                  <p>Best-of-breed practices, innovative processes and bleading edge technology</p>  
+              </div>
+          </div>
+      </div>			    
+    </div>
+  </section>
 
 [Our Platform](our-platform\our-platform.html)
 
