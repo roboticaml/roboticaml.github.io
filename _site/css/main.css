@@ -1899,7 +1899,7 @@ h6 {
 }
 
 #header.header-scrolled {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(106, 133, 154, 1);
     transition: all 0.5s
 }
 
@@ -2272,12 +2272,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/header-bg.jpg) center;
+    background: url(/img/header-bg.jpg) center;
     background-size: cover
 }
 
 .banner-area .overlay-bg {
-    background-color: rgba(59, 172, 240, 0.9)
+    background-color: rgba(61, 167, 248, 0.2)
 }
 
 .banner-content {
@@ -2488,7 +2488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-service .icon h1 {
     font-weight: 200;
-    color: #3bacf0
+    color: #6a8599
 }
 
 .single-service .desc h4 {
@@ -2497,7 +2497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .callto-action-area {
-    background-color: #3bacf0
+    background-color: #6a8599
 }
 
 .callto-action-area .primary-btn {
@@ -3029,4 +3029,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .switch-wrap p {
     margin: 0
+} 
+
+.max-height-100 { 
+    max-height: 500px
 }
