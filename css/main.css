@@ -2022,9 +2022,9 @@ h6 {
     padding: 6px 10px;
     text-decoration: none;
     display: inline-block;
-    color: #000;
+    color: #fff;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     outline: none
 }
@@ -2277,7 +2277,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .overlay-bg {
-    background-color: rgba(61, 167, 248, 0.2)
+    /* background-color: rgba(61, 167, 248, 0.6) */
+    background-color: rgba(107, 133, 154, 0.3)
 }
 
 .banner-content {
