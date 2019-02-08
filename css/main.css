@@ -597,6 +597,11 @@ th {
     text-align: right
 }
 
+
+.text-right {
+    text-align: right
+}
+
 .flex {
     display: -webkit-box;
     display: -webkit-flex;

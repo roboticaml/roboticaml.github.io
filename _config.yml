@@ -17,3 +17,5 @@ email: "info@robotica.ml"
 #    style: compressed
 
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
+permalink: /404.html.
