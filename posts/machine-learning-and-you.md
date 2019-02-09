@@ -24,10 +24,10 @@ layout: posts
 
 [Key Challenges of Machine Learning](/posts/key-challenges-of-machine-learning.html)
 
-[Beyond Statistics - Human Insights for Machine Learning](/posts/beyond-statistics-human-insights-for-machine-learning.html)
-
-[Unlock the Value Within Your Data](/posts/unlock-the-power-within-your-data.html)
-
+<!-- [Beyond Statistics - Human Insights for Machine Learning](/posts/beyond-statistics-human-insights-for-machine-learning.html) 
+-->
+<!-- [Unlock the Value Within Your Data](/posts/unlock-the-power-within-your-data.html)
+ -->
 [Business Objectives and Machine Learning Opportunities](/posts/opportunities.html)
 
 [Reasons Why Many Data Science Programmes End in the Lab](reasons-why-many-data-science-programmes-end-in-the-lab)
