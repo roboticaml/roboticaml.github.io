@@ -1,3 +1,8 @@
+---
+title: Empower the People You Trust Most
+layout: posts
+---
+
 # Empower the People You Trust Most
 
 Your organisation, like ours, is precious.  Handing over the keys to consultants so they can take it for a diagnostic spin around the block is daunting, and so is granting them the power to install machines that will make the decisions to lead and operate your business. 
