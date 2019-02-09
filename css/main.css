@@ -1086,7 +1086,13 @@ h6 {
 .generic-blockquote {
     padding: 30px 50px 30px 30px;
     background: #f9f9ff;
-    border-left: 2px solid #3bacf0
+    border-left: 2px solid #3bacf0;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative
 }
 
 .progress-table-wrap {
@@ -2405,7 +2411,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-feature:hover h4,
 .single-feature:hover .lnr {
-    color: #3bacf0
+    color: #6a8599
 }
 
 @media (max-width: 960px) {
@@ -2842,7 +2848,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-social a:hover i {
-    color: #3bacf0
+    color: #fff
 }
 
 .footer-social i {
