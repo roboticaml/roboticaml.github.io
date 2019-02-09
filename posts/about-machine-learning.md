@@ -1,5 +1,5 @@
 ---
-title: About Machine Learning
+title: Understanding Machine Learning
 layout: posts
 ---
 
@@ -8,7 +8,7 @@ layout: posts
     <div class="row d-flex justify-content-center">
         <div class="menu-content pt-100 pb-60 col-lg-10">
             <div class="title text-center">
-                <h1 class="mb-10">About Machine Learning</h1>
+                <h1 class="mb-10">Understanding Machine Learning</h1>
                 <p>Jargon-busting and tips on how to maximise the value of your ML investments</p>  
             </div>
         </div>
