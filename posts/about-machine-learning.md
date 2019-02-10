@@ -3,7 +3,7 @@ title: Understanding Machine Learning
 layout: posts
 ---
 
-<section class="feature-area pb-100">
+<section class="feature-area pb-60">
   <div class="container">
     <div class="row d-flex justify-content-center">
         <div class="menu-content pt-100 pb-60 col-lg-10">
