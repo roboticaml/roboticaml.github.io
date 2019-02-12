@@ -3,6 +3,8 @@ title: Robots Don't Rest
 layout: posts
 ---
 
+![Empty office](/img/empty-office.jpeg) <br />
+
 # Robots Don't Rest
 
 Data scientists are highly prized individuals, and rightly so.  They exploit a unique combination of skills in statistical mathematics, programming and business domain expertise to harness the power of your data to create machine learning models to work business objectives.  But data scientists are only human and suffer the same foibles as the rest of us: they sleep, take vacations, fall ill and make mistakes.  Of course, this is normal and only to be expected.  Automated machine learning can work with data scientists (or even without!) to take away some of the pressures and offer ongoing benefits and scalable value to your organisation.

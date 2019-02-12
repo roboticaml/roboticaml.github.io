@@ -3,6 +3,8 @@ title: Key Challenges of Machine Learning
 layout: posts
 ---
 
+![Analysts](/img/computer-users.jpg) <br />
+
 # Key Challenges of Machine Learning
 
 
