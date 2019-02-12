@@ -18,9 +18,7 @@ Greenhut and his colleagues think about applying data science to answer question
 - How can we understand new opportunities from customer feedback? 
 - How can we make our onboarding processes more intuitive? How can we improve our products by understanding the way customers use them? 
 
-> “Machine learning is beautiful in a mathematical way. Now that our world collects so much data, we can apply data science to so many different questions.” 
-– Andrew Greenhut senior data scientist
-
+> “Machine learning is beautiful in a mathematical way. Now that our world collects so much data, we can apply data science to so many different questions.” – Andrew Greenhut senior data scientist
 
 The opportunity was ripe for data science to impact LogMeIn’s analytics efforts, but its processes were prohibitive. Data scientists had been manually building predictive models in siloed environments. The process involved constantly recreating and transforming code, which was tedious, repetitive, and inefﬁcient. This workﬂow was not conducive to solving problems that require fast, iterative model development and the ability to derive actionable insights from predictive analytics.
 
