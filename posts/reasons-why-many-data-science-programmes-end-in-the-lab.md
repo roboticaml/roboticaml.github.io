@@ -20,7 +20,7 @@ Most traditional machine learning projects take months or even years to come to 
 
 
 ## Models Are Not Accurate
-Data science can be just as much an art.  Hundreds or even thousands of algorithms compete for the attention of the data scientists as a potential solution to the business objective.  Given limited time and resources, and without automated machine learning, only a small number of these can be selected for trial within budget and time constraints.  Even if the best algorithms are chosen, there are an impossible number of permutations of settings and hyper-parameters and means to measure the effectiveness of the model.  Automating the selection of modelling approaches and running leader boards, pitching algorithms against each other in heats, is a reliable and cost-effective means to hit on the models that offer highest accuracy in minutes or hours, not weeks or months.
+Data science can feel just as much a "data art".  Hundreds or even thousands of algorithms compete for the attention of the data scientists as a potential solution to the business objective.  Given limited time and resources, and without automated machine learning, only a small number of these can be selected for trial within budget and time constraints.  Even if the best algorithms are chosen, there are an impossible number of permutations of settings and hyper-parameters and means to measure the effectiveness of the model.  Automating the selection of modelling approaches and running leader boards, pitching algorithms against each other in heats, is a reliable and cost-effective means to hit on the models that offer highest accuracy in minutes or hours, not weeks or months.
 
 
 ## Asking the Wrong Question

@@ -11,7 +11,7 @@ Data science projects, just like projects from other disciplines, have a life cy
 
 
 ## Proof of Concept
-We start with a proof of concept, to ensure we are the right partners for each other and to demonstrate the value the Robotica platform, utilising DataRobot and our ML-Ops pipeline to take away the risk in predictive analytics.  A proof of concept may typically take just a couple of weeks.
+We start with a proof of concept, to ensure we are the right partners for each other and to demonstrate the value of the Robotica platform, utilising DataRobot and our ML-Ops pipeline to take away the risk in predictive analytics.  A proof of concept may typically take just a couple of weeks.
 
 
 ![Customer facing data scientists](/img/collaborate.jpeg) <br />
@@ -31,7 +31,7 @@ Training is available for all stakeholders including executives, business analys
 ## Ongoing Support
 Robotica's support does not end when the first model has been proven.  We are here to look after you for the duration of your machine learning programme.  Technical support, further integrations, advice and remodelling are all available.
 
-At Robotica, we don't believe that supplying you with a model and a Jupyter Notebook arms you for long-term success.  A comprehensive suits of bespoke, extensible process automation, together with training, support and expertise, equips you continue the success of your predictive modelling projects and to scale your data science programme across the enterprise.
+At Robotica, we don't believe that supplying you with a model and a Jupyter Notebook arms you for long-term success.  A comprehensive suite of bespoke, extensible process automation, together with training, support and expertise, equips you to continue the success of your predictive modelling projects and to scale your data science programme across the enterprise.
 
 
 ## Business Objectives
@@ -81,7 +81,7 @@ DataRobot's automated machine learning provides all of the technical information
 
 
 ## Behavioural Testing and Compliance
-Knowing that a model performs will for most circumstances may not be sufficient to satisfy the needs of your business objectives or your regulators.  You may also need to warrant that human criteria are satisfied.  Robotica utilises the Gherkin language to formulate human-readable evaluations and tests, and integrate them into the machine learning automation pipeline.
+Knowing that a model performs well for most circumstances may not be sufficient to satisfy the needs of your business objectives or your regulators.  You may also need to warrant that human criteria are satisfied.  Robotica utilises the Gherkin language to formulate human-readable evaluations and tests, and integrate them into the unique machine learning automation pipeline.
 
 
 ## Deployment
@@ -92,7 +92,7 @@ Data science programmes only delivery value when predictive engines are deployed
 
 
 ## Application and API Integration
-A quality-first approach to software engineering, with unwavering attention to SOLID principles and test-driven development, are applied using bespoke agile frameworks, developed specifically to suit the needs of your project.  Robotica offers utilises world-class expertise from industry leaders to deliver integrations iteratively to release value soon and often, maximising ROI and minimising your risk.
+A quality-first approach to software engineering, with unwavering attention to SOLID principles and test-driven development, are applied using bespoke agile frameworks, developed specifically to suit the needs of your project.  Robotica utilises world-class expertise from industry leaders to deliver integrations iteratively to release value soon and often, maximising ROI and minimising your risk.
 
 
 ## Model Monitoring and Management

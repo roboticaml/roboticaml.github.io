@@ -29,33 +29,36 @@ Robotica with DataRobot and Microsoft Azure ML can automate across the entire ML
 + Application and API integration
 + Model monitoring and management
 
-# We can help you to...
 
-## ...Scale your data science programme 
+## We can help you to...
+
+
+#### ...Scale your data science programme 
 Increase the effective capacity of your existing data science team by investing in a platform that delivers rapid automation across the ML life cycle, liberating the data scientists and engineers to concentrate on core, high value activities.
 
-## ...Provide actionable insights into your data
+#### ...Provide actionable insights into your data
 Transparent models and Robotica's behaviour-driven, automated analysis pipeline explains the _how_ and _why_ of your predictive models
 
-## ...Act rapidly
+#### ...Act rapidly
 Shorten the pre-live life cycle from months or years to days with Robotica automation.
 
-## ...Empower more people
+#### ...Empower more people
 Bring the benefits of data science and predictive modelling out of the lab and equip more key stakeholders with the strengths to apply automated machine learning to their domains and enable them to deliver actions on their insights.
 
-## ...Harden your data science processes
+#### ...Harden your data science processes
 Create robust, repeatable pipelines, operating 24/7 with no distractions or human error.  
 
-## ...Learn the latest algorithms and what works for your business objectives and data
+#### ...Learn the latest algorithms and what works for your business objectives and data
 The automated machine learning platform, integrated by Robotica, understands and can apply hundreds more predictive modelling algorithms than most of the world's top data science teams can imagine.  Further, the transparency and insights into modelling and scoring, accompanied by detailed explanations and customer-facing data scientists from DataRobot, supports expert and novice team members to constantly improve upon their abilities, delivering extra value to your data science programme.
 
-## ...Protect your IP
-Mitigate the consequence of brain drain by permitting the DataRobot platform to crunch through modelling approaches and deliver insights and predictive models.  Secure your understand and intellectual property in Gherkin-based automated "living documentation" from Robotica.
+#### ...Protect your IP
+Mitigate the consequence of brain drain by permitting the DataRobot platform to crunch through modelling approaches and deliver insights and predictive models.  Secure your understand and your intellectual property in Gherkin-based automated "living documentation" from Robotica.
 
-## ...Invest in a platform
+#### ...Invest in a platform
 Resource spent on automation continues to pay back each time it is used. And robots never sleep - run your automation pipeline around the clock to maximise the value on tap.
 
-## ...Stay on top of your objectives
-Over time, data will drift out of sync with the models and remodelling will be necessary.  Depending on the problem domain, drift may take months before new models are beneficial.  Or the game may move on in days.  Either way, integrated, automated machine learning gives you the platform and the power to remodel and redploy as often as you require, maintaining your competitive advantage.
-** **
-**Automated machine learning is a trusted means to expand your data science programme, work through your backlog and give you greater confidence in the project success and modelling accuracy.  Speak to Robotica to set up a proof of concept.**
+####...Stay on top of your objectives
+Over time, data will drift out of sync with the models and remodelling will be necessary.  Depending on the problem domain, drift may take months before new models are beneficial.  Or the game may move on in days.  Either way, integrated, automated machine learning gives you the platform and the power to remodel and redeploy as often as you require, maintaining your competitive advantage.
+
+
+>**Automated machine learning is a trusted means to expand your data science programme, work through your backlog and give you greater confidence in the project success and modelling accuracy.  Speak to Robotica to set up a proof of concept.**

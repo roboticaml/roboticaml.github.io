@@ -7,7 +7,7 @@ layout: posts
 
 # Robots Don't Rest
 
-Data scientists are highly prized individuals, and rightly so.  They exploit a unique combination of skills in statistical mathematics, programming and business domain expertise to harness the power of your data to create machine learning models to work business objectives.  But data scientists are only human and suffer the same foibles as the rest of us: they sleep, take vacations, fall ill and make mistakes.  Of course, this is normal and only to be expected.  Automated machine learning can work with data scientists (or even without!) to take away some of the pressures and offer ongoing benefits and scalable value to your organisation.
+Data scientists are highly prized individuals, and rightly so.  They exploit a unique combination of skills in statistical mathematics, programming and business domain expertise to harness the power of your data to create machine learning models to work business objectives.  But data scientists are only human and suffer the same foibles as the rest of us: they sleep, take holidays, fall ill and make mistakes.  Of course, this is normal and only to be expected.  Automated machine learning can work with data scientists (or even without!) to take away some of the pressures and offer ongoing benefits and scalable value to your organisation.
 
 ## Robots are Robust, Available and Predictable
 Computers, mostly, don't break down and may operate at 100% 24/7, 365 days each and every year. Protected by firewalls and anti-malware, they do not fall ill and are dependable for 99+% of the time.
@@ -16,7 +16,7 @@ Computers, mostly, don't break down and may operate at 100% 24/7, 365 days each 
 Computers work tirelessly. The do not get bored or get distracted. They are at their very best at repeating the same operations time and time again.  We can have unrivalled confidence in computers that, given the same problem twice, it will give us the same answer twice.
 
 ## Robots Scale
-There are only so many data scientists out there and only a fraction of those could be attracted to work for your organisation.  And even if you could hire as many as you need, finding and on-boarding them will take months.  Elastic cloud computing means that near-infinite computational power is available on demand, and ramps down to save us costs when not needed.
+There are only so many data scientists out there and only a fraction of those could be attracted to work for your organisation.  And even if you could hire as many as you need, finding and on-boarding them will take months.  Elastic cloud computing means that near-infinite computational power is available on demand, and ramps down to save costs when not needed.
 
 ## Robots are Fast and Efficient
 Automated machine learning, integrated into the processes and systems within your organisation, can perform otherwise-manual tasks orders of magnitude quicker than could be achieved by a team of experts, and at a fraction of the cost.
