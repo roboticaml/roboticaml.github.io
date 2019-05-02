@@ -14,10 +14,9 @@ Any consultancy will insist that they are customer focussed, but do they really 
 >We respect you, we don’t track you. There are no cookies.
 
 
-We don't sell to you, we partner with you. This means that the each process is bespoke; as much yours as it is ours. We work together on shared milestones and objectives.  The work we undertake is priced according to agreed value.  We have no incentive to cut corners or to tring out time and materials billing. And if we make a mistake, we will come clean immediately and find a mutual way forward to make good.  We recognise that needs change as part of our commitment.
+We don't sell to you, we partner with you. This means that the each process is bespoke; as much yours as it is ours. We work together on shared milestones and objectives.  The work we undertake is priced according to agreed value.  We have no incentive to cut corners or to string out time and materials billing.  We recognise that needs change as part of our commitment.
 
 **Working with Robotica is architected to be the easiest choice you will make and one you will not regret.**
-
 
 
 ## What's wrong with data science?
