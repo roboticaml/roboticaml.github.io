@@ -4,7 +4,7 @@ layout: posts
 ---
 
 # A fine idea in a fine city
-Robotica Machine Learning is a small software development consultancy based out of Norwich in the heart of Norfolk, UK.  Robotica was founded by [Adrian Pickering](https://www.linkedin.com/in/adrianpickering/){:target="_blank"} for the purpose of bringing advances from the relatively mature world of computer science to the brave new world of data science.  We have the core aim of making the act of out-sourcing software development projects transparent, honest and straightforward.
+Robotica Machine Learning is the maker and supplier of fully-automated artificial intelligence products.  We are based out of Norwich in the heart of Norfolk, UK.  Robotica Machine Learning was founded by [Adrian Pickering](https://www.linkedin.com/in/adrianpickering/){:target="_blank"} for the purpose of bringing advances from the relatively mature world of computer science to the brave new world of data science.  We have the core aim of bringing automated machine learning to the mainstream, in a manner that is always transparent, honest and straightforward.
 
 
 ## Straightforward how?
