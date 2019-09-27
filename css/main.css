@@ -2423,9 +2423,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-feature {
     text-align: center;
-    background-color: #f9f9ff;
+    /* background-color: #f9f9ff; */
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 1px;
+    margin: -16px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
