@@ -6,7 +6,7 @@ layout: posts
 
 # Business Objectives and Machine Learning Opportunities
 
-Unlocking the patterns in your data can help you to be better equipped to predict trends that can be utilised to improve the profitability of your organisation.  Machine learning from Robotica can help your organisation to enhance its capability across a range of fields and extend the value from a spectrum of operations.
+Unlocking the patterns in your data can help you to be better equipped to predict trends that can be utilised to improve the profitability of your organisation.  Machine learning from Robotica Machine Learning can help your organisation to enhance its capability across a range of fields and extend the value from a spectrum of operations.
 
 ## Accounts Payable Recovery
 Finding the harmonious symmetry between good vendor relationships and your organisation's cash flow requires careful planning. Automated machine learning can help you to effectively control liabilities and manage cash availability.
@@ -45,7 +45,7 @@ Go beyond performance benchmarks and use accurate machine learning predictive mo
 Fraud is a reality faced by most businesses.  Fraudsters may pose as suppliers, customers or even members of your trusted staff in order to exploit weaknesses and wilfully take from you.  Abnormalities may be indicators for potentially fraudulent activity.  The accuracy of your fraud prediction model is critical - false negative predictions leave you vulnerable; false positives could destroy your reputation.
 
 ## Inventory Management
-Patterns hidden within your data can be discovered and unlocked using machine learning. Sales analysis and competitor reports may conceal underlying trends.  Robotica's automated, integrated platform can help you to predict when to buy and when to hold, improving cash flow and reducing waste.
+Patterns hidden within your data can be discovered and unlocked using machine learning. Sales analysis and competitor reports may conceal underlying trends.  Robotica Machine Learning's automated, integrated platform can help you to predict when to buy and when to hold, improving cash flow and reducing waste.
 
 ## Lead Prioritisation
 Prioritising the right leads can be the critical factor in not just in gaining a sale but in adopting customers from your competitors. Improve the quality of your sales pipeline and win more business by making better predictions on propensity and engagement.

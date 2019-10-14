@@ -42,4 +42,4 @@ Customer-centric, contextualised experiences based on customer journey analytics
 
 Not only does automated machine learning deliver a signiﬁcant competitive edge for organisations, it transforms virtually everything they do. Businesses that fail to effectively leverage these emerging technologies will be left in the dust by competitors who succeed. Automated machine learning is the most efﬁcient, cost-effective way to make the most of available data, technology, and resources. 
 
-The challenges on the road to machine learning success may seem daunting, but Robotica and the DataRobot automated machine learning platform enables every industry to overcome those challenges with its cutting-edge, easy-to-use automation capabilities. 
+The challenges on the road to machine learning success may seem daunting, but Robotica Machine Learning and the DataRobot automated machine learning platform enables every industry to overcome those challenges with its cutting-edge, easy-to-use automation capabilities. 

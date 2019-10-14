@@ -59,4 +59,4 @@ If your data science programme is constrained to only a small subset of modellin
 Predictive models which act as black boxes - providing results but with no explanation as to how they are derived - have limited value in the modern business world.  Regulatory requirements, data protection laws and good ethics are all drivers that demand transparency in the modelling process and in how individual predictions arrive at their answer.  Decide early on if models with no ability to explain their "thought process" are a good fit for your organisation.
 
 
-Automation from Robotica seeks to increase the likelihood of success by tackling all of these common shortfalls of traditional ML projects.
+Automation from Robotica Machine Learning seeks to increase the likelihood of success by tackling all of these common shortfalls of traditional ML projects.

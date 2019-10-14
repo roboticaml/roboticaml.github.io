@@ -4,7 +4,7 @@ layout: posts
 ---
 
 # Our Platform
-Robotica is committed to providing robust and scalable solutions for every customer. We know that each customer is different, which is why all of our solutions are too. 
+Robotica Machine Learning is committed to providing robust and scalable solutions for every customer. We know that each customer is different, which is why all of our solutions are too. 
 Projects within the same organisation may or many not share technologies, infrastructure and processes; the business objectives may be very different and necessitate contrasting approaches and solutions.  There is always a balance between speed to market, accuracy, flexibility, longevity and clarity of result.  Our truly agile process enables us to discover how to apply that balance, seeking out and embracing changing requirements so as to deliver a well-fitting solution.
 
 ## Test First
@@ -16,9 +16,9 @@ All of these questions can have a profound affect on the ideal modelling approac
 Our platform is available as a service in our cloud, in your cloud or on premise in your data centres, in which case no public internet connection is necessary.  Amazon AWS, Microsoft Azure and Google Cloud Platform are all suitable cloud targets for modelling and scoring solutions.
 
 ## Online, offline
-If your end application has intermittent or no internet connection, such as sensor devices or laptops in the field, it may be necessary to host the scoring engine locally, offline.  This consideration gives you greater control to predict anywhere, anytime.
+If your end application has intermittent or no internet connection, such as sensor devices or laptops in the field, it may be necessary to host the scoring engine locally, offline.  This consideration gives you greater control to predict anywhere, any time.
 
-## Robotica with DataRobot and Microsoft Azure Cognitive Services can automate across the entire ML life cycle:
+## Robotica Machine Learning with DataRobot and Microsoft Azure Cognitive Services can automate across the entire ML life cycle:
 + Gathering data from multiple sources
 + Cleansing data to tidy missing values and correct dirty data
 + Enrichment of fields to draw out supplementary information, such as credit score from a person's identity
@@ -41,4 +41,4 @@ If your end application has intermittent or no internet connection, such as sens
 + Scalable
 
 
->**Speak to Robotica to discover where automated machine learning can bring new opportunities and efficiencies to your organisation.**
+>**Speak to Robotica Machine Learning to discover where automated machine learning can bring new opportunities and efficiencies to your organisation.**

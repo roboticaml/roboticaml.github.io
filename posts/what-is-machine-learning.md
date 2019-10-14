@@ -33,4 +33,4 @@ Deep learning is a special type of neural network that contains multiple hidden 
 ![Big Data](/img/wooden-robot.jpeg) <br />
 
 ## The Rise of the Machines
-Some people worry that generalised artificial intelligence is a threat to humanity.  We are still a long way from generalised AI or anything that resembles thought or consciousness.  Outside the movies, AI is predominantly domain-specific, solving clear-cut, narrow problems.  Robotica is focused on domain-specific ML to solve real world problems with science fact.
+Some people worry that generalised artificial intelligence is a threat to humanity.  We are still a long way from generalised AI or anything that resembles thought or consciousness.  Outside the movies, AI is predominantly domain-specific, solving clear-cut, narrow problems.  Robotica Machine Learning is focused on domain-specific ML to solve real world problems with science fact.

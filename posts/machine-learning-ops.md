@@ -15,4 +15,4 @@ The software development industry suffered analogous problems for decades. Dev-O
 
 ​Failed AI projects may have suffered the same waterfall approaches that the software development world has replaced with agile, meaning that most of the work has taken place before the project is aborted. This is the most expensive way to fail.  Agile practices work with shifting requirements, experimentation, iterative delivery and, significantly, landing product in the hands of customers early and often.
 ​ML-Ops promises to bring stability and efficiency to machine learning to see the time from conception to deployed solution decimated.
-Robotica brings the best of Free, Open-Source Software (FOSS) Dev-Ops practices to the machine learning arena, utilising Gherkin, Jenkins and Git to automate and streamline the evolution of models over time.
+Robotica Machine Learning brings the best of Free, Open-Source Software (FOSS) Dev-Ops practices to the machine learning arena, utilising Gherkin, Jenkins and Git to automate and streamline the evolution of models over time.

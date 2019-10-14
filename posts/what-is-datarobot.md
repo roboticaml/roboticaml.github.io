@@ -5,7 +5,7 @@ layout: posts
 
 # What is DataRobot?
 
-DataRobot is a machine learning platform for automating, assuring, and accelerating predictive analytics, helping data scientists and analysts build and deploy accurate predictive models in a fraction of the time required by other solutions and is at the heart of most Robotica integrations. 
+DataRobot is a machine learning platform for automating, assuring, and accelerating predictive analytics, helping data scientists and analysts build and deploy accurate predictive models in a fraction of the time required by other solutions and is at the heart of most Robotica Machine Learning integrations. 
 
 For seasoned data scientists, DataRobot provides a growing library of the latest algorithms and pre-built prototypes for feature extraction and data preparation. It also provides automated ensembling, allowing them to easily select and combine multiple algorithms to rapidly produce more accurate predictive models. 
 

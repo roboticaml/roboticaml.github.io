@@ -22,7 +22,7 @@ A pragmatic business, with an eye firmly on results, can reap a rich harvest fro
 
 According to Forbes, Citizen Data Scientists are filling the shortage of data scientists.  Platforms like DataRobot are empowering stakeholders throughout the enterprise to unlock the value of data through automated machine learning and predictive modelling, leaning on the expertise in their business domains but without knowledge of programming or a PhD is statistics.  A key ingredients to a positive outcome ethic in business is trust - granting autonomy to stakeholders and giving them the platform to go out and lead.
 
-## Robotica with DataRobot and Microsoft Azure Cognitive Services can automate across the entire ML life cycle:
+## Robotica Machine Learning with DataRobot and Microsoft Azure Cognitive Services can automate across the entire ML life cycle:
 + Gathering data from multiple sources
 + Cleansing data to tidy missing values and correct dirty data
 + Enrichment of fields to draw out supplementary information, such as credit score from a person's identity
@@ -43,19 +43,19 @@ According to Forbes, Citizen Data Scientists are filling the shortage of data sc
 ## We can help you to...
 
 #### ...Provide actionable insights into your data
-Transparent models and Robotica's behaviour-driven, automated analysis pipeline explains the _how_ and _why_ of your predictive models
+Transparent models and Robotica Machine Learning's behaviour-driven, automated analysis pipeline explains the _how_ and _why_ of your predictive models
 
 #### ...Act rapidly
-Shorten the pre-live life cycle from months or years to days with Robotica automation.
+Shorten the pre-live life cycle from months or years to days with Robotica Machine Learning automation.
 
 #### ...Empower more people
 Bring the benefits of data science and predictive modelling out of the lab and equip more key stakeholders with the strengths to apply automated machine learning to their domains and enable them to deliver actions on their insights.
 
 #### ...Learn works for your business objectives and data
-The automated machine learning platform, integrated by Robotica, understands and can apply hundreds more predictive modelling algorithms than most of the world's top data science teams can imagine.  Further, the transparency and insights into modelling and scoring, accompanied by detailed explanations and customer-facing data scientists from DataRobot, supports expert and novice team members to constantly improve upon their abilities, delivering extra value to your data science programme.
+The automated machine learning platform, integrated by Robotica Machine Learning, understands and can apply hundreds more predictive modelling algorithms than most of the world's top data science teams can imagine.  Further, the transparency and insights into modelling and scoring, accompanied by detailed explanations and customer-facing data scientists from DataRobot, supports expert and novice team members to constantly improve upon their abilities, delivering extra value to your data science programme.
 
 #### ...Protect your IP
-Mitigate the consequence of brain drain by permitting the DataRobot platform to crunch through modelling approaches and deliver insights and predictive models.  Secure your understand and your intellectual property in Gherkin-based automated "living documentation" from Robotica.
+Mitigate the consequence of brain drain by permitting the DataRobot platform to crunch through modelling approaches and deliver insights and predictive models.  Secure your understand and your intellectual property in Gherkin-based automated "living documentation" from Robotica Machine Learning.
 
 #### ...Invest in a platform
 Resource spent on automation continues to pay back each time it is used. And robots never sleep - run your automation pipeline around the clock to maximise the value on tap.
@@ -64,4 +64,4 @@ Resource spent on automation continues to pay back each time it is used. And rob
 Over time, data will drift out of sync with the models and remodelling will be necessary.  Depending on the problem domain, drift may take months before new models are beneficial.  Or the game may move on in days.  Either way, integrated, automated machine learning gives you the platform and the power to remodel and redeploy as often as you require, maintaining your competitive advantage.
 
 
->**Automated machine learning is a trusted means to expand your data science programme, work through your backlog and give you greater confidence in the project success and modelling accuracy.  Speak to Robotica to set up a proof of concept.**
+>**Automated machine learning is a trusted means to expand your data science programme, work through your backlog and give you greater confidence in the project success and modelling accuracy.  Speak to Robotica Machine Learning to set up a proof of concept.**

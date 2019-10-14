@@ -7,7 +7,7 @@ layout: posts
 
 
 # Completeness of Vision 
-Data science projects, just like projects from other disciplines, have a life cycle. The success of your data science programme depends on all the steps along the way being delivered properly.  Robotica does not leave the success of your programme to chance.  We work across the entire life cycle to ensure you are supported at every step along the way.
+Data science projects, just like projects from other disciplines, have a life cycle. The success of your data science programme depends on all the steps along the way being delivered properly.  Robotica Machine Learning does not leave the success of your programme to chance.  We work across the entire life cycle to ensure you are supported at every step along the way.
 
 
 ## Proof of Concept
@@ -29,9 +29,9 @@ Training is available for all stakeholders including executives, business analys
 
 
 ## Ongoing Support
-Robotica's support does not end when the first model has been proven.  We are here to look after you for the duration of your machine learning programme.  Technical support, further integrations, advice and remodelling are all available.
+Robotica Machine Learning's support does not end when the first model has been proven.  We are here to look after you for the duration of your machine learning programme.  Technical support, further integrations, advice and remodelling are all available.
 
-At Robotica, we don't believe that supplying you with a model and a Jupyter Notebook arms you for long-term success.  A comprehensive suite of bespoke, extensible process automation, together with training, support and expertise, equips you to continue the success of your predictive modelling projects and to scale your data science programme across the enterprise.
+At Robotica Machine Learning, we don't believe that supplying you with a model and a Jupyter Notebook arms you for long-term success.  A comprehensive suite of bespoke, extensible process automation, together with training, support and expertise, equips you to continue the success of your predictive modelling projects and to scale your data science programme across the enterprise.
 
 
 ## Business Objectives
@@ -39,18 +39,18 @@ Whether you want to grow your top line or reduce your costs, unlocking the value
 
 
 ## Prediction Objectives
-Turning the business objectives into precise, measurable prediction objectives can be daunting if you do not have the right experts available.  Robotica, partnered with world-leading visionaries DataRobot, will assist you in turning concepts into projects.
+Turning the business objectives into precise, measurable prediction objectives can be daunting if you do not have the right experts available.  Robotica Machine Learning, partnered with world-leading visionaries DataRobot, will assist you in turning concepts into projects.
 
 
 ![Data](/img/data-glasses.jpeg) <br />
 
 
 ## Data Gathering
-Data is available in many places - your CRM, competitor websites, Open Data databases and commercial APIs.  Robotica will work with you to gather, scrape and shape data ready for analysis and modelling. 
+Data is available in many places - your CRM, competitor websites, Open Data databases and commercial APIs.  Robotica Machine Learning will work with you to gather, scrape and shape data ready for analysis and modelling. 
 
 
 ## Data Enrichment
-The meaning or purpose of a feature may need unlocking.  When assessing a customer's propensity to buy, their credit history may reveal more than their name and date of birth.  Robotica will partner your business domain experts to ascertain the most valuable pots of data - inside and outside your organisation - and how to apply them.
+The meaning or purpose of a feature may need unlocking.  When assessing a customer's propensity to buy, their credit history may reveal more than their name and date of birth.  Robotica Machine Learning will partner your business domain experts to ascertain the most valuable pots of data - inside and outside your organisation - and how to apply them.
 
 
 ## Feature Engineering
@@ -58,11 +58,11 @@ Typically, a feature may be disassembled or deconstructed into more valuable inf
 
 
 ## Data Segmentation
-Choosing which data to present to the machine learning models for training and which for testing can be an expensive operation to do well in traditional data science projects.  With an Robotica automation, data can be stratified or segmented to reduce bias and present an even spread of anomalous and rare values in all training, testing and validation data sets.  Blunt approaches, such as randomly selecting 70% of all rows for training can lead to scoring that excludes the "long tail" of non-homogeneous data.
+Choosing which data to present to the machine learning models for training and which for testing can be an expensive operation to do well in traditional data science projects.  With an Robotica Machine Learning automation, data can be stratified or segmented to reduce bias and present an even spread of anomalous and rare values in all training, testing and validation data sets.  Blunt approaches, such as randomly selecting 70% of all rows for training can lead to scoring that excludes the "long tail" of non-homogeneous data.
 
 
 ## Algorithm Selection and Ensembling
-There is no substitute for knowing hundreds of algorithms and when and how to apply them.  Even with the same problem and the same features, the choice of algorithm and the means by which its efficacy is assessed, may vary as data drifts over time.  Robotica platform technology DataRobot offers hundreds of modelling approaches, drawn from all open source stacks as well as resulting from proprietary research from their world-beating data scientists, with more being added all the time.  By drawing from such a vast, expanding bank of experience, and by utilising parallel computational power, DataRobot run leagues of competing algorithms against each other, with heats of the best approaches trying for the top of the leader board.  The short list, which may contain close to 100 models and ensembles, is provided with detailed explanations and comparisons so that you can choose manually or automatically which to deploy to satisfy your business objective.
+There is no substitute for knowing hundreds of algorithms and when and how to apply them.  Even with the same problem and the same features, the choice of algorithm and the means by which its efficacy is assessed, may vary as data drifts over time.  DataRobot, as part of the Robotica Machine Learning platform, offers hundreds of modelling approaches, drawn from all open source stacks as well as resulting from proprietary research from their world-beating data scientists, with more being added all the time.  By drawing from such a vast, expanding bank of experience, and by utilising parallel computational power, DataRobot run leagues of competing algorithms against each other, with heats of the best approaches trying for the top of the leader board.  The short list, which may contain close to 100 models and ensembles, is provided with detailed explanations and comparisons so that you can choose manually or automatically which to deploy to satisfy your business objective.
 
 
 ## Training, Tuning
@@ -81,7 +81,7 @@ DataRobot's automated machine learning provides all of the technical information
 
 
 ## Behavioural Testing and Compliance
-Knowing that a model performs well for most circumstances may not be sufficient to satisfy the needs of your business objectives or your regulators.  You may also need to warrant that human criteria are satisfied.  Robotica utilises the Gherkin language to formulate human-readable evaluations and tests, and integrate them into the unique machine learning automation pipeline.
+Knowing that a model performs well for most circumstances may not be sufficient to satisfy the needs of your business objectives or your regulators.  You may also need to warrant that human criteria are satisfied.  Robotica Machine Learning utilises the Gherkin language to formulate human-readable evaluations and tests, and integrate them into the unique machine learning automation pipeline.
 
 
 ## Deployment
@@ -92,8 +92,8 @@ Data science programmes only delivery value when predictive engines are deployed
 
 
 ## Application and API Integration
-A quality-first approach to software engineering, with unwavering attention to SOLID principles and test-driven development, are applied using bespoke agile frameworks, developed specifically to suit the needs of your project.  Robotica utilises world-class expertise from industry leaders to deliver integrations iteratively to release value soon and often, maximising ROI and minimising your risk.
+A quality-first approach to software engineering, with unwavering attention to SOLID principles and test-driven development, are applied using bespoke agile frameworks, developed specifically to suit the needs of your project.  Robotica Machine Learning utilises world-class expertise from industry leaders to deliver integrations iteratively to release value soon and often, maximising ROI and minimising your risk.
 
 
 ## Model Monitoring and Management
-In a constantly changing world, your AI applications need to keep up to date with the latest trends. Robotica and DataRobot make it easy to compare predictions to actual results and to train a new model on the latest data, proactively identifying when a model’s performance is deteriorating over time due to data drift.
+In a constantly changing world, your AI applications need to keep up to date with the latest trends. Robotica Machine Learning and DataRobot make it easy to compare predictions to actual results and to train a new model on the latest data, proactively identifying when a model’s performance is deteriorating over time due to data drift.

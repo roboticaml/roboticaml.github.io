@@ -52,4 +52,4 @@ layout: posts
 ### A continuous cycle of evaluation and remodelling means you always have the best possible
 
 
->**Speak to Robotica to discover where automated machine learning can bring new opportunities and efficiencies to your organisation.**
+>**Speak to Robotica Machine Learning to discover where automated machine learning can bring new opportunities and efficiencies to your organisation.**
