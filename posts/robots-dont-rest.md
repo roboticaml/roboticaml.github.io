@@ -3,7 +3,7 @@ title: Robots Don't Rest
 layout: posts
 ---
 
-![Empty office](/img/empty-office.jpeg) <br />
+![Empty office](/images/empty-office.jpeg) <br />
 
 # Robots Don't Rest
 
@@ -32,3 +32,6 @@ If all of your predictive modelling expertise is locked up inside a few individu
 
 ## Robots Don't Forget
 Humans are cognitively bound.  There are very real limits on what knowledge we can accumulate and retain, and on how we can apply it.  This is true for robots too, but they don't also need to retain the lyrics to Beatles tracks, how they learnt to swim or how much they enjoyed Knight Rider as a kid.  They are free to focus on their domain-specific objective - your business problem - and nothing else.  Where a really great data scientist may understand a dozen or so modelling approaches in detail and be able to use them, an automated machine learning solution from Robotica Machine Learning may draw from hundreds or thousands of algorithms to give the optimal results.
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

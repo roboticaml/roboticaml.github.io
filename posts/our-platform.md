@@ -1,5 +1,5 @@
 ---
-title: Our Platform
+title: Principles of Our Platform
 layout: posts
 ---
 
@@ -42,3 +42,7 @@ If your end application has intermittent or no internet connection, such as sens
 
 
 >**Speak to Robotica Machine Learning to discover where automated machine learning can bring new opportunities and efficiencies to your organisation.**
+
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

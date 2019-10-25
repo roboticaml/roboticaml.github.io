@@ -3,7 +3,7 @@ title: Completeness of Vision
 layout: posts
 ---
 
-![Bullseye](/img/dart.jpeg) <br />
+![Bullseye](/images/dart.jpeg) <br />
 
 
 # Completeness of Vision 
@@ -14,7 +14,7 @@ Data science projects, just like projects from other disciplines, have a life cy
 We start with a proof of concept, to ensure we are the right partners for each other and to demonstrate the value of the Robotica platform, utilising DataRobot and our ML-Ops pipeline to take away the risk in predictive analytics.  A proof of concept may typically take just a couple of weeks.
 
 
-![Customer facing data scientists](/img/collaborate.jpeg) <br />
+![Customer facing data scientists](/images/collaborate.jpeg) <br />
 
 
 ## Customer-Facing Data Scientists
@@ -25,7 +25,7 @@ You may or may not have enough data scientist to work through your ML backlog an
 Training is available for all stakeholders including executives, business analysts, product owners, engineers and data scientists.  C-level leaders can be empowered with enough knowledge to take advantage of DataRobot in as little as half a day.  Multi-day courses for in-depth, advanced usage is available for specialists.
 
 
-![Students](/img/students.jpeg) <br />
+![Students](/images/students.jpeg) <br />
 
 
 ## Ongoing Support
@@ -42,7 +42,7 @@ Whether you want to grow your top line or reduce your costs, unlocking the value
 Turning the business objectives into precise, measurable prediction objectives can be daunting if you do not have the right experts available.  Robotica Machine Learning, partnered with world-leading visionaries DataRobot, will assist you in turning concepts into projects.
 
 
-![Data](/img/data-glasses.jpeg) <br />
+![Data](/images/data-glasses.jpeg) <br />
 
 
 ## Data Gathering
@@ -69,7 +69,7 @@ There is no substitute for knowing hundreds of algorithms and when and how to ap
 Automated training and tuning of machine learning models reduces the incidence of errors as well as shortening the time to completion.  Machine learning works by exercise models with thousands of rows of data, modifying the model across many epochs until a good fit is found. 
 
 
-![Evaluation](/img/maths.jpeg) <br />
+![Evaluation](/images/maths.jpeg) <br />
 
 
 ## Model Evaluation
@@ -88,7 +88,7 @@ Knowing that a model performs well for most circumstances may not be sufficient 
 Data science programmes only delivery value when predictive engines are deployed into production and are hosted in a service or application appropriate to the way in which the models need to be consumed.  Each project has unique requirement, there are no _one size fits all_ answers available.  Dynamic pricing questions may require instantaneous scoring on-demand.   Marketing campaign response rate modelling may lend itself more to batch operations.
 
 
-![Coding](/img/programming.jpeg) <br />
+![Coding](/images/programming.jpeg) <br />
 
 
 ## Application and API Integration
@@ -97,3 +97,6 @@ A quality-first approach to software engineering, with unwavering attention to S
 
 ## Model Monitoring and Management
 In a constantly changing world, your AI applications need to keep up to date with the latest trends. Robotica Machine Learning and DataRobot make it easy to compare predictions to actual results and to train a new model on the latest data, proactively identifying when a model’s performance is deteriorating over time due to data drift.
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

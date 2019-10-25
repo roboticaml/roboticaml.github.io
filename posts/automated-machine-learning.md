@@ -22,3 +22,6 @@ The right algorithm is the wrong algorithm if it has not been set up with the op
 Evaluating the success and efficacy of machine learning models, using ROC curves, feature importance, learning curves and other diagnostics can be generated automatically.
 
 
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

@@ -57,8 +57,11 @@ Mitigate the consequence of brain drain by permitting the DataRobot platform to 
 #### ...Invest in a platform
 Resource spent on automation continues to pay back each time it is used. And robots never sleep - run your automation pipeline around the clock to maximise the value on tap.
 
-####...Stay on top of your objectives
+#### ...Stay on top of your objectives
 Over time, data will drift out of sync with the models and remodelling will be necessary.  Depending on the problem domain, drift may take months before new models are beneficial.  Or the game may move on in days.  Either way, integrated, automated machine learning gives you the platform and the power to remodel and redeploy as often as you require, maintaining your competitive advantage.
 
 
 >**Automated machine learning is a trusted means to expand your data science programme, work through your backlog and give you greater confidence in the project success and modelling accuracy.  Speak to Robotica Machine Learning to set up a proof of concept.**
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

@@ -1,47 +1,23 @@
-<footer class="footer-area section-gap" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-6 col-sm-6">
-                <div class="single-footer-widget">
-                    <p>&copy; <script>document.write(new Date().getFullYear());</script> 
-                        Robotica Machine Learning, a trading name of Xiasma Limited. All rights reserved.</p>
-                        <p>Robotica Machine Learning comes to you from the fine city of Norwich, United Kingdom.</p>
-                        <p>Xiasma Ltd has registered offices at Xiasma Ltd, Bartholomew's Walk, George Ct, Ely CB7 4JW.
-                            Registered company number 4572901 VAT GB 817 8020 35</p>
-                </div>
-            </div>
-            <div class="col-lg-5  col-md-6 col-sm-6">
-                <div class="single-footer-widget">
-                    <p>Cookie policy: We respect you, we don’t track you.  There are no cookies.</p>
-                    <p>Privacy policy: We respect you, we ask you before holding any data on you. 
-                    We remove it if you ask us to. We may share selected information with DataRobot, 
-                    but we will ask you first and only proceed with your explicit consent.</p>
-                </div>
-            </div>						
-            <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-                <div class="single-footer-widget">
-                    <h6>Contact Us</h6>
-                    <div class="footer-social d-flex align-items-left">
-                        <p><a href="https://github.com/roboticaml/"><i class="fa fa-github"></i></a><br /></p>
-                        <p><a href="https://twitter.com/roboticaml/"><i class="fa fa-twitter"></i></a><br /><br /></p>
-                        <p><a href="https://www.linkedin.com/company/robotica-ml/about/"><i class="fa fa-linkedin"></i></a></p>
-                        <p><a href="tel:01603290002"><i class="fa fa-phone"></i></a><br /></p>
-                        <p><a href="mailto:info@robotica.ml"><i class="fa fa-envelope"></i></a></p>
-                    </div>
-                </div>
-            </div>		
-        </div>
+<footer>
+  <div class = 'wrap'>
+    <div class = 'light center'>
+      <div class = 'social'>
+        {%- for item in site.data.social %}
+        <a href = '{{ .item.url }}' class = 'social-item'>
+          <img src = '{{ item.icon }}' />
+        </a>
+        {%- endfor %}
+      </div>
+    <p class = 'p'>{{ site.email }}</p>
+    <p class = 'p'>{{ site.phone }}</p>
     </div>
-</footer>	
-
-
-<script src="/js/vendor/jquery-2.2.4.min.js"></script>
-<script src="/js/vendor/bootstrap.min.js"></script>			
-<script src="/js/easing.min.js"></script>			
-<script src="/js/hoverIntent.js"></script>
-<script src="/js/superfish.min.js"></script>	
-<script src="/js/jquery.magnific-popup.min.js"></script>	
-<script src="/js/jquery.sticky.js"></script>
-<script src="/js/jquery.nice-select.min.js"></script>			
-<script src="/js/parallax.min.js"></script>		
-<script src="/js/main.js"></script>	
+  <div class = 'grid-2'>
+  {%- for item in site.data.footer %}
+    <div>
+      {{ item.column | markdownify }}
+    </div>
+  {%- endfor %}
+  </div>
+  </div>
+</footer>
+<script src='/js/helper.js'></script>

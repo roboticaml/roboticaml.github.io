@@ -69,3 +69,6 @@ Allow your apps to process natural language with pre-built scripts, evaluate sen
 
 # Cognitive Services are part of the Microsoft AI Platform 
 Incorporating AI into your applications consists of three key steps, but depending on your requirements and capabilities, Azure AI has flexible tools to suit your needs. Select our pre-built tools such as Cognitive Services for enterprise-grade, off-the-shelf technology that can enable some customisation or choose a tool such as Azure Machine Learning that allows you to bring your own data to enable deeper control and customisation.
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

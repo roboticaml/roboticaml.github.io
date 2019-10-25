@@ -1,0 +1,35 @@
+- title: DATAROBOT
+  icon: DataRobot-mascot-black-on-white.png
+  link: '/posts/what-is-datarobot'
+  description: |
+    Enabling the AI-Driven Enterprise, implementing machine learning models that solve complex business problems and drive real ROI
+
+- title: MICROSOFT AZURE COGNITIVE SERVICES
+  icon: azure-ai-platform-black.png
+  link: '/posts/microsoft-cognitive-services'
+  description: |
+    Infuse your apps, websites and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication. Transform your business with AI today.
+
+- title: ML-OPS
+  icon: artificial-intelligence.svg
+  link: '/posts/machine-learning-ops'
+  description: |
+    Delivering the capabilities that Data Science and IT Ops teams need to work together to deploy, monitor, and manage machine learning models in production.
+
+- title: ROBOTICA FOR GOVERNANCE
+  icon: robotica-mascot-governance.png
+  link: '/posts/robotica-stack'
+  description: |
+    Your rules decide which models make the grade as part of an end-to-end, fully automated enterprise process
+
+- title: PROCESS FLOW
+  icon: flow-chart.svg
+  link: '/posts/process-flow'
+  description: |
+    Fully-automated, end-to-end enterprise AI - from data collection to modelling, deployment, monitoring and more.
+
+- title: PLATFORM PRINCIPLES
+  icon: automation.svg
+  link: '/posts/our-platform'
+  description: |
+    Robust, scalable solutions to enable your organisation to make decisions more effectively, more efficiently, more boldly.

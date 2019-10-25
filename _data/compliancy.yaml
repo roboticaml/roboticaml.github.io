@@ -1,0 +1,29 @@
+- title: MODEL ROUTING
+  icon: right-arrow.svg
+  description: |
+    Build and deploy multiple models for the same problem, automatically pick the best model for each row of data
+
+- title: REJECT NON-COMPLIANT MODELS
+  icon: no-waiting.svg
+  description: |
+    Reject models that don’t meet your standards
+
+- title: FIT FOR PURPOSE
+  icon: jigsaw.svg
+  description: |
+    Appropriate models for their intended use
+
+- title: COMPREHENSIBLE, EXPLAINABLE
+  icon: meeting-explain.svg
+  description: |
+    Understand the models and flow
+
+- title: DOCUMENTATION
+  icon: case.svg
+  description: |
+    Generate compliance documentation
+
+- title: CORRECTIVE PATHWAYS
+  icon: street.svg
+  description: |
+    New models, new pathways in response to data drift and model drift

@@ -3,11 +3,19 @@ title: Robotica Machine Learning
 tagline: "Automated machine learning, integrated"
 url: "https://robotica.ml/" 
 
+slogans:
+  first: Make decisions more effectively, more efficiently, more boldly
+  second: |
+    Fully automated artificial intelligence from Norwich, UK
+    
+    Always your best
+
 # Social
-socialimg: /img/social.jpg # be sure to change this image
+socialimg: /images/favicon.png
 twitter: roboticaml
 github: roboticaml
 linkined: roboticaml
+logo: /images/logo-transparent.png
 
 # Contact
 phone: "01603 290002" 
@@ -15,8 +23,11 @@ email: "info@robotica.ml"
 
 # Use this for production
 sass:
-    style: compressed
+  style: compressed
 
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
 permalink: /404.html.
+
+plugins:
+  - jekyll-feed

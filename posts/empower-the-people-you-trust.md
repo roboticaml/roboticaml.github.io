@@ -12,3 +12,6 @@ Consultancies can be valuable aides in solving immediate problems and delivering
 Machine learning is at its best when in the hands of the people who really understand your organisation.  Do not be convinced that drag-and-drop applications, let alone Jupyter Notebooks, will enable analysts and executives to harness the power of AI. These create an analysis bottleneck between the business and the technical implementators. 
 
 Only by fully integrating _automated_ machine learning will you be able to ask, and answer, the questions that matter most to your organisation.
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

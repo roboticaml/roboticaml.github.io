@@ -83,3 +83,6 @@ Perfecting the balance of discount to propensity can be used to amplify margins 
 ## Warranty Claims Analytics
 Supporting warranty claims can cost a lot of cash and reputation. Collections of information from the supply, manufacturing, sales and claims processes can be used to train up predictive models to improve processes in the product journey to optimise the warranty ratio.
 
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

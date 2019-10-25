@@ -27,3 +27,6 @@ Unlocking the patterns in your data can help you to be better equipped to predic
 >[Reasons Why Many Data Science Programmes End in the Lab](reasons-why-many-data-science-programmes-end-in-the-lab) <br />
 Not all data science projects are successes. If a predictive model does not get deployed and used, it can mean months of lost effort, at least tens of thousands of pounds in costs and missed opportunities. Here are some of the reasons models do not reach production.
 
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

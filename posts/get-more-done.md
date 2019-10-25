@@ -4,7 +4,7 @@ layout: posts
 ---
 
 # Get more done
->![Building site](/img/building-site.png) <br />
+>![Building site](/images/building-site.png) <br />
 
 In the past, uncovering deep insights from machine learning and artificial intelligence (AI) required extensive programming skills and an intimate knowledge of math – experience in short supply in most enterprises. A new class of machine learning tools, however, is making it possible for your existing business analysts and business professionals to take machine learning and AI initiatives into their own hands by democratizing data science.
 
@@ -26,3 +26,6 @@ Freeing up your experts onto new problems, and automating delivery of predictive
 
 
 >**Automated machine learning is a trusted means to expand your data science programme, work through your backlog and give you greater confidence in the project success and modelling accuracy.  Speak to Robotica Machine Learning to set up a proof of concept.**
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

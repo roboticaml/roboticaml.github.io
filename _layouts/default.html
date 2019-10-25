@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
-{% include head.html %}
-<body>			
-{% include banner.html %}
-{{ content }}
-{% include footer.html %}
-</body>
+<html lang = 'en'>
+  <head>
+    {%- include head.html -%}
+  </head>
+  <body>
+    {%- include nav.html -%}
+    <main {% if page.class %}class='{{ page.class }}'{% endif %}>
+      {{ content }}
+    </main>
+    {%- include footer.html -%}
+  </body>
 </html>

@@ -3,7 +3,7 @@ title: The Robotica Stack
 layout: posts
 ---
 
-# The Stack
+# The Robotica Machine Learning Stack
 The Robotica Stack blends world-leading automated AI from [DataRobot](./what-is-datarobot) and [Microsoft Azure](./microsoft-cognitive-services) with open-source version control, testing and reporting products with our unique software to deliver fully-automated, evolving machine learning with comprehensive result explanations and compliance proof.
 
 # Our Platform
@@ -45,3 +45,6 @@ If your end application has intermittent or no internet connection, such as sens
 
 
 >**Speak to Robotica Machine Learning to discover where automated machine learning can bring new opportunities and efficiencies to your organisation.**
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

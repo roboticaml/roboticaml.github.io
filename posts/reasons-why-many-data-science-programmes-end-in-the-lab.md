@@ -3,7 +3,7 @@ title: Reasons Why Many Data Science Projects End in the Lab
 layout: posts
 ---
 
-![Golf](/img/golf.jpeg) <br />
+![Golf](/images/golf.jpeg) <br />
 
 
 # Reasons Why Many Data Science Projects End in the Lab
@@ -60,3 +60,6 @@ Predictive models which act as black boxes - providing results but with no expla
 
 
 Automation from Robotica Machine Learning seeks to increase the likelihood of success by tackling all of these common shortfalls of traditional ML projects.
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

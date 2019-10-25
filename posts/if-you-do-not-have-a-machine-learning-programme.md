@@ -65,3 +65,6 @@ Over time, data will drift out of sync with the models and remodelling will be n
 
 
 >**Automated machine learning is a trusted means to expand your data science programme, work through your backlog and give you greater confidence in the project success and modelling accuracy.  Speak to Robotica Machine Learning to set up a proof of concept.**
+<br />
+<a href = '/contact' class = 'button'>Request a demo</a>
+<br />

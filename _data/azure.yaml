@@ -1,0 +1,17 @@
+title: |
+  Microsoft Azure \
+  **Cognitive Services**
+logo: /images/cognitive-logo.jpg
+features:
+  - feature: Vision
+    icon: /images/vision.svg
+    url: /posts/microsoft-cognitive-services.html#vision
+  - feature: Speech
+    icon: /images/speech.svg
+    url: /posts/microsoft-cognitive-services.html#speech
+  - feature: Language
+    icon: /images/language.svg
+    url: /posts/microsoft-cognitive-services.html#language
+  - feature: Knowledge
+    icon: /images/vision.svg
+    url: /posts/microsoft-cognitive-services.html#knowledge
