@@ -9,8 +9,7 @@ button:
 # About Robotica Machine Learning
 
 
-Robotica Machine Learning is the maker and supplier of fully-automated artificial intelligence products.  We are based out of Norwich in the heart of Norfolk, UK.  Robotica Machine Learning was founded by [Adrian Pickering](https://www.linkedin.com/in/adrianpickering/){:target="_blank"} and Maria 
-Anastasi to enable organisations to make more effective decisions, more efficiently, with confidence.  We achieve this by integrating and automating best-of-breed data science tooling directly into the processes and systems of our customers.
+Robotica Machine Learning is the maker and supplier of fully-automated artificial intelligence products.  We are based out of Norwich in the heart of Norfolk, UK.  Robotica Machine Learning was founded by [Maria Anastasi](https://www.linkedin.com/in/mariaanastasi/){:target="_blank"}  and [Adrian Pickering](https://www.linkedin.com/in/adrianpickering/){:target="_blank"} to enable organisations to make more effective decisions, more efficiently, with confidence.  We achieve this by integrating and automating best-of-breed data science tooling directly into the processes and systems of our customers.
 
 Fully automated decision making allows organisations to do what they do, better: more consistently, more quickly, more correctly, at scale.  It frees up the best people and reduces turnaround times.
 

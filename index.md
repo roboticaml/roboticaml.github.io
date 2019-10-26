@@ -8,6 +8,10 @@ button:
   url: "#"
 ---
 
+Powered by
+
+<br />
+
 ![](/images/datarobot.png)
 
 [DATAROBOT IS TRUSTED AND PROVEN](/posts/what-is-datarobot)

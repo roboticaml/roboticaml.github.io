@@ -3,7 +3,7 @@
     <div class = 'light center'>
       <div class = 'social'>
         {%- for item in site.data.social %}
-        <a href = '{{ .item.url }}' class = 'social-item'>
+        <a href = '{{ .item.url }}' class = 'social-item' target='_blank'>
           <img src = '{{ item.icon }}' />
         </a>
         {%- endfor %}
