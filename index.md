@@ -10,7 +10,9 @@ button:
 
 ![](/images/datarobot.png)
 
-DATAROBOT IS TRUSTED AND PROVEN
+[DATAROBOT IS TRUSTED AND PROVEN](/posts/what-is-datarobot)
+
+
 
 {% include clients.html %}
 
