@@ -6,10 +6,10 @@ layout: posts
 # Make better decisions, be a better you
 >![Question marks](/images/question-marks.png) <br />
 
-### [According to Sci NC](http://science.unctv.org/content/reportersblog/choices){:target="_blank"} we  each typically make 35,000 decisions every day, and we don't always choose well. <
+### [According to Sci NC](http://science.unctv.org/content/reportersblog/choices){:target="_blank"} we humans each typically make 35,000 decisions every day, and we don't always choose well. 
 
 
-Our choice-making strategy is complex, working in factors including impulse, pleasing others, delegation, prioritisation and, of course, reasoning.  And there are pressures which may lead to compromised judgements.
+As a species, our choice-making strategy is complex, working in factors including impulse, pleasing others, delegation, prioritisation and, of course, reasoning.  And there are pressures which may lead to compromised judgements.
 
 - Time
 - Decision fatigue
