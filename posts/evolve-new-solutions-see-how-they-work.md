@@ -15,7 +15,7 @@ Machine learning is a type of software solution that learns by reading historic 
 <br />
 
 ### Data drift
-Some of the better machine learning solutions continue to learn after the model is created, seeking to nudge or adjust the model to fit with minor shifts in trends.  As long as the model is still fundamentally sound, drifting data is combatted by remodelling.
+Some of the better machine learning solutions continue to learn after the model is created, seeking to nudge or adjust the model to fit with minor shifts in trends.  As long as the model is still fundamentally sound, drifting data is combated by remodelling.
 
 ### Model drift
 Should data drift too far, or should an unusual event such as a new competitor change the landscape, the original model may no longer be capable of offering a credible solution.

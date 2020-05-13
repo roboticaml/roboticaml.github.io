@@ -5,7 +5,7 @@ datarobotics: DATAROBOT IS TRUSTED AND PROVEN
 azure: Microsoft Azure Cognitive Services
 button: 
   text: Request a demo
-  url: "#"
+  url: "/contact"
 ---
 
 Powered by

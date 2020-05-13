@@ -3,7 +3,7 @@ layout: home-about
 title: About Robotica Machine Learning
 button: 
   text: Request a demo
-  url: "#"
+  url: "/contact"
 ---
 
 # About Robotica Machine Learning
