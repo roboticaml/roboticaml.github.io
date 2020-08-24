@@ -22,7 +22,7 @@ Our avatar-based sign language transliteration service is powered by Robotica's 
 
 
 ### Human Sign Language Translation
-For premium pre-recorded video content, we also offer the broadcast and entertainment industry access to accurate broadcast-quality in-vision human British Sign Language translation services.
+For premium pre-recorded video content, we also provide the broadcast and entertainment industry with accurate broadcast-quality in-vision human British Sign Language translation services.
 
 All our sign language interpreters are registered with and regulated by the National Registers of Communication Professionals working with Deaf and Deafblind People (NRCPD) or the Scottish Association of Sign Language Interpreters (SASLI) in Scotland. Registered interpreters must respect confidentiality and stay completely impartial.
 
