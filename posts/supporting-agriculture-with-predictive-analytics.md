@@ -9,7 +9,7 @@ Farmers strive to optimise land use to feed a growing world population.  Accommo
 
 Agriculture has lead every industrial revolution, and the range of tools created for and by farming is extensive:  robotics, drones, Internet of Things (IoT), computer vision and machine learning all advance farming success.  Driverless vehicle systems, such as [iTec Pro](https://www.deere.com/en/technology-products/precision-ag-technology/guidance/itec-pro/){:target="_blank"} have been improving productivity and consistency long before the first road cars started to gain semi-autonomous capabilities.
 
-High tech is a powerful force in delivering profitability to farmers.  Artificial intelligence is unique in often delivering strong Return on Investment (ROI) rapidly.
+High tech Smart Farming is a powerful force in delivering profitability to farmers.  Artificial intelligence is unique in often delivering strong Return on Investment (ROI) rapidly.
 
 ### Irrigation Management and Moisture Monitoring
 >![Irrigation Management](/images/irrigation-management.png)
@@ -36,11 +36,16 @@ Problems common to every business plague agriculture just as much as they do eve
 
 
 ## Further reading
-[How a Japanese Cucumber Farmer is Using Deep Learning and TensorFlow](https://cloud.google.com/blog/products/gcp/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow){:target="_blank"}
-AI is sorting cucumbers by size, shape, colour and other attributes on a scale that works for small growers and large mono-crop estates.
+[Machine Learning in Agriculture: Applications and Techniques](https://www.kdnuggets.com/2019/05/machine-learning-agriculture-applications-techniques.html){:target="_blank"} - Machine Learning has emerged together with big data technologies and high-performance computing to create new opportunities to unravel, quantify, and understand data-intensive processes in agricultural operational environments.
 
+[How a Japanese Cucumber Farmer is Using Deep Learning and TensorFlow](https://cloud.google.com/blog/products/gcp/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow){:target="_blank"} - AI is sorting cucumbers by size, shape, colour and other attributes on a scale that works for small growers and large mono-crop estates.
 
-## Speak to a problem-solver at Robotica to see how we might work together to improve predictability and profitability of your farming business.
+[The Flourish Project is using robotics to deliver precision farming](http://flourish-project.eu/){:target="_blank"} - To feed a growing world population with the given amount of arable land, we must develop new methods of sustainable farming that increase yield while minimizing chemical inputs such as fertilizers, herbicides, and pesticides. Precision agricultural techniques seek to address this challenge by monitoring key indicators of crop health and targeting treatment only to plants or infested areas that need it.
+
 <br />
-<a href = '/contact' class = 'button'>Request a demo</a>
+
+
+## Speak to Robotica to see how we might work together to improve predictability and profitability of your farming business.
+<br />
+<a href = '/contact' class = 'button'>Contact us</a>
 <br />
