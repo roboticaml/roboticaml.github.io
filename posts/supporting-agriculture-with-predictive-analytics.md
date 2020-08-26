@@ -37,7 +37,7 @@ Problems common to every business plague agriculture just as much as they do all
 
 - **Proactive equipment maintenance** can not only reduce the instance of substantial repair bills, but also allow downtime to be scheduled and less disruptive.  Statistical computer models can be used to seek out hidden and subtle anomalies in operating characteristics of machinery and highlight correlations of unusual sensor readings with specific mechanical faults.
 - **Volatility in supplies can be predicted** by the application of time series modelling, accounting for natural variability in trends, seasonal variation and other factors which may influence the reliability of a supplier.
-- Many parameters of **strategic planning and effective decision making** can be made more accurately and consistently with regression analysis and binary outcome prediction engines.  Fully automated machine learning (Auto-ML) will ingest your data, continuously learning from past actions and outcomes and improving over time.  As the market and operating conditions change, Auto-ML will recognise and adapt, ensuring your solution does not drift out of line and become stale.
+- Many parameters of **strategic planning and effective decision-making** can be made more accurately and consistently with regression analysis and binary outcome prediction engines.  Fully automated machine learning (Auto-ML) will ingest your data, continuously learning from past actions and outcomes and improving over time.  As the market and operating conditions change, Auto-ML will recognise and adapt, ensuring your solution does not drift out of line and become stale.
 
 
 
