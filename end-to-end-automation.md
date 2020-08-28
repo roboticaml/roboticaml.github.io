@@ -28,4 +28,5 @@ layout: home-automation
     <a href="/posts/evolve-new-solutions-see-how-they-work"><h3>Evolve new solutions, see how they work and be confident you will always have the best solution</h3></a>
     <a href="/posts/last-seasons-solution-this-seasons-problems"><h3>Last season’s solution for this season’s problem? Markets and competitors are always moving</h3></a>
     <a href="/posts/get-more-done"><h3>Get more done across the whole enterprise</h3></a>
+    <a href="/posts/a-changing-market-means-changing-your-business"><h3>A changing market means changing your business</h3></a>
 </div>
