@@ -32,7 +32,7 @@ Any executive or sales representative will insist that they are customer focusse
 >We respect you, we don’t track you. There are no cookies.
 
 
-We don't sell to you, we partner with you. This means that the each process is bespoke; as much yours as it is ours. We work together on shared milestones and objectives.  Integrations are priced according to agreed value.  We have no incentive to cut corners or to string out time and materials billing.  We recognise that your needs change and we honour that as part of our commitment.  (Robotica Machine Learning does not leave the success of your programme to chance)[/posts/completeness-of-vision].  We work across the entire life cycle to ensure you are supported at every step along the way.
+We don't sell to you, we partner with you. This means that the each process is bespoke; as much yours as it is ours. We work together on shared milestones and objectives.  Integrations are priced according to agreed value.  We have no incentive to cut corners or to string out time and materials billing.  We recognise that your needs change and we honour that as part of our commitment.  [Robotica Machine Learning does not leave the success of your programme to chance](/posts/completeness-of-vision).  We work across the entire life cycle to ensure you are supported at every step along the way.
 
 **Working with Robotica Machine Learning is designed to be the easiest choice you will make, and one you will not regret.**
 
