@@ -31,4 +31,4 @@ The ability to connect islands of centralised IT systems and sensors into clouds
 
 # Conclusion
 
-With Robotica Enterprise AI and DataRobot, companies can increase revenue, deliver the returns investors require, improve return on assets, and manage downside risks by turning much of the data already collected into usable and valuable insight - making decisions more effectively and more efficiently.
+With Robotica Enterprise AI and DataRobot, Energy companies can increase revenue, deliver the returns investors require, improve return on assets, and manage downside risks by turning much of the data already collected into usable and valuable insight - making decisions more effectively and more efficiently.
