@@ -9,7 +9,7 @@ button:
 # About Robotica Machine Learning
 
 
-Robotica Machine Learning is the maker and supplier of fully-automated artificial intelligence products.  We are based out of Norwich in the heart of Norfolk, UK.  Robotica Machine Learning was founded by [Maria Anastasi](https://www.linkedin.com/in/mariaanastasi/){:target="_blank"}  and [Adrian Pickering](https://www.linkedin.com/in/adrianpickering/){:target="_blank"} to enable organisations to make more effective decisions, more efficiently, with confidence.  We achieve this by integrating and automating best-of-breed data science tooling directly into the processes and systems of our customers.
+Robotica Machine Learning is the maker and supplier of fully automated artificial intelligence products.  We are based out of Norwich in the heart of Norfolk, UK.  Robotica Machine Learning was founded by [Maria Anastasi](https://www.linkedin.com/in/mariaanastasi/){:target="_blank"}  and [Adrian Pickering](https://www.linkedin.com/in/adrianpickering/){:target="_blank"} to enable organisations to make more effective decisions, more efficiently, with confidence.  We achieve this by integrating and automating best-of-breed data science tooling directly into the processes and systems of our customers.
 
 <br />
 
@@ -40,7 +40,7 @@ We don't sell to you, we partner with you. This means that the each process is b
 Robotica is a new breed of corporation: a business where we are compelled to "be good".  We have partnered with the charity [Cued Speech UK](https://www.cuedspeech.co.uk/){:target="_blank"} to deliver digital communications assistants to facilitate effective communication between speaking and non-hearing people.  Cassie and Niki are avatars developed and integrated by Robotica and [Kara](https://kara.tech){:target="_blank"} to offer accessibility in the workplace to support colleagues who benefit from being able to see spoken English as cued speech, lip speaking readable mouth movements and British Sign Language (BSL).
 
 >![Cassie and Niki](/images/cassie-and-niki.png)
-12 million people in the UK have hearing loss and almost one million have severe or profound hearing loss.  According to research conducted by [Action on Hearing Loss](https://actiononhearingloss.org.uk/){:target="_blank"}, 35% of employers are reluctant to employ hearing-impaired people. 
+12 million people in the UK have hearing loss and almost one million have severe or profound hearing loss.  According to research conducted by [Royal National Institute for Deaf People (RNID)](https://rnid.org.uk/){:target="_blank"}, 35% of employers are reluctant to employ hearing-impaired people. 
 
 Cassie listens as people speak and repeats it back clearly, in a neutral accent.  Her words are echoed as on-screen captions, realistic mouth shapes for lip-readers and as Cued Speech signs. 
 
