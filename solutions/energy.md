@@ -9,7 +9,7 @@ Commodity cycles, capital planning and forecasting challenges, and increasing op
 
 Learn how Robotica Enterprise AI and DataRobot are revolutionizing the Energy sector.
 
-[Request a Demo](mailto:info@robotica.ml?subject="Request A Demo")
+[Request a Demo](mailto:info@robotica.ml?subject=Request+A+Demo)
 
 # ML Ops & Maintenance
 
