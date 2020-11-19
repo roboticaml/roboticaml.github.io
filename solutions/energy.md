@@ -31,4 +31,4 @@ Our partnership with Allotrope provides the ability for Operators to connect isl
 
 # Conclusion
 
-With Robotica Enterprise AI and our partnerships with DataRobot and Allotrope, Energy companies can increase revenue, deliver the returns investors require, improve return on assets, and manage downside risks by turning much of the data already collected into usable and valuable insight - making decisions more effectively and more efficiently.
+With Robotica Enterprise AI, Energy companies can increase revenue, deliver the returns investors require, improve return on assets, and manage downside risks by turning much of the data already collected into usable and valuable insight - making decisions more effectively and more efficiently.
