@@ -18,7 +18,7 @@ Our cued speech transliteration service is powered by our [AVComprehend](avcompr
 ### Avatar Sign Language Translation
 We offer accurate broadcast-quality in-vision British Sign Language translation for pre-recorded video content.
 
-Our avatar-based sign language transliteration service is powered by Robotica's [AVComprehend](avcomprehend){:target="_blank"} platform and Niki virtual translator [link to a segment of our elevator pitch video showing Niki cueing speech] from our partner, Kara Technologies.
+Our avatar-based sign language interpretation service is powered by Robotica's [AVComprehend](avcomprehend){:target="_blank"} platform and Niki virtual translator [link to a segment of our elevator pitch video showing Niki cueing speech] from our partner, Kara Technologies.
 
 
 ### Human Sign Language Translation
