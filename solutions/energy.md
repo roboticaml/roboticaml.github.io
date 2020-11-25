@@ -8,6 +8,7 @@ layout: posts
   Your browser does not support the video tag.
 </video>
 
+<div></div>
 
 # AI and the Energy Sector
 
