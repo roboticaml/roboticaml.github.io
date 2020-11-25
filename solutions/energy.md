@@ -9,7 +9,7 @@ Commodity cycles, capital planning and forecasting challenges, and increasing op
 
 Learn how Robotica Enterprise AI and DataRobot are revolutionizing the Energy sector.
 
-[Request a Demo](mailto:info@robotica.ml?subject=Request%20A%20Demo)
+<a href="mailto:info@robotica.ml?subject=Request%20A%20Demo" class='button'>Request a Demo</a>
 
 # ML Ops & Maintenance
 
@@ -32,3 +32,17 @@ Our partnership with Allotrope provides the ability for Operators to connect isl
 # Conclusion
 
 With Robotica Enterprise AI, Energy companies can increase revenue, deliver the returns investors require, improve return on assets, and manage downside risks by turning much of the data already collected into usable and valuable insight - making decisions more effectively and more efficiently.
+
+<div class='service center content-home'>
+    <h2>6 REASONS YOU NEED TO AUTOMATE</h2>
+    <br />
+    <ol>
+    <li><a href="/posts/automated-machine-learning"><h3>Automated machine learning can improve accuracy and reliability</h3></a></li>
+    <li><a href="/posts/robots-dont-rest"><h3>Robots don’t rest and they don’t get sick or move to your competitors</h3></a>/li>
+    <li><a href="/posts/always-discovering-always-ready"><h3>Always discovering, always ready solutions evolve and grow with the changing landscape</h3></a>/li>
+    <li><a href="/posts/evolve-new-solutions-see-how-they-work"><h3>Evolve new solutions, see how they work and be confident you will always have the best solution</h3></a>/li>
+    <li><a href="/posts/last-seasons-solution-this-seasons-problems"><h3>Last season’s solution for this season’s problem? Markets and competitors are always moving</h3></a>/li>
+    <li><a href="/posts/get-more-done"><h3>Get more done across the whole enterprise</h3></a>/li>
+    <li><a href="/posts/a-changing-market-means-changing-your-business"><h3>A changing market means changing your business</h3></a>/li>
+  </ol>
+</div>
