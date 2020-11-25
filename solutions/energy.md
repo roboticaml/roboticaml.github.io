@@ -3,8 +3,8 @@ title: Energy Sector
 layout: posts
 ---
 
-<video width="320" height="240" controls>
-  <source src="https://promo.com/share/5fad56b03fa85125393d809c" type="video/mp4">
+<video width="640" height="480" controls>
+  <source src="https://ak04-video-cdn.slidely.com/promoVideos/videos/5f/ad/5fad56b03fa85125393d809c/final.mp4?dv=4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -39,15 +39,15 @@ Our partnership with Allotrope provides the ability for Operators to connect isl
 With Robotica Enterprise AI, Energy companies can increase revenue, deliver the returns investors require, improve return on assets, and manage downside risks by turning much of the data already collected into usable and valuable insight - making decisions more effectively and more efficiently.
 
 <div class='service center content-home'>
-    <h2>6 REASONS YOU NEED TO AUTOMATE</h2>
+    <h2>7 REASONS YOU NEED TO AUTOMATE</h2>
     <br />
     <ol>
-    <li><a href="/posts/automated-machine-learning"><h3>Automated machine learning can improve accuracy and reliability</h3></a></li>
-    <li><a href="/posts/robots-dont-rest"><h3>Robots don’t rest and they don’t get sick or move to your competitors</h3></a></li>
-    <li><a href="/posts/always-discovering-always-ready"><h3>Always discovering, always ready solutions evolve and grow with the changing landscape</h3></a></li>
-    <li><a href="/posts/evolve-new-solutions-see-how-they-work"><h3>Evolve new solutions, see how they work and be confident you will always have the best solution</h3></a></li>
-    <li><a href="/posts/last-seasons-solution-this-seasons-problems"><h3>Last season’s solution for this season’s problem? Markets and competitors are always moving</h3></a></li>
-    <li><a href="/posts/get-more-done"><h3>Get more done across the whole enterprise</h3></a></li>
-    <li><a href="/posts/a-changing-market-means-changing-your-business"><h3>A changing market means changing your business</h3></a></li>
+    <li><a href="/posts/automated-machine-learning">Automated machine learning can improve accuracy and reliability</a></li>
+    <li><a href="/posts/robots-dont-rest">Robots don’t rest and they don’t get sick or move to your competitors</a></li>
+    <li><a href="/posts/always-discovering-always-ready">Always discovering, always ready solutions evolve and grow with the changing landscape</a></li>
+    <li><a href="/posts/evolve-new-solutions-see-how-they-work">Evolve new solutions, see how they work and be confident you will always have the best solution</a></li>
+    <li><a href="/posts/last-seasons-solution-this-seasons-problems">Last season’s solution for this season’s problem? Markets and competitors are always moving</a></li>
+    <li><a href="/posts/get-more-done">Get more done across the whole enterprise</a></li>
+    <li><a href="/posts/a-changing-market-means-changing-your-business">A changing market means changing your business</a></li>
   </ol>
 </div>
