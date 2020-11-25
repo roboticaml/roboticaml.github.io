@@ -8,6 +8,7 @@ layout: posts
   Your browser does not support the video tag.
 </video>
 
+
 # AI and the Energy Sector
 
 Commodity cycles, capital planning and forecasting challenges, and increasing operational and maintenance risks in the Energy industry are all factors that make it more important than ever to make smarter and more efficient decisions. 
