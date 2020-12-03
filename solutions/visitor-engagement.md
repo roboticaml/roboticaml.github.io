@@ -13,7 +13,7 @@ layout: posts
 </video>
 
 <p>
-Visitor Engagement by Robotica silents makes a note of when people look at your notices, videos and promotions. It can tell who is a new visitor to a page and who
+Visitor Engagement by Robotica silently makes a note of when people look at your notices, videos and promotions. It can tell who is a new visitor to a page and who
 is a returning visitor, without collecting any personally identifiable information (PII) or installing an app, preserving their confidentiality and ensuring
 frictionless access to the information you wish to present to them. We help you understand your visitors: where they are when they engage with you, how long they
 spend on each information asset, even what devices they use and which languages they speak!
