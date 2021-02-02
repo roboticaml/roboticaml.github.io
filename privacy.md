@@ -1,12 +1,15 @@
-Robotica.ml Website
-===================
+---
+layout: home-about
+title: Privacy Policy
+---
+
+# Robotica.ml Website
 Cookie policy: We respect you, we don’t track you. There are no cookies.
 
 Privacy policy: We respect you, we ask you before holding any data on you. We remove it if you ask us to. We may share selected information with DataRobot, but we will ask you first and only proceed with your explicit consent.
 
 
-bsl.nrw Website
-===============
+# bsl.nrw Website
 Privacy policy:
 Your privacy is important to us. It is our policy to respect your privacy regarding any information we may collect from you across our websites, including http://bsl.nrw/
 
@@ -23,8 +26,7 @@ You are under no obligation to share data with us, although you may not be able 
 Use of the bsl.nrw website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us.
 
 
-cued-speech-translation-service web service
-===========================================
+# cued-speech-translation-service web service
 Cookie policy: We respect you. There are no cookies on this site.
 
 Privacy policy:
@@ -43,8 +45,7 @@ You are under no obligation to share data with us, although you may not be able 
 Use of the cued-speech-translation-service web service will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us.
 
 
-uCue App
-========
+# uCue App
 Cookie policy:
 We respect you. The App does not send cookies to websites or webservices operated by Cued Speech UK or Robotica Machine Learning.  We do exchange and store a Player Identity when you use a uCue QR barcode to login to the game and subsequently to record your progress through the game.  If you use the Facebook feature, we receive from Facebook a token which is unique to you which we use when you ask for your game progress to be posted to your Facebook account.  We may share selected information with Facebook, on your instruction but we will ask you first and only proceed with your explicit consent.
 
@@ -64,8 +65,7 @@ You are under no obligation to share data with us, although you may not be able 
 Use of the cued-speech-translation-service web service will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us.
 
 
-Footnote
-========
+# Footnote
 This policy is effective as of 1st January 2021.
 
 Write to us at: Robotica Machine Learning Ltd, Riverside Business Centre, 61-63 Riverside Road, Norwich, NR1 1SR, United Kingdom.
