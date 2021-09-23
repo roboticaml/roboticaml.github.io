@@ -24,7 +24,6 @@ showreelButton:
     <br />
     <br />
     <br />
-    <br />
     <a href = '{{ page.mediaButton.url }}' class = 'button'>{{ page.mediaButton.text }}</a>
   </div>
 </div>
