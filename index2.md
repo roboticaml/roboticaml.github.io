@@ -16,8 +16,7 @@ button:
     <br />
     Robotica provides a fully automated solution for translating speech from 20 languages into signed languages using a realistic human avatar. Our products provide accessibility solutions for video, audio, digital signage and and printed information.
   </div>
-</div>
-            
+</div>          
 <div style="width: 50%; background-color: #76c1ea; display: inline-block">
     <div style="padding: 2.5rem; color: white">
       <font style="font-size: 20pt">Investor Site</font>
