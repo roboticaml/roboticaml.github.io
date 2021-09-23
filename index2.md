@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "Robotica Machine Learning"
 button: 
   text: Request a demo
@@ -26,3 +26,5 @@ button:
       The Power to Comprehend&trade;. Investing in Robotica Machine Learning Limited is an opportunity to access AI-driven growth and returns from a business that is making the world’s communications available in visual languages so people have the same literacy, life chances and access to information and entertainment. 
   </div>
 </div>
+
+<a href = '{{ page.button.url }}' class = 'button'>{{ page.button.text }}</a>
