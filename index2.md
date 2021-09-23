@@ -24,6 +24,7 @@ showreelButton:
     <br />
     <br />
     <br />
+    <br />
     <a href = '{{ page.mediaButton.url }}' class = 'button'>{{ page.mediaButton.text }}</a>
   </div>
 </div>
@@ -33,7 +34,7 @@ showreelButton:
       <font style="font-size: 20pt">Investor Site</font>
       <br />
       <br />
-      Investing in Robotica Machine Learning Limited is an opportunity to access AI-driven growth and returns from a business that is powering the comprehension and interpretation of the world’s communications as visual languages so people have the same literacy, life chances and access to information and entertainment. The Power to Comprehend&trade;.
+      Investing in Robotica Machine Learning Limited is an opportunity to access AI-driven growth and returns from a business that is powering the comprehension and interpretation of the world’s communications as visual languages so people have the same literacy, life chances and access to information and entertainment.
       <br />
       <br />
       <a href = '{{ page.investorButton.url }}' class = 'button'>{{ page.investorButton.text }}</a>
@@ -41,6 +42,8 @@ showreelButton:
 </div>
 
 <br />
+<br />
+The Power to Comprehend&trade;.
 <br />
 
 <a href = '{{ page.showreelButton.url }}' class = 'button'>{{ page.showreelButton.text }}</a>
