@@ -43,7 +43,7 @@ showreelButton:
 
 <br />
 <br />
-The Power to Comprehend&trade;.
+The Power to Comprehend&trade;
 <br />
 
 <a href = '{{ page.showreelButton.url }}' class = 'button'>{{ page.showreelButton.text }}</a>
