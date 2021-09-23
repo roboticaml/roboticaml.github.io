@@ -9,15 +9,15 @@ button:
 
 <br />
 <br />
-<div style="width: 50%; background-color: #6a8599; display: inline-block">
+<div style="width: 50%; background-color: #6a8599; display: inline-block; height: 25rem">
   <div style="padding: 2.5rem; color: white">
     <font style="font-size: 20pt">Robotica Media</font>
     <br />
     <br />
     Robotica provides a fully automated solution for translating speech from 20 languages into signed languages using a realistic human avatar. Our products provide accessibility solutions for video, audio, digital signage and and printed information.
   </div>
-</div>          
-<div style="width: 50%; background-color: #76c1ea; display: inline-block">
+</div>
+<div style="width: 50%; background-color: #76c1ea; display: inline-block; height: 25rem">
     <div style="padding: 2.5rem; color: white">
       <font style="font-size: 20pt">Investor Site</font>
       <br />
