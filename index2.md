@@ -9,7 +9,7 @@ investorButton:
   url: "/index"
 showreelButton: 
   text: Watch Showreel
-  url: "/showreel"
+  url: "https://youtu.be/GwBNddJe1ks"
 ---
 <section class = 'content-home wrap center'>
 
