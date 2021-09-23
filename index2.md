@@ -2,10 +2,13 @@
 layout: default
 title: "Robotica Machine Learning"
 button: 
-  text: Showreel
+  text: Watch Showreel
   url: "/showreel"
 ---
+<section class = 'content-home wrap center'>
 
+<br />
+<br />
 <div style="width: 50%; background-color: #6a8599; display: inline-block">
   <div style="padding: 2.5rem; color: white">
     <font style="font-size: 20pt">Robotica Media</font>
@@ -25,3 +28,5 @@ button:
 </div>
 
 <a href = '{{ page.button.url }}' class = 'button'>{{ page.button.text }}</a>
+
+</section>
