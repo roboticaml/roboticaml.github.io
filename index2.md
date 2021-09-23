@@ -26,6 +26,9 @@ button:
   </div>
 </div>
 
+<br />
+<br />
+
 <a href = '{{ page.button.url }}' class = 'button'>{{ page.button.text }}</a>
 
 </section>
