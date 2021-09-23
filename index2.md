@@ -15,7 +15,7 @@ showreelButton:
 
 <br />
 <br />
-<div style="width: 50%; background-color: #6a8599; display: inline-block; height: 25rem">
+<div style="width: 50%; background-color: #6a8599; display: inline-block;">
   <div style="padding: 2.5rem; color: white">
     <font style="font-size: 20pt">Robotica Media</font>
     <br />
@@ -24,7 +24,7 @@ showreelButton:
     <br />
     <a href = '{{ page.showreelButton.url }}' class = 'button'>{{ page.showreelButton.text }}</a>
   </div>
-</div><div style="width: 50%; background-color: #76c1ea; display: inline-block; height: 25rem">
+</div><div style="width: 50%; background-color: #76c1ea; display: inline-block;">
     <div style="padding: 2.5rem; color: white">
       <font style="font-size: 20pt">Investor Site</font>
       <br />
