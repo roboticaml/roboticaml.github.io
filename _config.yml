@@ -20,6 +20,8 @@ logo: /images/logo-transparent.png
 # Contact
 phone: "01603 290002" 
 email: "info@robotica.ml"
+address: "Robotica, George Court, Bartholomew's Walk, Ely CB7 4JW"
+registration: "12753299"
 
 # Use this for production
 sass:

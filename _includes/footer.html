@@ -1,6 +1,9 @@
 <footer>
-  <div class = 'wrap'>
+  <div class = 'wrap' style="font-size: 8pt">
     <div class = 'light center'>
+      <p class = 'p'>{{ site.email }}</p>
+      <p class = 'p'>Registered office: {{ site.address }}. Registeration number: {{ site.registration }}</p>
+      <p class = 'p'>{{ site.phone }}</p>
       <div class = 'social'>
         {%- for item in site.data.social %}
         <a href = '{{ .item.url }}' class = 'social-item' target='_blank'>
@@ -8,16 +11,10 @@
         </a>
         {%- endfor %}
       </div>
-    <p class = 'p'>{{ site.email }}</p>
-    <p class = 'p'>{{ site.phone }}</p>
+    {%- for item in site.data.footer %}
+        {{ item.column | markdownify }}
+    {%- endfor %}
     </div>
-  <div class = 'grid-2'>
-  {%- for item in site.data.footer %}
-    <div>
-      {{ item.column | markdownify }}
-    </div>
-  {%- endfor %}
-  </div>
   </div>
 </footer>
 <script src='/js/helper.js'></script>

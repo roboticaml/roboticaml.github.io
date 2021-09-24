@@ -2,22 +2,16 @@
 <input type = 'checkbox' id = 'toggle' class = 'nav-check hidden-desktop'>
 <label for = 'toggle' class = 'nav-toggle hidden-desktop'>&#9776;</label>
 <nav class = 'nav-header'>
-  <div class = 'nav-top hidden-desktop'>
-    {%- include logo.html %}
-  </div>
   <div class = 'nav-wrap'>
+  <div class = 'nav'>
+    {%- include logo.html %}
     {% assign middle = site.data.nav.size | divided_by: 2 %}
-    <p class = 'center'>{{ site.slogans.first }}</p>
-    <div class = 'nav'>
     {%- for item in site.data.nav %}
       <a href = '{{ item.link }}' class = 'nav-item'>{{ item.item }}</a>
       {% if forloop.index == middle %}
-        <span class = 'hidden-mobile'>{%- include logo.html %}</span>
+        <!--span class = 'hidden'>{%- include logo.html %}</span-->
       {% endif %}
     {%- endfor %}
-    </div>
-    <div class = 'center'>
-      {{ site.slogans.second | markdownify }}
     </div>
   </div>
 </nav>
