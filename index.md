@@ -15,7 +15,7 @@ showreelButton:
 
 <br />
 <br />
-<div style="width: 45%; background-color: #6a8599; display: inline-block; vertical-align: top;">
+<div style="background-color: #6a8599; display: inline-block; vertical-align: top;">
   <div style="padding: 2.5rem; color: white">
     <font style="font-size: 20pt">Robotica Media</font>
     <br />
@@ -49,7 +49,8 @@ showreelButton:
 <br />
 The Power to Comprehend&trade;
 <br />
-
 <a href = '{{ page.showreelButton.url }}' class = 'button'>{{ page.showreelButton.text }}</a>
+<br />
+<br />
 
 </section>
