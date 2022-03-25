@@ -62,10 +62,10 @@ Our website may link to external sites that are not operated by us. Please be aw
 
 You are under no obligation to share data with us, although you may not be able to use all of our services if you choose to do so.
 
-Use of the cued-speech-translation-service web service will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us.
+Use of the uCue app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us.
 
 
 # Footnote
 This policy is effective as of 1st January 2021.
 
-Write to us at: Robotica Machine Learning Ltd, Riverside Business Centre, 61-63 Riverside Road, Norwich, NR1 1SR, United Kingdom.
+Write to us at: Robotica Machine Learning Ltd, 1 Chalk Hill House, 19 Rosary Road, Norwich, NR1 1SZ, United Kingdom.
