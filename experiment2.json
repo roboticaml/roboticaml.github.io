@@ -1,0 +1,31 @@
+{
+  "file":"abc123",
+  "animations":[
+    {
+      "anim":"deaf",
+      "mask":["clavicle_l"]
+    },
+    {
+      "anim":"community",
+      "mask":[]      
+    },
+    {
+      "anim":"who",
+      "mask":["clavicle_l"]
+    },
+    {
+      "anim":"me",
+      "mask":["clavicle_l"]
+    },
+    {
+      "anim":"one"
+    },
+    {
+      "anim":"one",
+      "mask":["clavicle_l"]
+    },
+    {
+      "anim":"one",
+      "mask":["clavicle_l","clavical_r"]
+    }]
+}
