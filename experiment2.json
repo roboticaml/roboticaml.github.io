@@ -26,6 +26,6 @@
     },
     {
       "anim":"one",
-      "mask":["clavicle_l","clavical_r"]
+      "mask":["clavicle_l","clavicle_r"]
     }]
 }
