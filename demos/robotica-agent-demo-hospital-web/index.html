@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robotica Agent - Hospital</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">	<style>
+        * {
+			background-color: #B6E6ED;
+			/* cursor: none; */
+		}
+   
+		#banner {
+			width: 100%;
+		}
+		#video-player {
+			width: 100%;
+			height: 2160px;
+			background-color: #B6E6ED;
+            background-image: "idle00.png";
+		}
+		
+		#thumbnails {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		#footer {
+			text-align: center;
+			font-family: 'Poppins', sans-serif;
+			font-size: 120px;
+			color: white; 
+			text-shadow: 0.025em 0.025em black;
+		}
+
+		.thumbnail {
+			width: 600px;
+			height: 310px;
+			align-items: center;
+			border: 40px solid #B6E6ED;
+			border-radius: 20%;
+			cursor: pointer;
+			padding: 25px;
+			margin: 50px;
+			margin-top: 80;
+			opacity: 20%;
+		}
+		
+		.active {
+			border: 40px solid white;
+			opacity: 100%;
+		}		
+	</style>
+</head>
+<body>	
+	<div id="banner">
+		<img 
+		src="banner.png" 
+		/>
+	</div>
+	<div id="video-player">
+		<video poster="idle00.png" id="video" width="100%" height="100%" muted><!-- Don't use autoplay -->
+			<source src="" type="video/mp4">			
+		</video>
+	</div>
+	
+	<div id="thumbnails">
+	</div>
+	
+	<div id="footer">
+		Welcome to Robotica Hospital <br />
+		روبوٹیکا ہسپتال میں خوش آمدید<br/>
+		Witamy w szpitalu Robotica
+	</div>
+	<script>
+		const thumbnails = document.getElementById('thumbnails');
+
+        const thumbnailData = [
+            {img: "images/directions.png", vid: "https://vod.api.video/vod/vi7N1CrWdzHDUlgIahofh2nZ/mp4/source.mp4.mp4"},
+            {img: "images/directory.png", vid: "https://vod.api.video/vod/vi7fYOuQGC2DnuBiasaFOixr/mp4/source.mp4.mp4"},
+            {img: "images/schedules.png", vid: "https://vod.api.video/vod/vi7GTePHgFygOO7yxxr1JUSL/mp4/source.mp4.mp4"},
+            {img: "images/callforassistance.png", vid: "https://vod.api.video/vod/vi1S8jKZx4ArRlWnz16EnCK4/mp4/source.mp4.mp4"},
+        ];
+		let currentIndex = 0;
+
+		// on DOM loaded, play the first video and set up the 'ended' event listener
+		document.addEventListener('DOMContentLoaded', init, false);
+
+		// Add event listener to each thumbnail to change the video source and highlight the active thumbnail
+		function init() {
+            init_video();
+            init_thumbnails();
+		}
+
+        function init_thumbnails() {
+            thumbnailData.forEach((thumbnail, index) => {
+                const divThumbnail = document.createElement('div');
+                divThumbnail.classList.add('thumbnail');
+				divThumbnail.addEventListener('click', () => {
+					changeVideo(index);
+				});
+                const imgThumbnail = document.createElement('img');
+                imgThumbnail.src = thumbnail.img;
+                divThumbnail.appendChild(imgThumbnail);
+                thumbnails.appendChild(divThumbnail);
+            })
+            document._thumbnails = document.querySelectorAll('.thumbnail');
+			document._thumbnails[currentIndex].classList.add('active');
+        }
+
+        function init_video() {
+			document._video = document.getElementById('video');
+			document._video.load();
+            document._videoEndedListener = getVideo().addEventListener('ended', videoEndedListener);
+            changeVideo(currentIndex);
+        }
+
+		function getVideo() {
+			return document._video;
+		}
+
+        // Add event listener to check if the video has ended to play the next video and highlight the corresponding thumbnail
+        function videoEndedListener(e) {
+            // update the active video index
+            if (currentIndex < thumbnailData.length - 1) {
+                currentIndex++;
+            } else {
+                currentIndex = 0;
+            }
+
+            // update the video source and play
+            changeVideo(currentIndex);
+        }
+
+		// Function to change the video source and highlight the active thumbnail
+        function changeVideo(videoSrcId) {
+			currentIndex = videoSrcId
+            getVideo().pause();
+            getVideo().src = thumbnailData[videoSrcId].vid;
+            getVideo().play().then(updateUiOnPlaying).catch(handleVideoPlayExeption);
+        }
+
+        function updateUiOnPlaying(_) {
+            // Remove the active class from all thumbnails and add it to the clicked thumbnail
+            document._thumbnails.forEach((thumbnail) => {
+                thumbnail.classList.remove('active');
+            });
+            document._thumbnails[currentIndex].classList.add('active');
+        }
+
+		function handleVideoPlayExeption(e) {
+			console.log(e);
+		}
+	</script>
+</body>
+</html>
