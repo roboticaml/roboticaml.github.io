@@ -4,19 +4,30 @@
 	<title>Robotica Agent - Hospital</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">	<style>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">	
+	<style>
         * {
-			background-color: #B6E6ED;
+			background-color: white;
+			padding: 0;
+			margin: 0;
 			/* cursor: none; */
+
+		}
+
+		body {
+			overflow: hidden;
 		}
    
 		#banner {
 			width: 100%;
+			position: fixed;
+			top: 50px;
+			left: 50px;
 		}
 		#video-player {
+			margin-top: 400px;
 			width: 100%;
 			height: 2160px;
-			background-color: #B6E6ED;
             background-image: "idle00.png";
 		}
 		
@@ -24,63 +35,70 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			background-color: #76c1ea;
+			position: static;
+			bottom: 0px;
+		}
+		
+		#header {
+			position: fixed;
+			top: 0;
+			margin-top: 250px;
+			width: 100%;
+			text-align: center;
+			font-family: 'Poppins', sans-serif;
+			font-size: 120px;
+			color: #76c1ea; 
+			text-shadow: 0.025em 0.025em #333;
+			z-index: 1000;
+			background-color: transparent;
+		}
+
+		.thumbnail {
+			align-items: center;
+			border: 40px solid;
+			border-radius: 20%;
+			cursor: pointer;
+			padding: 25px 25px;
+			margin: 100px 50px 100px;
+			filter: grayscale(100%);
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+		}
+		
+		.active {
+			border: 40px solid red;
+			filter: grayscale(0%);
+			-webkit-filter: grayscale(0%);
+			-moz-filter: grayscale(0%);
+			-ms-filter: grayscale(0%);
+			-o-filter: grayscale(0%);
 		}
 		
 		#footer {
 			text-align: center;
+			padding-top: 125px;
+			padding-bottom: 250px;
 			font-family: 'Poppins', sans-serif;
-			font-size: 120px;
-			color: white; 
-			text-shadow: 0.025em 0.025em black;
+			font-size: 48px;
+			background-color: black;
+			color: white;
+			bottom: 0px;
 		}
 
-		.thumbnail {
-			width: 600px;
-			height: 310px;
-			align-items: center;
-			border: 40px solid #B6E6ED;
-			border-radius: 20%;
-			cursor: pointer;
-			padding: 25px;
-			margin: 50px;
-			margin-top: 80;
-			opacity: 20%;
+		#hsep {
+			background-color: inherit;
+			color: #666;
 		}
-		
-		.active {
-			border: 40px solid white;
-			opacity: 100%;
-		}		
 	</style>
-</head>
-<body>	
-	<div id="banner">
-		<img 
-		src="banner.png" 
-		/>
-	</div>
-	<div id="video-player">
-		<video poster="idle00.png" id="video" width="100%" height="100%" muted><!-- Don't use autoplay -->
-			<source src="" type="video/mp4">			
-		</video>
-	</div>
-	
-	<div id="thumbnails">
-	</div>
-	
-	<div id="footer">
-		Welcome to Robotica Hospital <br />
-		روبوٹیکا ہسپتال میں خوش آمدید<br/>
-		Witamy w szpitalu Robotica
-	</div>
 	<script>
-		const thumbnails = document.getElementById('thumbnails');
-
         const thumbnailData = [
-            {img: "images/directions.png", vid: "https://vod.api.video/vod/vi7N1CrWdzHDUlgIahofh2nZ/mp4/source.mp4"},
-            {img: "images/directory.png", vid: "https://vod.api.video/vod/vi7fYOuQGC2DnuBiasaFOixr/mp4/source.mp4"},
-            {img: "images/schedules.png", vid: "https://vod.api.video/vod/vi7GTePHgFygOO7yxxr1JUSL/mp4/source.mp4"},
-            {img: "images/callforassistance.png", vid: "https://vod.api.video/vod/vi1S8jKZx4ArRlWnz16EnCK4/mp4/source.mp4"},
+            {img: "images/directions.png", vid: "https://vod.api.video/vod/vi3drRYYMqKmx1a6RzKgpnW9/mp4/source.mp4", url: "directions.html"},
+            {img: "images/directory.png", vid: "https://vod.api.video/vod/vi1IAq6agdJPhqpOt0KU4lIz/mp4/source.mp4", url: "unavailable.html"},
+            {img: "images/schedules.png", vid: "https://vod.api.video/vod/vi4xRAyD74ECCwFJf4Ub89dV/mp4/source.mp4", url: "unavailable.html"},
+            {img: "images/callforassistance.png", vid: "https://vod.api.video/vod/vi45Z75keZTXcuggL7un0Cy7/mp4/source.mp4", url: "unavailable.html"},
         ];
 		let currentIndex = 0;
 
@@ -89,16 +107,17 @@
 
 		// Add event listener to each thumbnail to change the video source and highlight the active thumbnail
 		function init() {
+			document._thumbnailContainer = document.getElementById('thumbnails');
             init_video();
             init_thumbnails();
 		}
 
         function init_thumbnails() {
-            thumbnailData.forEach((thumbnail, index) => {
+			thumbnailData.forEach((thumbnail, index) => {
                 const divThumbnail = document.createElement('div');
                 divThumbnail.classList.add('thumbnail');
 				divThumbnail.addEventListener('click', () => {
-					changeVideo(index);
+					location.assign(thumbnailData[index].url);
 				});
                 const imgThumbnail = document.createElement('img');
                 imgThumbnail.src = thumbnail.img;
@@ -137,7 +156,7 @@
         function changeVideo(videoSrcId) {
 			currentIndex = videoSrcId
             getVideo().pause();
-            getVideo().src = thumbnailData[videoSrcId].vid;
+            getVideo().querySelector('source').src = thumbnailData[videoSrcId].vid;
             getVideo().play().then(updateUiOnPlaying).catch(handleVideoPlayExeption);
         }
 
@@ -153,5 +172,34 @@
 			console.log(e);
 		}
 	</script>
+</head>
+<body>
+	<div id="banner">
+		<img 
+		src="images/logo-black-300x94.png.webp" 
+		/>
+	</div>
+
+
+	<div id="video-player">
+		<video poster="idle00.png" id="video" width="100%" height="100%" muted><!-- Don't use autoplay -->
+			<source src="" type="video/mp4">			
+		</video>
+	</div>
+
+	<div id="header">
+		Welcome to Robotica Hospital <br />
+		Croeso i Ysbyty Robotica
+	</div>
+
+	<div id="thumbnails">
+	</div>
+
+	<div id="footer">
+		https://robotica.media/ <span id="hsep">|</span> info@robotica.ml<br />
+		Copyright &copy; Robotica Machine Learning, 2023<br>
+		61-63 Riverside Road, Norwich, NR1 1SR<br />
+		Tel: +44 (0) 1603 290002
+	</div>
 </body>
 </html>

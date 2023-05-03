@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Robotica Agent - Directions to Dermatology</title>
+	<title>Robotica Agent - Service is not available</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">	
@@ -95,89 +95,6 @@
 	</style>
 </head>
 <body>	
-	<script>
-		const thumbnails = document.getElementById('thumbnails');
-
-        const thumbnailData = [
-            {vid: "https://vod.api.video/vod/vi6ENxXVoHs3mrRqrBIsLPUu/mp4/source.mp4"},
-            {vid: "https://vod.api.video/vod/vi7eppuX70A7Kt5agGyxSrst/mp4/source.mp4"},
-            {vid: "https://vod.api.video/vod/vi2oP8DAoJLn0wackRPO1aW2/mp4/source.mp4"},
-            {vid: "https://vod.api.video/vod/vi2BlPcYs5UDTnpLKQlAjYmd/mp4/source.mp4"},
-            {vid: "https://vod.api.video/vod/vi1EuGWzCEzCBEdwP4r4k8gL/mp4/source.mp4"},
-            {vid: "https://vod.api.video/vod/vi1AkGNfrjFDWtOde8V9ggAA/mp4/source.mp4"},
-            {vid: "https://vod.api.video/vod/vi3vJGHgpqefi2veoS8gHivt/mp4/source.mp4"},
-            {vid: "https://vod.api.video/vod/vi3RTQ75e3vC8HRJGGFUOzPp/mp4/source.mp4"}
-        ];
-		let currentIndex = 0;
-
-		// on DOM loaded, play the first video and set up the 'ended' event listener
-		document.addEventListener('DOMContentLoaded', init, false);
-
-		// Add event listener to each thumbnail to change the video source and highlight the active thumbnail
-		function init() {
-            init_video();
-            init_thumbnails();
-		}
-
-        function init_thumbnails() {
-            thumbnailData.forEach((thumbnail, index) => {
-                const divThumbnail = document.createElement('div');
-                divThumbnail.classList.add('thumbnail');
-				divThumbnail.addEventListener('click', () => {
-					changeVideo(index);
-				});
-                /*const imgThumbnail = document.createElement('img');
-                imgThumbnail.src = thumbnail.img;
-                divThumbnail.appendChild(imgThumbnail);
-                thumbnails.appendChild(divThumbnail);*/
-            })
-        }
-
-        function init_video() {
-			document._video = document.getElementById('video');
-			document._video.load();
-            document._videoEndedListener = getVideo().addEventListener('ended', videoEndedListener);
-            changeVideo(currentIndex);
-        }
-
-		function getVideo() {
-			return document._video;
-		}
-
-        // Add event listener to check if the video has ended to play the next video and highlight the corresponding thumbnail
-        function videoEndedListener(e) {
-            // update the active video index
-            if (currentIndex < thumbnailData.length - 1) {
-                currentIndex++;
-            } else {
-				location.assign("index.html");
-            }
-
-            // update the video source and play
-            changeVideo(currentIndex);
-        }
-
-		// Function to change the video source and highlight the active thumbnail
-        function changeVideo(videoSrcId) {
-			currentIndex = videoSrcId
-            getVideo().pause();
-            getVideo().src = thumbnailData[videoSrcId].vid;
-            getVideo().play().catch(handleVideoPlayExeption);
-            /*getVideo().play().then(updateUiOnPlaying).catch(handleVideoPlayExeption);*/
-        }
-
-        /*function updateUiOnPlaying(_) {
-            // Remove the active class from all thumbnails and add it to the clicked thumbnail
-            document._thumbnails.forEach((thumbnail) => {
-                thumbnail.classList.remove('active');
-            });
-            document._thumbnails[currentIndex].classList.add('active');
-        }*/
-
-		function handleVideoPlayExeption(e) {
-			console.log(e);
-		}
-	</script>
 	<div id="banner">
 		<img 
 		src="images/logo-black-300x94.png.webp" 
@@ -191,11 +108,46 @@
 	
 	<div id="thumbnails">
 	</div>
-	<img src="images/floorplan.png" width="2500"/>
+
+	<script>
+		const thumbnails = document.getElementById('thumbnails');
+
+		// on DOM loaded, play the first video and set up the 'ended' event listener
+		document.addEventListener('DOMContentLoaded', init, false);
+
+		// Add event listener to each thumbnail to change the video source and highlight the active thumbnail
+		function init() {
+            init_video();
+		}
+
+        function init_video() {
+			document._video = document.getElementById('video');
+			document._video.load();
+            document._videoEndedListener = getVideo().addEventListener('ended', videoEndedListener);
+			getVideo().pause();
+            getVideo().src = "https://vod.api.video/vod/viCrO6qtLqz1CMJCfx30uCs/mp4/source.mp4";
+            getVideo().play().then(updateUiOnPlaying).catch(handleVideoPlayExeption);
+        }
+
+		function getVideo() {
+			return document._video;
+		}
+
+        // Add event listener to check if the video has ended to play the next video and highlight the corresponding thumbnail
+        function videoEndedListener(e) {
+            // update the active video index
+            location.assign("index.html");
+        }
+
+		function handleVideoPlayExeption(e) {
+			console.log(e);
+		}
+	</script>
 	<div id="footer">
 		https://robotica.media/ <span id="hsep">|</span> info@robotica.ml<br />
 		Copyright &copy; Robotica Machine Learning, 2023<br>
 		61-63 Riverside Road, Norwich, NR1 1SR<br />
 		Tel: +44 (0) 1603 290002
-	</div></body>
+	</div>
+</body>
 </html>
