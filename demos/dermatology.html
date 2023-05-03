@@ -21,16 +21,8 @@
 			background-color: white;
             background-image: "idle00.png";
 		}
-		
+
 		#thumbnails {
-		}
-		
-		#header {
-			text-align: center;
-			font-family: 'Poppins', sans-serif;
-			font-size: 120px;
-			color: #6a8599; 
-			text-shadow: 0.025em 0.025em black;
 		}
 
 		.thumbnail {
@@ -43,31 +35,32 @@
 			margin: 5px;
 			margin-top: 80;
 			opacity: 20%;
+            visibility: collapse;
+			position: fixed;
+            width: 100pc;
+			bottom: 4px;
 		}
 		
 		.active {
-			border: 4px solid red;
+			border: 4px solid lightblue;
+            visibility: visible;
 			opacity: 100%;
 		}		
 	</style>
 </head>
 <body>	
-	<div id="video-player">
+    <div id="video-player">
+
 		<video poster="idle00.png" id="video" width="100%" height="100%" onclick="changeVideo(0)"><!-- Don't use autoplay -->
 			<source src="" type="video/mp4">			
 		</video>
 	</div>
-	
-	<br />
-	<br />
-
 	<div id="thumbnails">
 	</div>
-	
 	<div id="banner">
-		<img 
-		src="https://robotica.ml/images/logo.png" 
-		/>
+		<a href="https://robotica.ml">
+            <img src="https://robotica.ml/images/logo.png" />
+        </a>
 	</div>
 	<script>
 		const thumbnails = document.getElementById('thumbnails');
