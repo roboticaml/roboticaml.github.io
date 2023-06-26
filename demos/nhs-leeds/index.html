@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robotica Gazette</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">	
+	<style>
+        * {
+			background-color: black;
+			padding: 0;
+			margin: 0;
+			/* cursor: none; */
+
+		}
+
+
+		#content {
+			top: 0;
+			width: 100%;
+			text-align: center;
+			font-family: 'Poppins', sans-serif;
+			font-size: 30px;
+			background-color: black;
+			color: white;
+			z-index: 1000;
+			background-color: transparent;
+		}
+
+		.thumbnail {
+			align-items: center;
+			border: 36px solid;
+			border-radius: 20%;
+			cursor: pointer;
+			padding: 25px 25px;
+			margin: 100px 50px 100px;
+			filter: grayscale(100%);
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+		}
+		
+		.active {
+			border: 40px solid red;
+			filter: grayscale(0%);
+			-webkit-filter: grayscale(0%);
+			-moz-filter: grayscale(0%);
+			-ms-filter: grayscale(0%);
+			-o-filter: grayscale(0%);
+		}
+		
+		#footer {
+			text-align: center;
+			padding-top: 15px;
+			font-family: 'Poppins', sans-serif;
+			font-size: 14px;
+			background-color: black;
+			color: white;
+			bottom: 0px;
+		}
+
+		#hsep {
+			background-color: inherit;
+			color: #666;
+		}
+	</style>
+</head>
+<body>
+
+    <video  id="video" width="100%" height="100%" controls><!-- Don't use autoplay -->
+        <source src="https://vod.api.video/vod/vi5QAuVRGSq0tGAjvITuYu6C/mp4/source.mp4" type="video/mp4">			
+    </video>
+    <div id="content">
+        <b>Breathing Control - Information for patients<br /></b>
+		<p>Here are some breathing exercises to help you relax.</p>
+		<p>Make sure you are sat in a comfortable position.</p>
+		<p>Breath in through your nose and out of your mouth.</p>
+		<p>You breath in and count to one.</p>
+		<p>Breath out and count to do two in your head and stop.</p>
+		<p>You must try to relax your muscles when you are doing your breathing exercises.</p>
+	</div>
+
+    
+
+
+	<div id="footer">
+		https://robotica.media/ <span id="hsep">|</span> info@robotica.ml | </span>Tel: +44 (0) 1603 290002<br />
+		Copyright &copy; Robotica Machine Learning, 2023.  61-63 Riverside Road, Norwich, NR1 1SR <span id="hsep">
+	</div>
+</body>
+</html>
