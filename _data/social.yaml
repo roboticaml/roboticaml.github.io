@@ -1,25 +1,25 @@
-- item: email
+- item: e-mail
   url: mailto:info@robotica.ml
   friendly: info@robotica.ml
   icon: /images/mail.svg
   icon2: /images/mail-black.svg
-- item: call
+- item: Call us
   url: tel:01603290002
   friendly: 01603 290002
   icon: /images/call.svg
   icon2: /images/call-black.svg
-- item: twitter
+- item: Call-back
+  url: mailto:info@robotica.ml?subject=Call me back&body=Phone number including country code
+  friendly: info@robotica.ml?subject=Call me back
+  icon: /images/call.svg
+  icon2: /images/call-black.svg
+- item: Twitter
   url: https://twitter.com/roboticaml/
   friendly: '@roboticaml'
   icon: /images/twitter.svg
   icon2: /images/twitter-black.svg
-- item: linkedin
+- item: Linkedin
   url: https://www.linkedin.com/company/robotica-ml/about/
   friendly: linkedin.com/company/robotica-ml
   icon: /images/linkedin.svg
   icon2: /images/linkedin-black.svg
-- item: github
-  url: https://github.com/roboticaml/
-  friendly: github.com/roboticaml
-  icon: /images/github.svg
-  icon2: /images/github-black.svg

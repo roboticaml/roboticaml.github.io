@@ -1,0 +1,15 @@
+- name: Enterprise B2C
+  link: '/sectors/utilities'
+  icon: /sectors/images/utilities.png
+  sectors: Utilities, telco, ISP, banking. 
+  description: Customer information on the web, emails and posted letters. 
+- name: Public Sector
+  link: '/sectors/public-sector'
+  icon: /sectors/images/council.png
+  sectors: Local authorities, NHS, central government.
+  description: Information notices and instructions on the web, leaflets, signage, emails and posted letters.
+- name: Public Transport
+  link: '/sectors/public-transport'
+  icon: /sectors/images/public-transport.png
+  sectors: Air, rail, tram, bus, coach.
+  description: Live announcements and information on large digital screens and on travellers’ phones.

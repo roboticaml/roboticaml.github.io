@@ -1,7 +1,0 @@
-<div class = 'clients grid-3'>
-{% for client in site.data.clients %}
-  <a class = 'center vcenter' {% if client.link %}href='{{ client.link }}'{% endif %} {% if client.target %}target='{{ client.target }}'{% endif %}>
-    <img src = '{{ client.logo }}' alt = '{{ client.name }}' class = 'client'/>
-  </a>
-{% endfor %}
-</div>

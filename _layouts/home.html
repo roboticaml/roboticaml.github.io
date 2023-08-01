@@ -2,19 +2,6 @@
 layout: default
 ---
 <section class = 'hero hero-home'></section>
-<div class = 'services'>
-  <div class = 'grid-3 wrap'>
-    {%- for service in site.data.services %}
-    <a class = 'service center' {% if service.link %} href='{{ service.link }}'{% endif %}>
-      <img src = '/images/{{ service.icon }}' class = 'service-icon' />
-      <h4>{{ service.title }}</h4>
-      {{ service.description | markdownify }}
-    </a>
-    {%- endfor %}
-  </div>
-  <br>
-  <a href = '{{ page.button.url }}' class = 'button'>{{ page.button.text }}</a>
-</div>
 <section class = 'content-home wrap center'>
   {{ content }}
 </section>

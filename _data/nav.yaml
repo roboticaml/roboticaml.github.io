@@ -1,4 +1,8 @@
 - item: about
-  link: https://robotica.media/about/
+  link: /about/
 - item: contact
-  link: https://robotica.media/contact/
+  link: /contact/
+- item: sectors
+  link: /sectors/
+- item: solutions
+  link: /solutions/

@@ -751,8 +751,9 @@ span.contact {padding: 0 20px;}
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    bottom: 0
+    top: 20;
+    bottom: 0;
+    z-index: 1;
 }
 
 .container.fullwidth {
@@ -2454,7 +2455,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-feature:hover h4,
 .single-feature:hover .lnr {
-    color: #6a8599
+    color: #18A9D8
 }
 
 @media (max-width: 960px) {
@@ -2552,7 +2553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .callto-action-area {
-    background-color: #6a8599
+    background-color: #18A9D8 
 }
 
 .callto-action-area .primary-btn {
@@ -2570,6 +2571,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-video-area {
     background-color: #f9f9ff
+}
+
+video {
+    object-fit: fill;
 }
 
 .video-area {

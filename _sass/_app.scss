@@ -160,55 +160,15 @@
 	}
 }
 
-.hero {
-	min-height: 75vh;
-	max-height: 640px;
-	&-home {
-		position: relative;
-		background: url(/images/header-bg-original.jpg) no-repeat center top;
-		background-size: cover;
-	}
-}
-
-.heroautomation {
-	min-height: 35vh;
-	max-height: 340px;
-	&-home {
-		position: relative;
-		background: url(/images/circuit.jpg) no-repeat center top;
-		background-size: cover;
-	}
-}
-
-.herocompliance {
-	min-height: 35vh;
-	max-height: 340px;
-	&-home {
-		position: relative;
-		background: url(/images/books.png) no-repeat center top;
-		background-size: cover;
-	}
-}
-
-.heroempower {
-	min-height: 35vh;
-	max-height: 340px;
-	&-home {
-		position: relative;
-		background: url(/images/office.png) no-repeat center top;
-		background-size: cover;
-	}
-}
-
-.hero404 {
-	min-height: 85vh;
-	max-height: 640px;
-	&-home {
-		position: relative;
-		background: url(/images/404.jpg) no-repeat center top;
-		background-size: cover;
-	}
-}
+// .hero {
+// 	min-height: 75vh;
+// 	max-height: 640px;
+// 	&-home {
+// 		position: relative;
+// 		background: url(/images/header-bg.jpg) no-repeat center top;
+// 		background-size: cover;
+// 	}
+// }
 
 .content {
 	&-home {
