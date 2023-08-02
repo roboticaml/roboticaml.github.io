@@ -30,11 +30,12 @@ title: "Sign language at scale: Robotica"
 Extend the reach and value of your content with British Sign Language translations
 
 <br />
-## Did you know...?
 
 <div class = 'faq'>
+<h2>Did you know...?</h2>
     {%- for item in site.data.faq %}
-      <p> {{ item.faq }}</p>
+      <div class="faq"><p> {{ item.short }}</p>
+      <p> {{ item.long }}</p></div>
     {%- endfor %}
 </div>
 

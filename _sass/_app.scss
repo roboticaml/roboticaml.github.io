@@ -1,4 +1,14 @@
-
+.faq {
+	background-color: $theme;
+	color: $light;
+	padding: 0.5rem 1rem;
+	border-radius: 0.2rem;
+	margin: 1rem auto 2rem;
+	display: grid;
+	max-width: 55rem;
+	text-align: center;
+	// border: 1px solid #000;
+}
 .button {
 	background-color: $button;
 	color: $light;

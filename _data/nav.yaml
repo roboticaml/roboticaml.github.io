@@ -1,8 +1,8 @@
-- item: about
-  link: /about/
-- item: contact
-  link: /contact/
 - item: sectors
   link: /sectors/
 - item: solutions
   link: /solutions/
+- item: about
+  link: /about/
+- item: contact
+  link: /contact/

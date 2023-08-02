@@ -9,6 +9,31 @@ In the public sector, integrating sign language into customer communications can
 
 Clear and effective communication is fundamental to delivering public services successfully. Creating an accessible environment where people, including those with hearing impairments, can easily engage with departments enhances understanding, minimises potential miscommunications, and promotes a sense of dignity and respect for all citizens.
 
+<div class="container">
+  <figure id="videoContainer" data-fullscreen="false">
+    <video
+      volume="0.0"
+      width="100%"
+      id="video"
+      preload="auto"
+      disablePictureInPicture
+      controlslist="nodownload"
+      autoplay
+      muted
+      loop
+    >
+      <source
+        src="https://cdn.api.video/vod/vi5rkYIz77AC465BD5BPKAXZ/mp4/1080/source.mp4"
+        type="video/mp4"
+        aria-labelledby="title"
+        aria-describedby="transcript"
+      >
+      <iframe src="https://embed.api.video/vod/vi5rkYIz77AC465BD5BPKAXZ" width="10%" height="100%" frameborder="0" scrolling="no" allowfullscreen="true">
+      </iframe>
+    </video>
+  </figure>
+</div>
+
 Furthermore, incorporating sign language into your customer communications aligns with legal obligations under the British Sign Language Act, the Equality Act, the Health and Social Care Act, and other accessibility regulations. By proactively embracing inclusive practices, you demonstrate your dedication to upholding the rights of every individual, fostering a society that values diversity and inclusivity.
 
 Beyond compliance, the adoption of sign language presents a unique opportunity for UK councils and central government to improve citizen engagement. By catering to the needs of the deaf and hard-of-hearing communities, we build stronger relationships with all citizens and instill confidence in the effectiveness and responsiveness of your public services.
