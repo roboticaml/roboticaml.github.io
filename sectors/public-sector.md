@@ -28,7 +28,7 @@ Clear and effective communication is fundamental to delivering public services s
         aria-labelledby="title"
         aria-describedby="transcript"
       >
-      <iframe src="https://embed.api.video/vod/vi5rkYIz77AC465BD5BPKAXZ" width="10%" height="100%" frameborder="0" scrolling="no" allowfullscreen="true">
+      <iframe src="https://embed.api.video/vod/vi5rkYIz77AC465BD5BPKAXZ" width="100%" frameborder="0" scrolling="no" allowfullscreen="true">
       </iframe>
     </video>
   </figure>

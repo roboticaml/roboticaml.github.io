@@ -3,6 +3,10 @@ layout: home
 title: "Sign language at scale: Robotica"
 ---
 # Sign Language at Scale
+
+Extend your reach and value:
+AI Sign Language translations make your content accessible to and additional 150,000 customers.
+
 <div class="container">
   <figure id="videoContainer" data-fullscreen="false">
     <video
@@ -22,16 +26,18 @@ title: "Sign language at scale: Robotica"
         aria-labelledby="title"
         aria-describedby="transcript"
       >
-      <iframe src="https://embed.api.video/vod/vi2Nn14OjKAv5QRLMc1wSSad" width="10%" height="100%" frameborder="0" scrolling="no" allowfullscreen="true">
+      <iframe src="https://embed.api.video/vod/vi2Nn14OjKAv5QRLMc1wSSad" width="100%" frameborder="0" scrolling="no" allowfullscreen="true">
       </iframe>
     </video>
   </figure>
 </div>
-Extend the reach and value of your content with British Sign Language translations
 
 <br />
 
 <div class = 'faq'>
+<!-- Make these show one at a time:
+       displays for a few seconds then either scrolls up to be replaced
+       or the next FAQ fades in or something to replace it. -->
 <h2>Did you know...?</h2>
     {%- for item in site.data.faq %}
       <div class="faq"><p> {{ item.short }}</p>

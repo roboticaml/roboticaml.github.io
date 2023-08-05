@@ -32,7 +32,7 @@ We are based out of Norwich in the heart of Norfolk, UK.
         aria-labelledby="title"
         aria-describedby="transcript"
       >
-      <iframe src="https://embed.api.video/vod/vi4DWPQppZSA6kNRsRrttMLW" width="10%" height="100%" frameborder="0" scrolling="no" allowfullscreen="true">
+      <iframe src="https://embed.api.video/vod/vi4DWPQppZSA6kNRsRrttMLW" width="100%" frameborder="0" scrolling="no" allowfullscreen="true">
       </iframe>
     </video>
   </figure>
@@ -47,3 +47,5 @@ At the heart of everything we do is the unshakeable belief that humans are best:
 There simply are too few translators and interpreters, nowhere near the numbers needed to keep up with the accellerating rate of content creation.  Every single minute of every day, 8 new books are published.  In that time, 500 hours of videos are uploaded to YouTube, and 175 new websites are made - an average of 2,000 pages per minute.  With 1,000 times as many translators, people who rely on sign languages would still be denied almost all of the information and entertainment that most of us take for granted.
 
 We fill in the gaps, where translators are available, or aren’t the best fit.  We make sign language translations that would not otherwise get made.  
+
+Before Robotica, the choices faced by d/Deaf people for these gaps was "captions or do without?".  Cassie and our other avatars add a third possibility - AI sign language.
