@@ -3,25 +3,15 @@ title: Transforming Customer Communincations
 layout: sectors
 ---
 
-![Situation - Rail sign warning of approaching train](/solutions/images/situation-platform-edge.png)
-
 # Situation presents live announcements and interuptions as sign language
+
+![Situation - Rail sign warning of approaching train](/solutions/images/situation-platform-edge.png)
 
 ## Situational-aware information, and virtual help-points in BSL and English, available directly on visitors’ phones
 
-Situation is a highly scalable, cost-effective solution that supports visitors by 
-presenting location-specific and service-specific information, on-demand, as 
-written, spoken, and signed languages. Visitors simply scan a QR code, and 
-Situation works out where they are and what is most important for them to know 
-at that time. 
-Extend, supplement and replace your customer help points in busy transport 
-hubs, hospitals, museums, government buildings and retail complexes. Fulfil 
-your responsibility to keep visitors informed of changing information, such as 
-arrivals and departures, platform changes, and promotional offers. Contextsensitive translations, video relay, web chat and summoning in-person support 
-may all be specified to facilitate the roll out of low cost, high-value help points.
-No app download is required: Situation utilises the built-in camera and web 
-browsers apps. And no personal information collected: Situation is considerate 
-of privacy, and compliant with data-collection regulations
+Situation is a highly scalable, cost-effective solution that supports visitors by presenting location-specific and service-specific information, on-demand, as written, spoken, and signed languages. Visitors simply scan a QR code, and Situation works out where they are and what is most important for them to know at that time.
+Extend, supplement and replace your customer help points in busy transport hubs, hospitals, museums, government buildings and retail complexes. Fulfil your responsibility to keep visitors informed of changing information, such as arrivals and departures, platform changes, and promotional offers. Context-sensitive translations, video relay, web chat and summoning in-person support may all be specified to facilitate the roll out of low cost, high-value help points.
+No app download is required: Situation utilises the built-in camera and web browsers apps. And no personal information collected: Situation is considerate of privacy, and compliant with data-collection regulations
 
 ![Situation - Two boys in conversaton](/images/deaf-children.png)
 

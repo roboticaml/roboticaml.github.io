@@ -3,9 +3,9 @@ title: Transforming Customer Communincations
 layout: sectors
 ---
 
-![Correspondent - NHS letter with a QR Code](/solutions/images/correspondent-nhs.png)
-
 # Postal letters and emails translated into BSL on customers’ phones or computers
+
+![Correspondent - NHS letter with a QR Code](/solutions/images/correspondent-nhs.png)
 
 ## Public information and notices can become accessible to Deaf sign language users by adding a Robotica Gazette QR code
 

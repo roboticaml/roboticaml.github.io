@@ -3,9 +3,9 @@ title: Transforming Customer Communincations
 layout: sectors
 ---
 
-![Gazette - Pallas Cat and a QR Code](/solutions/images/gazette-pallas-cat.png)
-
 # Gazette presents information signs, leaflets and books as sign language
+
+![Gazette - Pallas Cat and a QR Code](/solutions/images/gazette-pallas-cat.png)
 
 ## Public information and notices can become accessible to Deaf sign language users by adding a Robotica Gazette QR code
 

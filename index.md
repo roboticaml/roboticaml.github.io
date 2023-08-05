@@ -9,7 +9,7 @@ AI Sign Language translations make your content accessible to and additional 150
 
 <div class="container">
   <figure id="videoContainer" data-fullscreen="false">
-    <video
+    <video 
       volume="0.0"
       width="100%"
       id="video"
@@ -34,15 +34,40 @@ AI Sign Language translations make your content accessible to and additional 150
 
 <br />
 
-<div class = 'faq'>
 <!-- Make these show one at a time:
        displays for a few seconds then either scrolls up to be replaced
        or the next FAQ fades in or something to replace it. -->
-<h2>Did you know...?</h2>
-    {%- for item in site.data.faq %}
-      <div class="faq"><p> {{ item.short }}</p>
-      <p> {{ item.long }}</p></div>
-    {%- endfor %}
+
+  <h2>Did you know...?</h2>
+  <div id="faqCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000">
+    <ol class="carousel-indicators">
+{%- for item in site.data.faq %}
+<li data-target="#faqCarousel" data-slide-to="{{ item.index }}" {% if item.index== 0 %} class="active"{% endif %}></li>
+{%- endfor %}
+  </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+{%- for item in site.data.faq %}
+      <div class="carousel-item{% if item.index== 0 %} active{% endif %}">
+        <img src="{{ item.image }}" alt="{{ item.alt }}" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>{{ item.short }}</h3>
+          <p>{{ item.long }}</p>
+        </div>
+      </div>
+{%- endfor %}
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#faqCarousel" data-slide="prev" onclick="$('#faqCarousel').carousel('prev')">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#faqCarousel" data-slide="next" onclick="$('#faqCarousel').carousel('next')">
+      <span cclass="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 
 <br />
