@@ -1,3 +1,7 @@
+---
+title: 'Educational Events that Inspire: Councils Empower Creativity and Curiosity Among Residents'
+layout: posts
+---
 
 # Educational Events that Inspire: Councils Empower Creativity and Curiosity Among Residents
 

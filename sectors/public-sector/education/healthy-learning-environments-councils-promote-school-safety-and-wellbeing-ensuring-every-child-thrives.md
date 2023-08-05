@@ -1,3 +1,7 @@
+---
+title: 'Healthy Learning Environments: Councils Promote School Safety and Well-being, Ensuring Every Child Thrives'
+layout: posts
+---
 
 # Healthy Learning Environments: Councils Promote School Safety and Well-being, Ensuring Every Child Thrives
 

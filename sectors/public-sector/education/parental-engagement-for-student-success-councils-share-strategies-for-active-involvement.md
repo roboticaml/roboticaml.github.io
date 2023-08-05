@@ -1,3 +1,7 @@
+---
+title: 'Parental Engagement for Student Success: Councils Share Strategies for Active Involvement'
+layout: posts
+---
 
 # Parental Engagement for Student Success: Councils Share Strategies for Active Involvement
 

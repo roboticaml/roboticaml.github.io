@@ -1,3 +1,7 @@
+---
+title: 'Harnessing Unity: Councils Fuel Collaborative Community Growth Through Clear Communication Channels'
+layout: posts
+---
 
 # Harnessing Unity: Councils Fuel Collaborative Community Growth Through Clear Communication Channels
 

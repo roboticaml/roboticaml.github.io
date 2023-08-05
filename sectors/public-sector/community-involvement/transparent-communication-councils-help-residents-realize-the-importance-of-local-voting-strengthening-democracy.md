@@ -1,3 +1,7 @@
+---
+title: 'Transparent Communication: Councils Help Residents Realize the Importance of Local Voting, Strengthening Democracy'
+layout: posts
+---
 
 # Transparent Communication: Councils Help Residents Realize the Importance of Local Voting, Strengthening Democracy
 

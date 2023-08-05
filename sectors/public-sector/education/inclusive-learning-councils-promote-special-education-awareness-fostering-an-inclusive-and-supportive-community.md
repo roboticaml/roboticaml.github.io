@@ -1,3 +1,7 @@
+---
+title: 'Inclusive Learning: Councils Promote Special Education Awareness, Fostering an Inclusive and Supportive Community'
+layout: posts
+---
 
 # Inclusive Learning: Councils Promote Special Education Awareness, Fostering an Inclusive and Supportive Community
 

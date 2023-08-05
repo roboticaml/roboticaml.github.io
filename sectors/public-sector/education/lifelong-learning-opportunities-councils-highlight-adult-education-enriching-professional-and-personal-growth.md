@@ -1,3 +1,7 @@
+---
+title: 'Lifelong Learning Opportunities: Councils Highlight Adult Education, Enriching Professional and Personal Growth'
+layout: posts
+---
 
 # Lifelong Learning Opportunities: Councils Highlight Adult Education, Enriching Professional and Personal Growth
 

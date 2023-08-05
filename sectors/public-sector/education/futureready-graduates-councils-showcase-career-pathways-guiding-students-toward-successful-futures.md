@@ -1,3 +1,7 @@
+---
+title: 'Future-Ready Graduates: Councils Showcase Career Pathways, Guiding Students Toward Successful Futures'
+layout: posts
+---
 
 # Future-Ready Graduates: Councils Showcase Career Pathways, Guiding Students Toward Successful Futures
 

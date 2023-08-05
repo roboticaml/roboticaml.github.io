@@ -1,3 +1,7 @@
+---
+title: 'Community Collaboration: Councils Foster Partnerships Between Schools and Residents, Nurturing Lifelong Learning'
+layout: posts
+---
 
 # Community Collaboration: Councils Foster Partnerships Between Schools and Residents, Nurturing Lifelong Learning
 

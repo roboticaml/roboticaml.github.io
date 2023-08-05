@@ -1,3 +1,7 @@
+---
+title: 'Councils Foster Collaboration Through Clear Communication, Navigating Change and Growth Together'
+layout: posts
+---
 
 # Councils Foster Collaboration Through Clear Communication, Navigating Change and Growth Together
 

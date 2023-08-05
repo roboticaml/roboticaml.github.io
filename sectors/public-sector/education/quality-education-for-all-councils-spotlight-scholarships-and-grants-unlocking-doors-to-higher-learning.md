@@ -1,3 +1,7 @@
+---
+title: 'Quality Education for All: Councils Spotlight Scholarships and Grants, Unlocking Doors to Higher Learning'
+layout: posts
+---
 
 # Quality Education for All: Councils Spotlight Scholarships and Grants, Unlocking Doors to Higher Learning
 

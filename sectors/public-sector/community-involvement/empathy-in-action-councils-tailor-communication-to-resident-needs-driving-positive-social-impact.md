@@ -1,3 +1,7 @@
+---
+title: 'Empathy in Action: Councils Tailor Communication to Resident Needs, Driving Positive Social Impact'
+layout: posts
+---
 
 # Empathy in Action: Councils Tailor Communication to Resident Needs, Driving Positive Social Impact
 

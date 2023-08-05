@@ -1,3 +1,7 @@
+---
+title: 'Open Access: Councils Illuminate Pathways to Services, Strengthening Trust and Neighborhood Cohesion'
+layout: posts
+---
 
 # Open Access: Councils Illuminate Pathways to Services, Strengthening Trust and Neighborhood Cohesion
 

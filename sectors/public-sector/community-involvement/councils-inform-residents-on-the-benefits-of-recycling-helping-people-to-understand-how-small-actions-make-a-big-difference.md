@@ -1,3 +1,7 @@
+---
+title: 'Councils inform residents on the benefits of Recycling, helping people to understand how Small Actions Make a Big Difference'
+layout: posts
+---
 
 # Councils inform residents on the benefits of Recycling, helping people to understand how Small Actions Make a Big Difference
 

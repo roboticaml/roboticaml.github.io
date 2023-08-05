@@ -1,3 +1,7 @@
+---
+title: 'Celebrating Student Achievements: Councils Shine a Spotlight on Educational Milestones, Fostering Pride and Inspiration'
+layout: posts
+---
 
 # Celebrating Student Achievements: Councils Shine a Spotlight on Educational Milestones, Fostering Pride and Inspiration
 

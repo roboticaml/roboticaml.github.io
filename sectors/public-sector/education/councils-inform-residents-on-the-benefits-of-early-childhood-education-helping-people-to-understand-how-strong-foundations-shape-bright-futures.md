@@ -1,3 +1,7 @@
+---
+title: 'Councils inform residents on the benefits of Early Childhood Education, helping people to understand how Strong Foundations Shape Bright Futures'
+layout: posts
+---
 
 # Councils inform residents on the benefits of Early Childhood Education, helping people to understand how Strong Foundations Shape Bright Futures
 

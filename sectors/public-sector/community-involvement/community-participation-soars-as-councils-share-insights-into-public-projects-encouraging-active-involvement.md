@@ -1,3 +1,7 @@
+---
+title: 'Community Participation Soars as Councils Share Insights into Public Projects, Encouraging Active Involvement'
+layout: posts
+---
 
 # Community Participation Soars as Councils Share Insights into Public Projects, Encouraging Active Involvement
 

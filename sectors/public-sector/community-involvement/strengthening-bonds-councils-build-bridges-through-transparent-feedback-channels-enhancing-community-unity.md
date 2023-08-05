@@ -1,3 +1,7 @@
+---
+title: 'Strengthening Bonds: Councils Build Bridges Through Transparent Feedback Channels, Enhancing Community Unity'
+layout: posts
+---
 
 # Strengthening Bonds: Councils Build Bridges Through Transparent Feedback Channels, Enhancing Community Unity
 

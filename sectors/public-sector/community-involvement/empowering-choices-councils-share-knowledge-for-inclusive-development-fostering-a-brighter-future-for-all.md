@@ -1,3 +1,7 @@
+---
+title: 'Empowering Choices: Councils Share Knowledge for Inclusive Development, Fostering a Brighter Future for All'
+layout: posts
+---
 
 # Empowering Choices: Councils Share Knowledge for Inclusive Development, Fostering a Brighter Future for All
 

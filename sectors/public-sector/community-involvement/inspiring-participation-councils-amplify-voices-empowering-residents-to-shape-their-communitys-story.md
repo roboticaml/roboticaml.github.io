@@ -1,3 +1,7 @@
+---
+title: 'Inspiring Participation: Councils Amplify Voices, Empowering Residents to Shape Their Community's Story'
+layout: posts
+---
 
 # Inspiring Participation: Councils Amplify Voices, Empowering Residents to Shape Their Community's Story
 

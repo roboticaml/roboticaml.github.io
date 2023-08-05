@@ -1,3 +1,7 @@
+---
+title: 'United Progress: Councils Illuminate the Power of Informed Residents in Driving Sustainable Community Growth'
+layout: posts
+---
 
 # United Progress: Councils Illuminate the Power of Informed Residents in Driving Sustainable Community Growth
 

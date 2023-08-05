@@ -1,3 +1,7 @@
+---
+title: 'Empowering Communities: Councils Bridge the Gap in Digital Education, Ensuring Every Student Thrives'
+layout: posts
+---
 
 # Empowering Communities: Councils Bridge the Gap in Digital Education, Ensuring Every Student Thrives
 
