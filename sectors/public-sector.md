@@ -46,3 +46,5 @@ Integrating sign language into customer communications is a vital step for the p
 
 [Read about Sign Language translations on public information notices and signage](/solutions/gazette)
 
+[Read articles relating to your department](/sectors/public-sector/departments)
+
