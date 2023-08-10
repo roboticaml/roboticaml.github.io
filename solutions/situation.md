@@ -1,5 +1,5 @@
 ---
-title: Transforming Customer Communincations
+title: Transforming Customer Communications
 layout: sectors
 ---
 

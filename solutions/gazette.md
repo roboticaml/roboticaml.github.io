@@ -1,5 +1,5 @@
 ---
-title: Transforming Customer Communincations
+title: Transforming Customer Communications
 layout: sectors
 ---
 
@@ -97,4 +97,4 @@ Being among the early adopters grants you significant opportunities for publicit
 
 [Read about Sign Language translations on posted letters, emails, and in customer portals](/solutions/correspondent)
 
-[Read about situational-aware live announcements, information, and virtual help-points in BSL and English, available directly on visitors’ phones](/solutions/situation)
+[Read about situational-aware live announcements, information, and virtual help-points in BSL and English, available directly on visitors’ phones or on dedicated venue screens and displays](/solutions/situation)

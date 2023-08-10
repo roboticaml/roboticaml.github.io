@@ -8,11 +8,11 @@
   friendly: 01603 290002
   icon: /images/call.svg
   icon2: /images/call-black.svg
-- item: Call-back
-  url: mailto:info@robotica.ml?subject=Call me back&body=Phone number including country code
-  friendly: info@robotica.ml?subject=Call me back
-  icon: /images/call.svg
-  icon2: /images/call-black.svg
+# - item: Call-back
+#   url: mailto:info@robotica.ml?subject=Call me back&body=Phone number including country code
+#   friendly: info@robotica.ml?subject=Call me back
+#   icon: /images/call.svg
+#   icon2: /images/call-black.svg
 - item: Twitter
   url: https://twitter.com/roboticaml/
   friendly: '@roboticaml'

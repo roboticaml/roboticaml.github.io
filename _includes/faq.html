@@ -1,0 +1,30 @@
+<div id="faqCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000">
+    <ol class="carousel-indicators">
+{%- for item in site.data.faq %}
+<li data-target="#faqCarousel" data-slide-to="{{ item.index }}" {% if item.index== 0 %} class="active"{% endif %}></li>
+{%- endfor %}
+  </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+{%- for item in site.data.faq %}
+      <div class="carousel-item{% if item.index== 0 %} active{% endif %}">
+        <img src="{{ item.image }}" alt="{{ item.alt }}" style="max-height: 550px; max-width: 100%;">
+        <div class="carousel-caption">
+          <h3>{{ item.short }}</h3>
+          <p>{{ item.long }}</p>
+        </div>
+      </div>
+{%- endfor %}
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#faqCarousel" data-slide="prev" onclick="$('#faqCarousel').carousel('prev')">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#faqCarousel" data-slide="next" onclick="$('#faqCarousel').carousel('next')">
+      <span cclass="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>

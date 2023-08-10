@@ -1,15 +1,11 @@
 ---
-title: Transforming Customer Communincations
-layout: home
+title: Transforming Customer Communications
+layout: posts
 ---
-{%- for sector in site.data.sectors %}<a href="{{sector.link}}">![{{sector.name}}]({{sector.icon}})</a>
+{%- for sector in site.data.sectors %}<a href="{{sector.link}}">![{{sector.name}}]({{sector.hero}})</a>
 ## {{sector.name}}
 ### {{sector.sectors}}
-<a href="{{sector.link}}">{{sector.description}}</a>
+{{sector.description}}
 
 <br /><br /><br />
 {%- endfor %}
-[Read about Sign Language translations on posted letters, emails, and in customer portals](/solutions/correspondent)
-
-[Read about Sign Language translations on public information notices and signage](/solutions/gazette)
-

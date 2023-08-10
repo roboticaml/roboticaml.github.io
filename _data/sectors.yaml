@@ -1,15 +1,18 @@
-- name: Enterprise B2C
-  link: '/sectors/utilities'
+- name: Utilities and Service Providers
+  link: '/sectors/utilities-and-service-providers'
   icon: /sectors/images/utilities.png
-  sectors: Utilities, telco, ISP, banking. 
+  hero: /sectors/images/utilities-company-installation.jfif
+  sectors: Water, electric, gas, telco, internet, banking. 
   description: Customer information on the web, emails and posted letters. 
 - name: Public Sector
   link: '/sectors/public-sector'
   icon: /sectors/images/council.png
+  hero: /sectors/images/city-hall.jfif
   sectors: Local authorities, NHS, central government.
   description: Information notices and instructions on the web, leaflets, signage, emails and posted letters.
 - name: Public Transport
   link: '/sectors/public-transport'
   icon: /sectors/images/public-transport.png
+  hero: /sectors/images/rail.jfif
   sectors: Air, rail, tram, bus, coach.
   description: Live announcements and information on large digital screens and on travellers’ phones.

@@ -1,0 +1,9 @@
+<br />
+<h3>Free resources on accessibility and sign language</h3>
+{%- for item in site.data.deaf-awareness %}
+<a href="{{item.link}}">
+<b>{{item.title}}</b> <br />
+  <img src="{{item.hero}}" alt="{{item.title}}" style="max-height:200px"/></a><br />
+{{item.summary}}
+<br /><br />
+{%- endfor %}

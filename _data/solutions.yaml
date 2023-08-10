@@ -1,45 +1,45 @@
-# - name: Present
-#   link: '/solutions/present'
-#   icon: /solutions/images/present.png
-#   summary: 'Adding sign language translations to rolling information screens.'  
-#   keywords: Always Accurate,instant,totem,screen,location,ad-ready,privacy,announcments,customer service
-- name: Situation
-  link: '/solutions/situation'
-  icon: /solutions/images/situation.png
-  summary: 'Situational-aware information, and virtual help-points in BSL and English, available directly on visitors’ phones.'
-  keywords: Always Accurate,instant,engage,location,ad-ready,privacy,announcments,customer service,way-finding
+- name: Correspondent
+  link: '/solutions/correspondent'
+  hero: /solutions/images/correspondent-nhs.png
+  summary: 'Mail-merge for sign language: Postal letters and emails translated into BSL on customers’ phones or computers.'
+  keywords: Always Accurate,engage,ad-ready,privacy
 - name: Gazette
   link: '/solutions/gazette'
-  icon: /solutions/images/gazette.png
+  hero: /solutions/images/gazette-nhs-leeds-easy-read-breathing-control.png
   summary: 'Info signs and leaflets presented in BSL and English directly on customers’ phones'
   keywords: Always Accurate,instant,engage,ad-ready,privacy,customer service
+- name: Situation
+  link: '/solutions/situation'
+  hero: /solutions/images/situation-platform-edge.png
+  summary: 'Situational-aware information, and virtual help-points in BSL and English, available directly on visitors’ phones.'
+  keywords: Always Accurate,instant,engage,location,ad-ready,privacy,announcments,customer service,way-finding
+# - name: Present
+#   link: '/solutions/present'
+#   hero: /solutions/images/present.png
+#   summary: 'Adding sign language translations to rolling information screens.'  
+#   keywords: Always Accurate,instant,totem,screen,location,ad-ready,privacy,announcments,customer service
 # - name: Helm
 #   link: '/solutions/helm'
-#   icon: /solutions/images/helm.png
+#   hero: /solutions/images/helm.png
 #   summary: 'The sign language-accessible pedestrian navigation solution for large venues, sites and complex buildings.'
 #   keywords: Always Accurate,instant,engage,location,ad-ready,privacy,announcments,way-finding
 # - name: Agent
 #   link: '/solutions/Agent'
-#   icon: /solutions/images/present.png
+#   hero: /solutions/images/present.png
 #   summary: 'Adding sign language translations to interactive information screens.'
 #   keywords: Always Accurate,instant,engage,location,ad-ready,privacy,announcments,customer service,way-finding
 # - name: iCue
 #   link: '/solutions/icue'
-#   icon: /solutions/images/icue.png
+#   hero: /solutions/images/icue.png
 #   summary: 'On-the-go transliteration from spoken English to Cued Speech.'
 #   keywords: instant,privacy
 # - name: iSign
 #   link: '/solutions/iSign'
-#   icon: /solutions/images/icue.png
+#   hero: /solutions/images/icue.png
 #   summary: 'On-the-go transliteration from spoken English to British Sign Language.'
 #   keywords: instant,privacy
-- name: Correspondent
-  link: '/solutions/correspondent'
-  icon: /solutions/images/correspondent.png
-  summary: 'Mail-merge for sign language: Postal letters and emails translated into BSL on customers’ phones or computers.'
-  keywords: Always Accurate,engage,ad-ready,privacy
 # - name: Translate
 #   link: '/solutions/translate'
-#   icon: /solutions/images/translate.png
+#   hero: /solutions/images/translate.png
 #   summary: 'Your content translated into sign languages, presented by avatars and Digital Twins.'
 

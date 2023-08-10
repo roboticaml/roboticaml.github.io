@@ -22,19 +22,12 @@ Robotica will help you by translating your information into British Sign Languag
 * As many as 80,000 people in the United Kingdom depend on BSL as their first, or their only language.
 * When people are presented with information in English, but the need BSL, they may be left uninformed, unconsenting, and under-served.
 * Deaf school-leavers may have an average reading age of between 6 and 8 years.  There is no correlation between hearing loss and intelligence, but the disadvantage of learning to read without phonics support often puts d/Deaf children at a disadvantage that can follow them throughout life.
-* 
+
 ## Reasons to Act
 
 * [Legal and regulatory requirements](/posts/legal-and-regulatory-requirements-improving-legislative-compliance.mdlegal-and-regulatory-requirements-improving-legislative-compliance)
-* Public perception
-* Quality of service
-* Service uptake
-* Enabling self-service
-* Efficiency, value, ROI
-
-
-<br/>
-
-[Read about Sign Language translations on public information notices and signage](/solutions/gazette)
-
-[Read about Sign Language translations on posted letters, emails, and in customer portals](/solutions/correspondent)
+* [Public perception](/posts/public-perception-improving-perception-of-services-reducing-complaints)
+* [Quality of service](/posts/enhancing-quality-of-service-and-engagement-the-power-of-sign-language)
+* [Service uptake](posts/see-a-23-percent-improvement-in-service-uptake-with-accessible-customer-communication)
+* [Enabling self-service](/posts/improving-levels-of-self-service)
+* [Efficiency, value, ROI](/posts/)

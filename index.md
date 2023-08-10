@@ -4,12 +4,10 @@ title: "Sign language at scale: Robotica"
 ---
 # Sign Language at Scale
 
-Extend your reach and value:
-AI Sign Language translations make your content accessible to and additional 150,000 customers.
-
+**Extend your reach to 150,000 additional customers in the UK**
 <div class="container">
   <figure id="videoContainer" data-fullscreen="false">
-    <video 
+    <video
       volume="0.0"
       width="100%"
       id="video"
@@ -21,12 +19,12 @@ AI Sign Language translations make your content accessible to and additional 150
       loop
     >
       <source
-        src="https://cdn.api.video/vod/vi2Nn14OjKAv5QRLMc1wSSad/mp4/1080/source.mp4"
+        src="https://cdn.api.video/vod/vi65dmFVVfCcNEfBZddTzGJh/mp4/1080/source.mp4"
         type="video/mp4"
         aria-labelledby="title"
         aria-describedby="transcript"
       >
-      <iframe src="https://embed.api.video/vod/vi2Nn14OjKAv5QRLMc1wSSad" width="100%" frameborder="0" scrolling="no" allowfullscreen="true">
+      <iframe src="https://embed.api.video/vod/vi65dmFVVfCcNEfBZddTzGJh" width="100%" frameborder="0" scrolling="no" allowfullscreen="true">
       </iframe>
     </video>
   </figure>
@@ -34,41 +32,8 @@ AI Sign Language translations make your content accessible to and additional 150
 
 <br />
 
-<!-- Make these show one at a time:
-       displays for a few seconds then either scrolls up to be replaced
-       or the next FAQ fades in or something to replace it. -->
-
-  <h2>Did you know...?</h2>
-  <div id="faqCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000">
-    <ol class="carousel-indicators">
-{%- for item in site.data.faq %}
-<li data-target="#faqCarousel" data-slide-to="{{ item.index }}" {% if item.index== 0 %} class="active"{% endif %}></li>
-{%- endfor %}
-  </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-{%- for item in site.data.faq %}
-      <div class="carousel-item{% if item.index== 0 %} active{% endif %}">
-        <img src="{{ item.image }}" alt="{{ item.alt }}" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>{{ item.short }}</h3>
-          <p>{{ item.long }}</p>
-        </div>
-      </div>
-{%- endfor %}
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#faqCarousel" data-slide="prev" onclick="$('#faqCarousel').carousel('prev')">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#faqCarousel" data-slide="next" onclick="$('#faqCarousel').carousel('next')">
-      <span cclass="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+<h2>Did you know...?</h2>
+{%- include faq.html %}
 
 <br />
 ## Sectors
@@ -110,3 +75,7 @@ AI Sign Language translations make your content accessible to and additional 150
 Our platform supports your ambition to create a fully inclusive environment, where d/Deaf people are included and feel welcome. We can help you to maximise customer numbers, deepen and broaden engagement, and efficiently extend the value of your communications to increase ROI and profitability. Our accessibility products and services enable you to deliver equality and access of information and services to the d/Deaf community.
 
 ### Accessible content enables bigger audiences: your content goes further, lasts longer and finds a wider audience
+
+When your content is designed with accessibility in mind, it becomes a powerful tool that resonates with a broader spectrum of individuals. Not only does it ensure your message reaches people with diverse abilities, but it also has the potential to transcend time, remaining relevant and impactful for longer periods. By making your content accessible, you unlock the door to a wider audience, fostering inclusivity and maximizing the lasting impact of your communication efforts.
+
+Embracing accessible content amplifies the concept of the "long tail" effect, where your content's cumulative value extends far beyond its initial release. By making your material accessible to individuals who may have previously been excluded, you create a ripple effect of engagement and sharing. This extends the lifespan of your content, ensuring it continues to resonate and deliver value over time. As your accessible content gains traction, it contributes to a lasting legacy, building a stronger connection with your audience and establishing your organisation as a champion of inclusivity and innovation.
