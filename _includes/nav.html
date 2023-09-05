@@ -40,24 +40,24 @@
 
                           <ul>
                               <li><a href="/">Home</a>
-                                <li><a href="/about/">About</a></li>
+                                <li><a href="/about">About</a></li>
                               </li>
-                              <li class="has-dropdown"><a href="/sectors/">Sectors</a>
+                              <li class="has-dropdown"><a href="/sectors">Sectors</a>
                                 <ul class="sub-menu">
                                   {%- for item in site.data.sectors %}
                                   <li><a href = '{{ item.link }}'>{{ item.short }}</a></li>
                                   {%- endfor %}
                                 </ul>
                             </li>
-                            <li class="has-dropdown"><a href="/solutions/">Solutions</a>
+                            <li class="has-dropdown"><a href="/solutions">Solutions</a>
                                 <ul class="sub-menu">
                                   {%- for item in site.data.solutions %}
                                   <li><a href = '{{ item.link }}'>{{ item.name }}</a></li>
                                   {%- endfor %}
                                 </ul>
                             </li>
-                              <li><a href="/blog/">Blog</a></li>
-                              <li><a href="/contact/">Contact</a></li>
+                              <li><a href="/blog">Blog</a></li>
+                              <li><a href="/contact">Contact</a></li>
 
                           </ul>
                       </nav>
