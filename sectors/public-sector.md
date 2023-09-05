@@ -1,6 +1,7 @@
 ---
 title: Transforming Public Communications
-layout: posts
+layout: solutionsubpage
+
 ---
 
 # Transforming Public Communications
@@ -27,4 +28,3 @@ Integrating sign language into customer communications is a vital step for the p
 ### On d/Deaf Awareness, accessibility and sign language
 
 [Read articles relating to your department](/sectors/public-sector/departments)
-

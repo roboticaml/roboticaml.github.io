@@ -1,6 +1,6 @@
 ---
 title: Gazette For the Public Sector - Central Government, Councils, Local Authorities
-layout: posts
+layout: products
 ---
 
 # Correspondent For the Public Sector

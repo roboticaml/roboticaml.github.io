@@ -1,13 +1,12 @@
 ---
-title: Why Are Humans Translating This Page?
+title: People first, robots second
 layout: posts
+image: /images/cassie-avatar-composite.jpeg
+introtext: People first, robots second
+summary: Artificial Intelligence presents an incredible opportunity - but humans rule.  There's a time and a place for avatar sign language, and it's not to replace interpreters and translators.
 ---
 
-# Why Are Humans Translating This Page?
-
-![Cassie the sign language avatar showing her pixels](/images/cassie-avatar-composite.jpeg)
-
-## An avatar isn't always the answer
+**An avatar isn't always the answer**
 
 At the heart of everything we do at Robotica is the unshakeable belief that humans are best: no matter how incredible AI may be, it isn't a substitute for a person.  The warmth, empathy and trust of interacting with a human being is irreplaceable.  With that in mind, we always encourage use of Deaf translators or RSLI interpreters as the default choice:  Nobody wants a computer explaining a court ruling or giving them a medical diagnosis.  When a human translation is a realistic possibility, hire a person for the job.  And for everything else, there's Robotica.  
 
@@ -39,6 +38,6 @@ There simply are too few translators and interpreters, nowhere near the numbers 
   </figure>
 </div>
 
-## An alternative to captions
+**An alternative to captions**
 
 Reading isn't a great option for everyone, including 87,000 people in the UK whose first or only language is British Sign Language.  Before Robotica, the choices faced by d/Deaf people for these gaps was "captions or do without?".  Cassie and our other avatars add a third possibility - AI sign language.

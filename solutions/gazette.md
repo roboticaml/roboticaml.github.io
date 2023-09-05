@@ -1,27 +1,22 @@
 ---
-title: Transforming Customer Communications
-layout: sectors
+title: Robotica Gazette 
+layout: solutionsubpage
 ---
 
-# Gazette presents information signs, leaflets and books as sign language
+# Public information and notices can become accessible to Deaf sign language users by adding a Robotica Gazette QR code
 
-![Gazette - Pallas Cat and a QR Code](/solutions/images/gazette-pallas-cat.png)
-
-## Public information and notices can become accessible to Deaf sign language users by adding a Robotica Gazette QR code
-
-Gazette provides a glimpse into the future of public information delivery.  Supplement information signs, leaflets, brochures, and all printed material with a Gazette QR Code to present the information directly on the end users’ own phone, in spoken, written and sign language forms. Gazette increases user-engagement insight, while simultaneously ensuring sign language users are able to enjoy the experience with equity to hearing and reading visitors. No app download is required: Gazette utilises the built-in camera and web browsers apps. And no personal information collected: Gazette is considerate of privacy, and compliant with data-collection regulations.
+Gazette provides a glimpse into the future of public information delivery.  Supplement information signs, leaflets, brochures, and all printed material with a Gazette QR Code to present the information directly on the end users’ own phone, in spoken, written and sign language forms. Gazette increases user-engagement insight, while simultaneously ensuring sign language users are able to enjoy the experience with equity to hearing and reading visitors. No app download is required. Gazette utilises the built-in camera and web browsers apps. And no personal information collected -  Gazette is considerate of privacy, and compliant with data-collection regulations.
 
 ## What is Gazette?
 
 The prevalence of QR codes has soared since the implementation of Covid-19 restrictions last year, becoming a familiar sight to the UK population, who have mastered the art of "checking in" using QR codes.
-
 Seamlessly accessible, QR codes require no additional app downloads or special permissions. All you need to do is point your camera, and the engaging content is instantly delivered.
-
 Experience the convenience of using QR codes to direct users to web pages without the need for manual typing. Scan a QR code and unlock a world of possibilities, from texts and videos to social media, games, and more.
-
 Gazette takes this concept to the next level by incorporating cutting-edge engagement analytics, elevating the user experience to new heights.
 
-![Gazette - Two boys in conversaton](/images/deaf-children.png)
+# Gazette presents information signs, leaflets and books as sign language
+
+![Gazette - Pallas Cat and a QR Code](/solutions/images/gazette-pallas-cat.png)
 
 ## What’s wrong with written words?
 

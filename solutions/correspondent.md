@@ -1,22 +1,23 @@
 ---
-title: Transforming Customer Communications
-layout: sectors
+title: Robotica Correspondent
+layout: solutionsubpage
+image: /images/deaf-children.png
 ---
-
-# Postal letters and emails translated into BSL on customers’ phones or computers
-
-![Correspondent - NHS letter with a QR Code](/solutions/images/correspondent-nhs.png)
 
 ## Public information and notices can become accessible to Deaf sign language users by adding a Robotica Gazette QR code
 
 Robotica Correspondent delivers customer-specific information in sign language, as hyperlinks or QR codes on the web, in email, and in posted letters.
-Postal letters and emails translated into BSL on customers’ phones or computers. 
-Correspondent brings sign language versions of personalised correspondence. Supporting your mass-mail and mail-merge operations, we add a unique QR code to each paper document, or a unique hyperlink to each email. The recipient may securely access your communication in British Sign Language and, optionally, as spoken and written English. App-less QR code inclusively delivers customer correspondence in sign language directly on the customers’ phone.
 
+## Postal letters and emails translated into BSL on customers’ phones or computers. 
+
+Correspondent brings sign language versions of personalised correspondence. Supporting your mass-mail and mail-merge operations, we add a unique QR code to each paper document, or a unique hyperlink to each email. The recipient may securely access your communication in British Sign Language and, optionally, as spoken and written English. App-less QR code inclusively delivers customer correspondence in sign language directly on the customers’ phone.
 ## What is Correspondent?
 
-Correspondent brings sign language versions of personalised mail correspondence. Supporting your mass-mail and mail-merge operations, we add a unique QR code to each paper document, or a unique hyperlink to each email. The recipient may securely access your communication in British Sign Language and, optionally, as spoken and written English. App-less QR code inclusively delivers customer correspondence in sign language 
-directly on the customers’ phone.
+Correspondent brings sign language versions of personalised mail correspondence. Supporting your mass-mail and mail-merge operations, we add a unique QR code to each paper document, or a unique hyperlink to each email. The recipient may securely access your communication in British Sign Language and, optionally, as spoken and written English. App-less QR code inclusively delivers customer correspondence in sign language directly on the customers’ phone.
+
+# Postal letters and emails translated into BSL on customers’ phones or computers
+
+![Correspondent - NHS letter with a QR Code](/solutions/images/correspondent-nhs.png)
 
 ## QR codes
 

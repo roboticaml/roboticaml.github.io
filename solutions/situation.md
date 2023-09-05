@@ -1,6 +1,7 @@
 ---
-title: Transforming Customer Communications
-layout: sectors
+title: Robotica Situation
+layout: solutionsubpage
+image: /solutions/images/situation-platform-edge.png
 ---
 
 # Situation presents live announcements and interuptions as sign language

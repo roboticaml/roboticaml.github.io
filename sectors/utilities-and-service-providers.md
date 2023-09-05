@@ -1,6 +1,6 @@
 ---
 title: Transforming Service Provider Customer Communications 
-layout: sectors
+layout: solutionsubpage
 ---
 
 # Transforming Service Provider Customer Communications 

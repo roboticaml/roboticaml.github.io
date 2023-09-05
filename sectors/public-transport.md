@@ -1,6 +1,6 @@
 ---
 title: Transforming Passenger Communications 
-layout: posts
+layout: solutionsubpage
 ---
 
 # Transforming Passenger Communications 

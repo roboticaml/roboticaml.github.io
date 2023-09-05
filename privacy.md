@@ -1,5 +1,5 @@
 ---
-layout: home-about
+layout: posts
 title: Privacy Policy
 ---
 
@@ -47,7 +47,7 @@ Use of the cued-speech-translation-service web service will be regarded as accep
 
 # uCue App
 Cookie policy:
-We respect you. The App does not send cookies to websites or webservices operated by Cued Speech UK or Robotica Machine Learning.  We do exchange and store a Player Identity when you use a uCue QR barcode to login to the game and subsequently to record your progress through the game.  If you use the Facebook feature, we receive from Facebook a token which is unique to you which we use when you ask for your game progress to be posted to your Facebook account.  We may share selected information with Facebook, on your instruction but we will ask you first and only proceed with your explicit consent.
+We respect you. The App does not send cookies to websites or webservices operated by Cued Speech UK or Robotica.  We do exchange and store a Player Identity when you use a uCue QR barcode to login to the game and subsequently to record your progress through the game.  If you use the Facebook feature, we receive from Facebook a token which is unique to you which we use when you ask for your game progress to be posted to your Facebook account.  We may share selected information with Facebook, on your instruction but we will ask you first and only proceed with your explicit consent.
 
 Privacy policy:
 Your privacy is important to us. It is our policy to respect your privacy regarding any information we may collect from you across our websites, including the uCue App.
@@ -68,4 +68,4 @@ Use of the uCue app will be regarded as acceptance of our practices around priva
 # Footnote
 This policy is effective as of 1st January 2021.
 
-Write to us at: Robotica Machine Learning Ltd, 1 Chalk Hill House, 19 Rosary Road, Norwich, NR1 1SZ, United Kingdom.
+Write to us at: Robotica Ltd, 1 Chalk Hill House, 19 Rosary Road, Norwich, NR1 1SZ, United Kingdom.
