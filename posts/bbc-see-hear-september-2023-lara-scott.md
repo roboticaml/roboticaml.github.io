@@ -11,8 +11,10 @@ summary: Lara Scott talked to Catherine Cooper about AI Sign Language Translatio
 Lara Scott from BBC's See Hear gew up in Norfolk and goes to the Norfolk Deaf Festival every year.  In 2023, Lara visited the Robotica stand, where she spoke to Catherine Cooper about Artifical Intelligence, avatars, and supporting d/Deaf communities.
 
 
-![Catherine Cooper at the Norfolk Deaf Festival](/posts/images/lara-scott-saying-cassie-is-impressive.png)
-
+![Lara Scott speaks to Catherine Cooper at the Norfolk Deaf Festival, signing "This will definitely be useful"](/posts/images/lara-scott-speaks-to-catherine-cooper-at-ndf.png)
+\
+\
+![Lara Scott with Cassie at the Norfolk Deaf Festival, signing "Impressive!"](/posts/images/lara-scott-saying-cassie-is-impressive.png)
 
 ## Watch the whole show on BBC iPlayer
 
