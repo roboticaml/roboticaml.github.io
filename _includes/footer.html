@@ -34,8 +34,12 @@
                         <!-- Newsletter Search Start -->
                         <div class="footer-search">
                             <div class="footer-search-wrap">
-                                <form action="https://formcarry.com/s/3T_JEcb87N" method="POST" accept-charset="UTF-8">
-                                    <input type="email" name="email" required placeholder="Your Email">
+                                <form action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value="4f4f89e4-3fdd-4930-8288-f0940aa11380">
+                                    <input type="hidden" name="redirect" value="https://robotica.ml/contacted">
+                                    <input type="hidden" name="subject" value="Footer Email Only Submission">
+                                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                                    <input type="text" name="email" required placeholder="Work Email">
                                     <button>
                                         <i class="flaticon-send"></i>
                                     </button>
@@ -171,3 +175,4 @@
 
     <!-- Main JS -->
     <script src="/js/main.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
