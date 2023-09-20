@@ -90,6 +90,3 @@ Being among the early adopters grants you significant opportunities for publicit
 * Global Inclusion: Generate positive and goodwill press releases, demonstrating your unwavering support for customers by providing content in their languages.
 * Environmental Awareness and Sustainability: Strengthen your Green policy by replacing printed, plastic signs with digital content, contributing to tree preservation every time you update or add information.
 
-[Read about Sign Language translations on posted letters, emails, and in customer portals](/solutions/correspondent)
-
-[Read about situational-aware live announcements, information, and virtual help-points in BSL and English, available directly on visitors’ phones or on dedicated venue screens and displays](/solutions/situation)

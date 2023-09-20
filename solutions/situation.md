@@ -87,7 +87,3 @@ Being among the early adopters grants you significant opportunities for publicit
 * Disability and Accessibility: Showcase to the world your commitment to keeping everyone fully informed and involved.
 * Global Inclusion: Generate positive and goodwill press releases, demonstrating your unwavering support for customers by providing content in their languages.
 * Environmental Awareness and Sustainability: Strengthen your Green policy by replacing printed, plastic signs with digital content, contributing to tree preservation every time you update or add information.
-
-[Read about Sign Language translations on public information notices and signage](/solutions/gazette)
-
-[Read about Sign Language translations on posted letters, emails, and in customer portals](/solutions/correspondent)
