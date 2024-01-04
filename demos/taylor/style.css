@@ -1,0 +1,142 @@
+#outer {
+    position: relative;
+}
+#timer, #result {
+    width: 100vw;
+    text-align: left;
+}
+
+#container {
+    border: 1px solid black;
+    width: 1800px;
+    height: 536px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 40px;
+    height: 40px;
+    margin-bottom:2px;
+}
+
+div.car-front, div.car-back {
+    background-color: #333;
+}
+
+.car-front {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    position: relative;
+    border-radius: 0 5px 5px 0;
+}
+        
+.car-front::before {
+    content: '';
+    width: 5px;
+    height: 15px;
+    background-color: gray;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+.car-back {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    position: relative;
+    border-radius: 5px 0 0 5px;
+}
+.car-back::before {
+    content: '';
+    width: 5px;
+    height: 15px;
+    background-color: gray;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+div.cabin {
+    background-color: #888;
+}
+
+.cabin {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+div.cargo {
+    background-color: #aaa;
+}
+
+.cargo {
+    width: 40px;
+    height: 40px;
+}
+
+div.frog {
+    /* background-color: green; */
+    background-image: url("frog.png")
+}
+
+.frog {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden; /* To hide overflowed content */
+    z-index:1000;
+}
+.frog::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    /* background-color: white; */
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.frog::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    /* background-color: white; */
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+.water {
+    background-color: #0000FF;
+    width:40px;
+    height: 40px;
+    z-index:-1;
+}
+
+.grass {
+    background-color: #00FF00;
+    width:40px;
+    height: 40px;
+    z-index:-1;
+}
+
+.road {
+    background-color: #555555;
+    width:40px;
+    height: 40px;  
+    z-index: -1; 
+}
+
+.log {
+    background-color: brown;
+}

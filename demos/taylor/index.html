@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taylor</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <button id="ASong" onClick="playPause()">
+        <audio
+          src="music.mp3"
+          autoplay
+          loop
+        ></audio>
+        <h2>Happy birthday, Taylor</h2>    
+      </button>
+    <div id="outer" hidden>
+        <div id="timer">Time left: <span id="time"></span> seconds</div>
+        <div id="result"></div>
+        <div id="container"></div>    
+    </div>
+
+    
+    <script type="text/javascript" src="app.js"></script>
+    <script>
+        var aud = document.getElementById("ASong").children[0];
+        var isPlaying = false;
+        aud.pause();
+        
+
+        function playPause() {
+          document.getElementById("outer").style.display = "block";
+          if (isPlaying) {
+            aud.pause();
+          } else {
+            aud.play();
+          }
+          isPlaying = !isPlaying;
+        }
+      </script>
+</body>
+</html>
