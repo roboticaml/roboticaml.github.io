@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "robotica.ml",
+  "Id": "a62d46c1-a1ca-4aff-baf4-55e11b074e3a"
+}
