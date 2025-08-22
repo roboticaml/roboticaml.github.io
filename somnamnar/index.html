@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor's Thai Adventure</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #87CEEB, #E0FFFF);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .player-emoji {
+            position: absolute;
+            font-size: 70px;
+            z-index: 10;
+            top: 370px; /* Initial position */
+            left: 100px; /* Initial position */
+            display: none; /* Initially hidden */
+            pointer-events: none; /* Prevent blocking clicks */
+        }
+
+        #bgMusic {
+            position: absolute;
+            left: -1000px;
+            opacity: 0;
+        }        
+
+        #game-container {
+            position: relative;
+            width: 800px;
+            height: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        #game-canvas {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #4CAF50, #8BC34A);
+        }
+        
+        #ui-layer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        #score-display {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #FFD700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+        
+        #game-over {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        #game-over h1 {
+            font-size: 60px;
+            color: #FF5252;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+            margin-bottom: 20px;
+            animation: pulse 1.5s infinite;
+        }
+        
+        #final-score {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #FFD700;
+        }
+        
+        #restart-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            pointer-events: auto;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        #restart-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        
+        #start-screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://i.ytimg.com/vi/yMMhDJbV0es/maxresdefault.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        #start-screen::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        
+        #start-screen h1 {
+            font-size: 50px;
+            color: #FFD700;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+            margin-bottom: 20px;
+            z-index: 1;
+        }
+        
+        #start-screen p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+            max-width: 80%;
+            z-index: 1;
+        }
+        
+        #start-button {
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            pointer-events: auto;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+        
+        #start-button:hover {
+            background-color: #E64A19;
+            transform: scale(1.05);
+        }
+        
+        #instructions {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 16px;
+            z-index: 1;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .collect-effect {
+            position: absolute;
+            pointer-events: none;
+            font-size: 24px;
+            color: gold;
+            font-weight: bold;
+            animation: floatUp 1s forwards;
+        }
+        
+        @keyframes floatUp {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-50px); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    
+    <audio id="bgMusic" loop>
+        <source src="taylor.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="game-container">
+        <div id="player-emoji" class="player-emoji" style="display: none;">♿</div>
+        <canvas id="game-canvas"></canvas>
+        
+        <div id="ui-layer">
+            <div id="score-display">Money: 0</div>
+            
+            <div id="game-over">
+                <h1>SOM NAM NAR</h1>
+                <div id="final-score">Money Collected: 0</div>
+                <button id="restart-button">Play Again</button>
+            </div>
+            
+            <div id="start-screen">
+                <h1>Taylor's Thai Adventure</h1>
+                <p>Help Taylor collect money from late-paying clients and avoid javascript bugs in his exciting Thai adventure! Press SPACE or UP ARROW to jump.</p>
+                <button id="start-button">Start Adventure</button>
+            </div>
+            
+            <div id="instructions">
+                SPACE or UP ARROW to jump
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Game elements
+            const canvas = document.getElementById('game-canvas');
+            const ctx = canvas.getContext('2d');
+            const scoreDisplay = document.getElementById('score-display');
+            const gameOverScreen = document.getElementById('game-over');
+            const finalScoreDisplay = document.getElementById('final-score');
+            const restartButton = document.getElementById('restart-button');
+            const startScreen = document.getElementById('start-screen');
+            const startButton = document.getElementById('start-button');
+            const instructions = document.getElementById('instructions');
+
+            // Background music control
+            const bgMusic = document.getElementById('bgMusic');
+            let musicStarted = false;
+
+            // Function to start music (requires user interaction)
+            function startMusic() {
+                if (!musicStarted) {
+                    bgMusic.play()
+                        .then(() => {
+                            console.log("Music started successfully");
+                            musicStarted = true;
+                        })
+                        .catch(error => {
+                            console.log("Music play failed, will retry after user interaction:", error);
+                        });
+                }
+            }
+
+            // Start music on any user interaction
+            document.addEventListener('click', function() {
+                startMusic();
+            }, { once: true });
+
+            // Also start music when game starts
+            startButton.addEventListener('click', startMusic);
+            restartButton.addEventListener('click', startMusic);            
+
+            startButton.addEventListener('click', function() {
+                startScreen.style.display = 'none';
+                instructions.style.display = 'block';
+                document.getElementById('player-emoji').style.display = 'block'; // Show player
+                gameRunning = true;
+                gameLoop();
+            });
+
+            function gameOver() {
+                gameRunning = false;
+                finalScoreDisplay.textContent = `Money Collected: ${score}`;
+                gameOverScreen.style.display = 'flex';
+                document.getElementById('player-emoji').style.display = 'none'; // Hide player
+            }
+
+            // Set canvas dimensions
+            canvas.width = 800;
+            canvas.height = 500;
+            
+            // Game variables
+            let gameRunning = false;
+            let score = 0;
+            
+            // Load character sprite
+            const playerSprite = new Image();
+            playerSprite.src = 'https://www.pngitem.com/pimgs/m/132-1322701_old-man-walking-with-a-crutch-old-man.png';
+                        
+            let player = {
+                x: 100,
+                y: 370,
+                width: 60,
+                height: 70,
+                jumping: false,
+                jumpPower: 20,
+                gravity: 0.7,
+                velocity: 0
+            };
+
+            let obstacles = [];
+            let collectibles = [];
+            let groundY = canvas.height - 50;
+            let gameSpeed = 3;  // Reduced initial game speed
+            let frameCount = 0;
+            
+            // Thai-themed elements
+            const thaiTemples = [
+                { x: 200, y: canvas.height - 150, width: 80, height: 100 },
+                { x: 500, y: canvas.height - 150, width: 80, height: 100 }
+            ];
+            
+            const palmTrees = [
+                { x: 350, y: canvas.height - 120, width: 40, height: 120 },
+                { x: 650, y: canvas.height - 120, width: 40, height: 120 }
+            ];
+            
+            function drawPlayer() {
+                const playerEl = document.getElementById('player-emoji');
+                
+                // Update position relative to game container
+                playerEl.style.left = player.x + 'px';
+                playerEl.style.top = player.y + 'px';
+            }
+
+            function drawGround() {
+                // Ground
+                ctx.fillStyle = '#8B4513';
+                ctx.fillRect(0, groundY, canvas.width, canvas.height - groundY);
+                
+                // Grass
+                ctx.fillStyle = '#4CAF50';
+                ctx.fillRect(0, groundY, canvas.width, 10);
+            }
+            
+            function drawBackground() {
+                // Sky
+                ctx.fillStyle = '#87CEEB';
+                ctx.fillRect(0, 0, canvas.width, groundY);
+                
+                // Sun
+                ctx.fillStyle = '#FFD700';
+                ctx.beginPath();
+                ctx.arc(700, 70, 40, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Draw temples
+                thaiTemples.forEach(temple => {
+                    ctx.fillStyle = '#FF6347';
+                    ctx.fillRect(temple.x, temple.y, temple.width, temple.height);
+                    
+                    // Temple roof
+                    ctx.fillStyle = '#B22222';
+                    ctx.beginPath();
+                    ctx.moveTo(temple.x - 10, temple.y);
+                    ctx.lineTo(temple.x + temple.width/2, temple.y - 30);
+                    ctx.lineTo(temple.x + temple.width + 10, temple.y);
+                    ctx.closePath();
+                    ctx.fill();
+                });
+                
+                // Draw palm trees
+                palmTrees.forEach(tree => {
+                    // Trunk
+                    ctx.fillStyle = '#8B4513';
+                    ctx.fillRect(tree.x, tree.y, tree.width, tree.height);
+                    
+                    // Leaves
+                    ctx.fillStyle = '#228B22';
+                    ctx.beginPath();
+                    ctx.arc(tree.x - 20, tree.y, 30, 0, Math.PI * 2);
+                    ctx.arc(tree.x + tree.width + 20, tree.y, 30, 0, Math.PI * 2);
+                    ctx.arc(tree.x + tree.width/2, tree.y - 40, 40, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+            }
+            
+            function drawObstacles() {
+                obstacles.forEach(obstacle => {
+                    // Draw bug
+                    ctx.fillStyle = '#8B0000';
+                    ctx.beginPath();
+                    ctx.arc(obstacle.x + obstacle.width/2, obstacle.y + obstacle.height/2, obstacle.width/2, 0, Math.PI * 2);
+                    ctx.fill();
+                    
+                    // Bug legs
+                    ctx.strokeStyle = '#8B0000';
+                    ctx.lineWidth = 2;
+                    for (let i = -1; i <= 1; i += 0.5) {
+                        ctx.beginPath();
+                        ctx.moveTo(obstacle.x + obstacle.width/2, obstacle.y + obstacle.height/2);
+                        ctx.lineTo(
+                            obstacle.x + obstacle.width/2 + i * 10, 
+                            obstacle.y + obstacle.height/2 + 15
+                        );
+                        ctx.stroke();
+                    }
+                    
+                    // Bug eyes
+                    ctx.fillStyle = '#000';
+                    ctx.beginPath();
+                    ctx.arc(obstacle.x + obstacle.width/2 - 5, obstacle.y + obstacle.height/2 - 5, 3, 0, Math.PI * 2);
+                    ctx.arc(obstacle.x + obstacle.width/2 + 5, obstacle.y + obstacle.height/2 - 5, 3, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+            }
+            
+            function drawCollectibles() {
+                collectibles.forEach(collectible => {
+                    // Draw money bag
+                    ctx.fillStyle = '#FFD700';
+                    ctx.beginPath();
+                    ctx.moveTo(collectible.x, collectible.y + collectible.height/2);
+                    ctx.lineTo(collectible.x + collectible.width/3, collectible.y);
+                    ctx.lineTo(collectible.x + 2*collectible.width/3, collectible.y);
+                    ctx.lineTo(collectible.x + collectible.width, collectible.y + collectible.height/2);
+                    ctx.lineTo(collectible.x + 2*collectible.width/3, collectible.y + collectible.height);
+                    ctx.lineTo(collectible.x + collectible.width/3, collectible.y + collectible.height);
+                    ctx.closePath();
+                    ctx.fill();
+                    
+                    // Money sign
+                    ctx.fillStyle = '#000';
+                    ctx.font = '16px Arial';
+                    ctx.fillText('฿', collectible.x + collectible.width/3, collectible.y + collectible.height/2 + 5);
+                });
+            }
+            
+            function createObstacle() {
+                const size = 20 + Math.random() * 20;
+                obstacles.push({
+                    x: canvas.width,
+                    y: groundY - size,
+                    width: size,
+                    height: size,
+                    speed: gameSpeed
+                });
+            }
+            
+            function createCollectible() {
+                const size = 20;
+                collectibles.push({
+                    x: canvas.width,
+                    y: groundY - 60 - Math.random() * 100,
+                    width: size,
+                    height: size,
+                    speed: gameSpeed
+                });
+            }
+            
+            function updateObstacles() {
+                for (let i = obstacles.length - 1; i >= 0; i--) {
+                    obstacles[i].x -= obstacles[i].speed;
+                    
+                    // Remove obstacles that are off-screen
+                    if (obstacles[i].x + obstacles[i].width < 0) {
+                        obstacles.splice(i, 1);
+                    }
+                }
+            }
+            
+            function updateCollectibles() {
+                for (let i = collectibles.length - 1; i >= 0; i--) {
+                    collectibles[i].x -= collectibles[i].speed;
+                    
+                    // Remove collectibles that are off-screen
+                    if (collectibles[i].x + collectibles[i].width < 0) {
+                        collectibles.splice(i, 1);
+                    }
+                }
+            }
+            
+            function checkCollisions() {
+                // Check obstacle collisions
+                for (let obstacle of obstacles) {
+                    if (
+                        player.x + 10 < obstacle.x + obstacle.width - 5 &&
+                        player.x + player.width - 10 > obstacle.x + 5 &&
+                        player.y + 10 < obstacle.y + obstacle.height - 5 &&
+                        player.y + player.height - 10 > obstacle.y + 5
+                    ) {
+                        gameOver();
+                        return;
+                    }
+                }
+                
+                // Check collectible collisions
+                for (let i = collectibles.length - 1; i >= 0; i--) {
+                    let collectible = collectibles[i];
+                    if (
+                        player.x < collectible.x + collectible.width &&
+                        player.x + player.width > collectible.x &&
+                        player.y < collectible.y + collectible.height &&
+                        player.y + player.height > collectible.y
+                    ) {
+                        score += 10;
+                        scoreDisplay.textContent = `Money: ${score}`;
+                        
+                        // Create collect effect
+                        createCollectEffect(collectible.x, collectible.y);
+                        
+                        collectibles.splice(i, 1);
+                    }
+                }
+            }
+            
+            function createCollectEffect(x, y) {
+                const effect = document.createElement('div');
+                effect.className = 'collect-effect';
+                effect.textContent = '+10฿';
+                effect.style.left = `${x}px`;
+                effect.style.top = `${y}px`;
+                document.getElementById('game-container').appendChild(effect);
+                
+                // Remove effect after animation completes
+                setTimeout(() => {
+                    effect.remove();
+                }, 1000);
+            }
+            
+            function updatePlayer() {
+                if (player.jumping) {
+                    player.velocity += player.gravity;
+                    player.y += player.velocity;
+                    
+                    if (player.y >= groundY - player.height) {
+                        player.y = groundY - player.height;
+                        player.jumping = false;
+                        player.velocity = 0;
+                    }
+                }
+            }
+            
+            function jump() {
+                if (!player.jumping) {
+                    player.jumping = true;
+                    player.velocity = -player.jumpPower;
+                }
+            }
+            
+            function gameOver() {
+                gameRunning = false;
+                finalScoreDisplay.textContent = `Money Collected: ${score}`;
+                gameOverScreen.style.display = 'flex';
+            }
+            
+            function resetGame() {
+                score = 0;
+                scoreDisplay.textContent = `Money: ${score}`;
+                obstacles = [];
+                collectibles = [];
+                player.y = groundY - player.height;
+                player.jumping = false;
+                player.velocity = 0;
+                frameCount = 0;
+                gameSpeed = 3;  // Reset to slower speed
+                document.getElementById('player-emoji').style.display = 'block';
+            }
+            
+            function gameLoop() {
+                if (!gameRunning) return;
+                
+                // Clear canvas
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                
+                // Draw background
+                drawBackground();
+                
+                // Draw ground
+                drawGround();
+                
+                // Update and draw player
+                updatePlayer();
+                drawPlayer();
+                
+                // Generate obstacles and collectibles less frequently
+                if (frameCount % 120 === 0) {
+                    createObstacle();
+                }
+                
+                if (frameCount % 90 === 0) {
+                    createCollectible();
+                }
+                
+                // Update and draw obstacles
+                updateObstacles();
+                drawObstacles();
+                
+                // Update and draw collectibles
+                updateCollectibles();
+                drawCollectibles();
+                
+                // Check collisions
+                checkCollisions();
+                
+                // Increase game speed more gradually
+                if (frameCount % 600 === 0) {
+                    gameSpeed += 0.3;
+                    obstacles.forEach(o => o.speed = gameSpeed);
+                    collectibles.forEach(c => c.speed = gameSpeed);
+                }
+                
+                frameCount++;
+                
+                // Continue game loop
+                requestAnimationFrame(gameLoop);
+            }
+            
+            // Event listeners
+            document.addEventListener('keydown', function(e) {
+                if ((e.code === 'Space' || e.code === 'ArrowUp') && gameRunning) {
+                    jump();
+                    e.preventDefault();
+                }
+            });
+            
+            // Also allow click/tap to jump for mobile playability
+            canvas.addEventListener('click', function() {
+                if (gameRunning) jump();
+            });
+            
+            restartButton.addEventListener('click', function() {
+                resetGame();
+                gameOverScreen.style.display = 'none';
+                gameRunning = true;
+                gameLoop();
+            });
+            
+            startButton.addEventListener('click', function() {
+                startScreen.style.display = 'none';
+                instructions.style.display = 'block';
+                gameRunning = true;
+                gameLoop();
+            });
+            
+            // Initialize game
+            resetGame();
+        });
+    </script>
+</body>
+</html>
