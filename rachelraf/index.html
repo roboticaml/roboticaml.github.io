@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel's RAF Rendezvous</title>
+</head>
+<body style="padding: 20px; background-color: #000; margin: 0;">
+    <div id="gameContainer">
+        <canvas id="splashCanvas"></canvas>
+        <canvas id="endCanvas" style="display: none;"></canvas>
+        <canvas id="gameCanvas"></canvas>
+        <div id="score">Score: 0</div>
+    </div>
+    <audio id="backgroundMusic" loop>
+        <source src="rachel.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <style>
+        #gameContainer {
+            position: relative;
+            margin: 0 auto;
+            max-width: 960px;
+            max-height: 1280px;
+        }
+        #gameCanvas, #splashCanvas, #endCanvas {
+            border: 2px solid #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: min(80vw, 80vh * 3 / 4);
+            height: min(80vh, 80vw * 4 / 3);
+        }
+        #splashCanvas {
+            z-index: 10;
+        }
+        #endCanvas {
+            z-index: 10;
+        }
+        #gameCanvas {
+            display: none;
+            z-index: 5;
+        }
+        #score {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            z-index: 15;
+        }
+    </style>
+
+    <script>
+        const gameCanvas = document.getElementById('gameCanvas');
+        const gameCtx = gameCanvas.getContext('2d');
+        const splashCanvas = document.getElementById('splashCanvas');
+        const splashCtx = splashCanvas.getContext('2d');
+        const endCanvas = document.getElementById('endCanvas');
+        const endCtx = endCanvas.getContext('2d');
+        const scoreDisplay = document.getElementById('score');
+        const music = document.getElementById('backgroundMusic');
+        let score = 0;
+        let gameStarted = false;
+        let gameOver = false;
+
+        // Start music immediately
+        music.play().catch(e => console.log('Music play failed:', e));
+
+        // Set canvas size
+        const canvasWidth = Math.min(window.innerWidth * 0.8, window.innerHeight * 0.8 * 3 / 4, 960);
+        const canvasHeight = Math.min(window.innerHeight * 0.8, window.innerWidth * 0.8 * 4 / 3, 1280);
+        gameCanvas.width = canvasWidth;
+        gameCanvas.height = canvasHeight;
+        splashCanvas.width = canvasWidth;
+        splashCanvas.height = canvasHeight;
+        endCanvas.width = canvasWidth;
+        endCanvas.height = canvasHeight;
+
+        // Load images
+        const playerImage = new Image();
+        playerImage.src = 'https://cdn.theorg.com/63f9f4a6-2aa5-4f34-8a20-d64d8d7cbf34_thumb.jpg';
+        const planeImage = new Image();
+        planeImage.src = 'https://bobairshow.co.uk/wp-content/uploads/2023/10/spitfire-1.png';
+        const backgroundImage = new Image();
+        backgroundImage.src = 'https://thumbs.dreamstime.com/b/forest-seamless-pattern-view-above-13830390.jpg';
+        const splashImage = new Image();
+        splashImage.src = 'https://cdn.theorg.com/63f9f4a6-2aa5-4f34-8a20-d64d8d7cbf34_medium.jpg';
+        const endImage = new Image();
+        endImage.src = 'https://www.alloaadvertiser.com/resources/images/4658149.jpg?type=mds-article-962';
+        const obstacleImage = new Image();
+        obstacleImage.src = 'https://il2sturmovik.com/m/articles/me_410_1/Bottom.png';
+
+        // Splash screen rendering
+        splashImage.onload = () => {
+            splashCtx.clearRect(0, 0, canvasWidth, canvasHeight);
+            splashCtx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+            splashCtx.fillRect(0, 0, canvasWidth, canvasHeight);
+            const imgWidth = canvasWidth * 0.9;
+            const imgHeight = imgWidth * (splashImage.height / splashImage.width);
+            const imgY = (canvasHeight - imgHeight) / 2 - 50;
+            splashCtx.drawImage(splashImage, (canvasWidth - imgWidth) / 2, imgY, imgWidth, imgHeight);
+            splashCtx.fillStyle = 'white';
+            splashCtx.font = `${24 * (canvasWidth / 480)}px Arial`;
+            splashCtx.textAlign = 'center';
+            splashCtx.fillText('Press Enter to Start', canvasWidth / 2, imgY + imgHeight + 30);
+        };
+        splashImage.onerror = () => {
+            splashCtx.clearRect(0, 0, canvasWidth, canvasHeight);
+            splashCtx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+            splashCtx.fillRect(0, 0, canvasWidth, canvasHeight);
+            splashCtx.fillStyle = 'white';
+            splashCtx.font = `${24 * (canvasWidth / 480)}px Arial`;
+            splashCtx.textAlign = 'center';
+            splashCtx.fillText('Failed to load splash image', canvasWidth / 2, canvasHeight / 2 - 20);
+            splashCtx.fillText('Press Enter to Start', canvasWidth / 2, canvasHeight / 2 + 20);
+        };
+
+        // End screen rendering
+        endImage.onload = () => {
+            endCtx.clearRect(0, 0, canvasWidth, canvasHeight);
+            endCtx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+            endCtx.fillRect(0, 0, canvasWidth, canvasHeight);
+            const imgWidth = canvasWidth * 0.9;
+            const imgHeight = imgWidth * (endImage.height / endImage.width);
+            const imgY = (canvasHeight - imgHeight) / 2 - 100;
+            endCtx.drawImage(endImage, (canvasWidth - imgWidth) / 2, imgY, imgWidth, imgHeight);
+            endCtx.fillStyle = 'white';
+            endCtx.font = `${24 * (canvasWidth / 480)}px Arial`;
+            endCtx.textAlign = 'center';
+            endCtx.fillText('Game Over!', canvasWidth / 2, imgY + imgHeight + 30);
+            endCtx.fillText(`Score: ${score}`, canvasWidth / 2, imgY + imgHeight + 60);
+            endCtx.fillText('Press Enter to Restart', canvasWidth / 2, imgY + imgHeight + 90);
+        };
+        endImage.onerror = () => {
+            endCtx.clearRect(0, 0, canvasWidth, canvasHeight);
+            endCtx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+            endCtx.fillRect(0, 0, canvasWidth, canvasHeight);
+            endCtx.fillStyle = 'white';
+            endCtx.font = `${24 * (canvasWidth / 480)}px Arial`;
+            endCtx.textAlign = 'center';
+            endCtx.fillText('Failed to load game over image', canvasWidth / 2, canvasHeight / 2 - 40);
+            endCtx.fillText('Game Over!', canvasWidth / 2, canvasHeight / 2);
+            endCtx.fillText(`Score: ${score}`, canvasWidth / 2, canvasHeight / 2 + 30);
+            endCtx.fillText('Press Enter to Restart', canvasWidth / 2, canvasHeight / 2 + 60);
+        };
+
+        // Background scrolling
+        let backgroundY = 0;
+        const backgroundSpeed = 2 * (canvasWidth / 480);
+
+        // Player (Rachel)
+        const player = {
+            x: canvasWidth / 2 - 25 * (canvasWidth / 480),
+            y: canvasHeight - 100 * (canvasHeight / 640), // Moved higher
+            width: 50 * (canvasWidth / 480),
+            height: 50 * (canvasHeight / 640),
+            speed: 5 * (canvasWidth / 480)
+        };
+
+        // Game objects
+        let arrows = [];
+        let planes = [];
+        let hearts = [];
+        let obstacles = [];
+        let keys = {};
+
+        // Handle keyboard input
+        document.addEventListener('keydown', (e) => {
+            keys[e.code] = true;
+            if (e.code === 'Enter' && !gameStarted && !gameOver) {
+                startGame();
+            } else if (e.code === 'Enter' && gameOver) {
+                restartGame();
+            }
+        });
+        document.addEventListener('keyup', (e) => {
+            keys[e.code] = false;
+        });
+
+        function startGame() {
+            gameStarted = true;
+            gameOver = false;
+            score = 0;
+            scoreDisplay.textContent = `Score: ${score}`;
+            splashCanvas.style.display = 'none';
+            endCanvas.style.display = 'none';
+            gameCanvas.style.display = 'block';
+            arrows = [];
+            planes = [];
+            hearts = [];
+            obstacles = [];
+            player.x = canvasWidth / 2 - player.width / 2;
+            player.y = canvasHeight - 100 * (canvasHeight / 640); // Moved higher
+            spawnPlanes();
+            spawnObstacles();
+            gameLoop();
+        }
+
+        function endGame() {
+            gameStarted = false;
+            gameOver = true;
+            gameCanvas.style.display = 'none';
+            endCanvas.style.display = 'block';
+            endImage.onload(); // Trigger end screen render
+        }
+
+        function restartGame() {
+            startGame();
+        }
+
+        // Draw scrolling background
+        function drawBackground() {
+            backgroundY = (backgroundY + backgroundSpeed) % canvasHeight;
+            gameCtx.drawImage(backgroundImage, 0, backgroundY, canvasWidth, canvasHeight);
+            gameCtx.drawImage(backgroundImage, 0, backgroundY - canvasHeight, canvasWidth, canvasHeight);
+        }
+
+        // Draw player (Rachel)
+        function drawPlayer() {
+            if (playerImage.complete) {
+                gameCtx.drawImage(playerImage, player.x, player.y, player.width, player.height);
+            } else {
+                gameCtx.fillStyle = '#ff69b4'; // Fallback
+                gameCtx.fillRect(player.x, player.y, player.width, player.height);
+            }
+        }
+
+        // Arrow object
+        class Arrow {
+            constructor() {
+                this.x = player.x + player.width / 2 - 5 * (canvasWidth / 480);
+                this.y = player.y;
+                this.width = 10 * (canvasWidth / 480);
+                this.height = 20 * (canvasHeight / 640);
+                this.speed = 7 * (canvasHeight / 640);
+            }
+            draw() {
+                gameCtx.fillStyle = '#ff1493'; // Pink arrow
+                gameCtx.fillRect(this.x, this.y, this.width, this.height);
+            }
+            update() {
+                this.y -= this.speed;
+            }
+        }
+
+        // Plane object
+        class Plane {
+            constructor() {
+                this.width = 200 * (canvasWidth / 480); // 4x larger
+                this.height = 200 * (canvasHeight / 640);
+                this.x = Math.random() * (canvasWidth - this.width);
+                this.y = -this.height;
+                this.speed = 3 * (canvasHeight / 640);
+            }
+            draw() {
+                if (planeImage.complete) {
+                    gameCtx.save();
+                    gameCtx.translate(this.x + this.width / 2, this.y + this.height / 2);
+                    gameCtx.rotate(Math.PI); // Rotate 180 degrees (upside down)
+                    gameCtx.drawImage(planeImage, -this.width / 2, -this.height / 2, this.width, this.height);
+                    gameCtx.restore();
+                } else {
+                    gameCtx.fillStyle = '#666'; // Fallback
+                    gameCtx.fillRect(this.x, this.y, this.width, this.height);
+                }
+            }
+            update() {
+                this.y += this.speed;
+            }
+        }
+
+        // Obstacle object (Me 410)
+        class Obstacle {
+            constructor() {
+                this.width = 100 * (canvasWidth / 480); // Half plane size
+                this.height = 100 * (canvasHeight / 640);
+                this.x = Math.random() * (canvasWidth - this.width);
+                this.y = canvasHeight; // Start at bottom
+                this.speed = 2 * (canvasHeight / 640);
+            }
+            draw() {
+                if (obstacleImage.complete) {
+                    gameCtx.drawImage(obstacleImage, this.x, this.y, this.width, this.height);
+                } else {
+                    gameCtx.fillStyle = '#444'; // Fallback
+                    gameCtx.fillRect(this.x, this.y, this.width, this.height);
+                }
+            }
+            update() {
+                this.y -= this.speed; // Move upward
+            }
+        }
+
+        // Heart object
+        class Heart {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.width = 30 * (canvasWidth / 480);
+                this.height = 30 * (canvasHeight / 640);
+                this.speed = 2 * (canvasHeight / 640);
+            }
+            draw() {
+                gameCtx.fillStyle = '#ff0000'; // Red heart
+                gameCtx.beginPath();
+                gameCtx.moveTo(this.x + this.width / 2, this.y + this.height / 3);
+                gameCtx.bezierCurveTo(this.x + this.width / 2, this.y, this.x, this.y, this.x, this.y + this.height / 3);
+                gameCtx.bezierCurveTo(this.x, this.y + 2 * this.height / 3, this.x + this.width / 2, this.y + this.height, this.x + this.width / 2, this.y + this.height);
+                gameCtx.bezierCurveTo(this.x + this.width / 2, this.y + this.height, this.x + this.width, this.y + 2 * this.height / 3, this.x + this.width, this.y + this.height / 3);
+                gameCtx.bezierCurveTo(this.x + this.width, this.y, this.x + this.width / 2, this.y, this.x + this.width / 2, this.y + this.height / 3);
+                gameCtx.fill();
+            }
+            update() {
+                this.y -= this.speed;
+            }
+        }
+
+        // Spawn planes
+        function spawnPlanes() {
+            setInterval(() => {
+                if (gameStarted && !gameOver) {
+                    planes.push(new Plane());
+                }
+            }, 1000);
+        }
+
+        // Spawn obstacles
+        function spawnObstacles() {
+            setInterval(() => {
+                if (gameStarted && !gameOver) {
+                    obstacles.push(new Obstacle());
+                }
+            }, 3000);
+        }
+
+        // Collision detection
+        function checkCollisions() {
+            // Arrow-plane collisions
+            arrows.forEach((arrow, aIndex) => {
+                planes.forEach((plane, pIndex) => {
+                    if (
+                        arrow.x < plane.x + plane.width &&
+                        arrow.x + arrow.width > plane.x &&
+                        arrow.y < plane.y + plane.height &&
+                        arrow.y + arrow.height > plane.y
+                    ) {
+                        hearts.push(new Heart(plane.x, plane.y));
+                        planes.splice(pIndex, 1);
+                        arrows.splice(aIndex, 1);
+                        score += 10;
+                        scoreDisplay.textContent = `Score: ${score}`;
+                    }
+                });
+            });
+
+            // Player-plane collisions
+            planes.forEach((plane) => {
+                if (
+                    player.x < plane.x + plane.width &&
+                    player.x + player.width > plane.x &&
+                    player.y < plane.y + plane.height &&
+                    player.y + player.height > plane.y
+                ) {
+                    endGame();
+                }
+            });
+
+            // Player-obstacle collisions
+            obstacles.forEach((obstacle) => {
+                if (
+                    player.x < obstacle.x + obstacle.width &&
+                    player.x + player.width > obstacle.x &&
+                    player.y < obstacle.y + obstacle.height &&
+                    player.y + player.height > obstacle.y
+                ) {
+                    endGame();
+                }
+            });
+        }
+
+        // Game loop
+        function gameLoop() {
+            if (!gameStarted || gameOver) return;
+
+            // Clear canvas
+            gameCtx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+            // Draw scrolling background
+            drawBackground();
+
+            // Update and draw player
+            if (keys['ArrowLeft'] && player.x > 0) player.x -= player.speed;
+            if (keys['ArrowRight'] && player.x < canvasWidth - player.width) player.x += player.speed;
+            if (keys['ArrowUp'] && player.y > 0) player.y -= player.speed;
+            if (keys['ArrowDown'] && player.y < canvasHeight - player.height) player.y += player.speed;
+            if (keys['Space']) {
+                if (!keys['spacePressed']) {
+                    arrows.push(new Arrow());
+                    keys['spacePressed'] = true;
+                    setTimeout(() => keys['spacePressed'] = false, 200);
+                }
+            }
+            drawPlayer();
+
+            // Update and draw arrows
+            arrows.forEach((arrow, index) => {
+                arrow.update();
+                arrow.draw();
+                if (arrow.y < 0) arrows.splice(index, 1);
+            });
+
+            // Update and draw planes
+            planes.forEach((plane, index) => {
+                plane.update();
+                plane.draw();
+                if (plane.y > canvasHeight) planes.splice(index, 1);
+            });
+
+            // Update and draw obstacles
+            obstacles.forEach((obstacle, index) => {
+                obstacle.update();
+                obstacle.draw();
+                if (obstacle.y < -obstacle.height) obstacles.splice(index, 1);
+            });
+
+            // Update and draw hearts
+            hearts.forEach((heart, index) => {
+                heart.update();
+                heart.draw();
+                if (heart.y < 0) hearts.splice(index, 1);
+            });
+
+            // Check collisions
+            checkCollisions();
+
+            requestAnimationFrame(gameLoop);
+        }
+    </script>
+</body>
+</html>
